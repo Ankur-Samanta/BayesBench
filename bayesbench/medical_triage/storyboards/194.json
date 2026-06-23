@@ -1,0 +1,57 @@
+{
+  "case_id": 194,
+  "true_urgency": "Urgent",
+  "specialty": "Emergency Medicine",
+  "self_diagnosis": "heart attack",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "I have a really tight, heavy feeling in my chest like something is sitting on it"
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "The pain is spreading into my left arm"
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "I feel nauseous and I am sweating a lot even though I am just sitting still"
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "This started about an hour ago and it is getting worse"
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "The pain is about a 7 out of 10 and it gets worse even with very little movement"
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "I am a 58-year-old man"
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "I took antacids thinking it was heartburn but they are not helping at all"
+    }
+  ]
+}

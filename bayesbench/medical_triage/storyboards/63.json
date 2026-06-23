@@ -1,0 +1,57 @@
+{
+  "case_id": 63,
+  "true_urgency": "Urgent",
+  "specialty": "Cardiology",
+  "self_diagnosis": "unstable angina heart disease",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I get crushing chest pain in the center of my chest that spreads to my left arm and jaw when I'm active"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "I get really short of breath and sweaty whenever the chest pain comes on"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a3",
+      "content": "Last night the pain woke me up from sleep and lasted longer than it usually does"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a4",
+      "content": "This started about three weeks ago and it has been happening more often and lasting longer each time"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a5",
+      "content": "The pain comes on when I walk up stairs or do yard work, but it goes away if I stop and rest for a few minutes"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a6",
+      "content": "The pain gets to about a 7 out of 10 and is really cutting back on what I can do day to day"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "I'm a 58-year-old man, I'm overweight, and I smoke"
+    }
+  ]
+}

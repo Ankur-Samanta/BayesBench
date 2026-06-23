@@ -1,0 +1,64 @@
+{
+  "case_id": 170,
+  "true_urgency": "Observation",
+  "specialty": "Endocrinology",
+  "self_diagnosis": "underactive thyroid",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a1",
+      "content": "I have been feeling very tired all the time lately."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "I have been putting on weight even though I have not changed what I eat."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "My skin has been really dry and my hair has been falling out more than usual."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "My periods have become more irregular."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a5",
+      "content": "I feel cold all the time, even when everyone else around me is comfortable."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a6",
+      "content": "These symptoms have come on gradually over the past 3 to 4 months."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "id": "a7",
+      "content": "I am a 35-year-old woman with no significant medical history."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a8",
+      "content": "The tiredness is affecting my energy and mood but I am still able to get through my day."
+    }
+  ]
+}

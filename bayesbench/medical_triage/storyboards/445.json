@@ -1,0 +1,57 @@
+{
+  "case_id": 445,
+  "true_urgency": "Routine",
+  "specialty": "Neurology",
+  "self_diagnosis": "carpal tunnel syndrome",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I get strange tingling and numbness that starts in my fingertips and travels up both arms."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "My fingers feel clumsy and I have started dropping things more often."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "My handwriting has gotten noticeably messier over the past few months."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "The symptoms have been slowly getting worse over about six months."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a5",
+      "content": "It moderately affects my daily life, especially anything that needs fine hand movements, but I can still go to work."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a6",
+      "content": "I am a 42-year-old woman."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a7",
+      "content": "The tingling and clumsiness are worst in the morning and improve somewhat as the day goes on."
+    }
+  ]
+}

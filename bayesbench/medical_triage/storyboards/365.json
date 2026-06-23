@@ -1,0 +1,57 @@
+{
+  "case_id": 365,
+  "true_urgency": "Urgent",
+  "specialty": "Neurology",
+  "self_diagnosis": "mini stroke TIA",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "My right arm and face go completely numb and tingly during these episodes"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "During the episodes I have trouble speaking - my words come out slurred or I just cannot find the right words"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a3",
+      "content": "During the most recent episode I also had trouble seeing clearly out of my right eye"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a4",
+      "content": "This has happened three times in the past seven days, with the first episode a week ago, and the episodes seem to be getting worse each time"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a5",
+      "content": "Each episode lasts about 15 to 20 minutes and then gradually goes away on its own, but the latest one was the worst so far"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a6",
+      "content": "I am a 54-year-old woman"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a7",
+      "content": "The symptoms completely resolve after each episode, so I feel fine in between"
+    }
+  ]
+}

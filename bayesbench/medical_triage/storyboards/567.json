@@ -1,0 +1,64 @@
+{
+  "case_id": 567,
+  "true_urgency": "Routine",
+  "specialty": "Dermatology",
+  "self_diagnosis": "psoriasis",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have round, scaly patches on my elbows and knees that are really itchy",
+      "urgency_signal": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "The patches are covered with silvery-white scales and the skin underneath is red and raised",
+      "urgency_signal": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "Sometimes the patches crack and feel tender",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "content": "The patches first showed up about 8 months ago and have been slowly getting bigger since then",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "content": "The itching is moderate but really bothers me at night and is hurting my sleep, and I feel embarrassed wearing short sleeves",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "content": "I am a 42-year-old man",
+      "urgency_signal": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "content": "The patches get worse when I am stressed or during the winter months",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ASSOCIATED",
+      "content": "There is no sign of infection, open wounds, or spreading to my face or body folds",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    }
+  ]
+}

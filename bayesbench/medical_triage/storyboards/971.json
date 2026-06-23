@@ -1,0 +1,64 @@
+{
+  "case_id": 971,
+  "true_urgency": "Routine",
+  "specialty": "Mental Health",
+  "self_diagnosis": "clinical depression",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I've been feeling really down and unmotivated for months and I've lost interest in things I used to love, like playing guitar and seeing friends.",
+      "urgency_signal": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "My sleep is all over the place \u2014 sometimes I lie awake for hours, other times I sleep way too much.",
+      "urgency_signal": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I often feel worthless and just empty and numb most days.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "I'm finding it really hard to concentrate at work.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "This has been going on for about 4 months.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "It's affecting my work and my relationships, but I can still handle basic day-to-day things.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "content": "I'm not having any thoughts of hurting myself.",
+      "urgency_signal": "reassuring",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "CONTEXT",
+      "content": "I'm a 32-year-old woman.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

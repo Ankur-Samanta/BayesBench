@@ -1,0 +1,58 @@
+{
+  "id": "csricn",
+  "title": "aita for asking my dad to stop poking at my relationship status?",
+  "text": "not really sure how to title this, so i apologize if it sounds odd.  so a little back story on this, i haven\u2019t been in a relationship yet in my life, (18 m) and my dad has been poking at this fact ever since the beginning of my 7th grade year. i\u2019ve told him many time over many years that i\u2019m not really looking for a relationship yet. mostly because i have no confidence to ask anyone out. normally after i would tell him this, he would just be quiet or not talk to me for some time. when i started highschool he would ask me about 2 or 3 times a week if i had gotten a girlfriend or not, and about 3 to 4 time a week at the start of my junior year, and i would tell him the same thing every time. \u201c i\u2019m not interested in looking for a relationship right now, stop asking about it.\u201d and he wouldn\u2019t bring it up the rest of that day.  i\u2019ve just graduated from highschool last year and i\u2019m getting ready to start an apprenticeship with a some local electricians. he just came home a about a half an hour ago and he got upset when he saw me on my phone. the first words out of his mouth when he saw me were, \u201cwhy do you spend time on that thing when you could be spending time talking to girls?\u201d  i got up and gave him the silent treatment until he asked me what was wrong and told him, that i\u2019m sorry i couldn\u2019t date all the girls like he could when he was younger and to stop asking me about again. he got mad at me and walked away. aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I'm 18 and I haven't been in a relationship yet in my life. I don't have the confidence to ask anyone out.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "My dad has been poking at my relationship status ever since the beginning of my 7th grade year. He would ask 2-3 times a week in high school whether I had gotten a girlfriend, escalating to 3-4 times a week by junior year.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I've told him many times over many years that I'm not looking for a relationship right now and to stop asking about it.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "Normally after I would tell him to stop, he would just go quiet or not talk to me for some time, but he would always start asking again.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "He came home today, saw me on my phone, got upset, and the first words out of his mouth were, \"Why do you spend time on that thing when you could be spending time talking to girls?\"",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I gave him the silent treatment. When he asked what was wrong, I told him I'm sorry I couldn't date all the girls like he could when he was younger, and to stop asking me about it again.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "OUTCOME",
+      "content": "He got mad at me and walked away.",
+      "valence": "neutral",
+      "importance": 2
+    }
+  ]
+}

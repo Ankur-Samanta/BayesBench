@@ -1,0 +1,44 @@
+{
+  "id": "bote2b",
+  "title": "wibta if i reported someone for academic dishonesty?",
+  "text": "there's this girl i follow on instagram who posted a story stating that she wanted someone to message her so they can take an exam for her. \u200b wibta if i reported her to the school she attends?  i don't know her that well, but she's definitely not the best person out there.  i just think it's really unfair to those who study and take the exam for real.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "There is a girl I follow on Instagram. I don't know her that well, but she's definitely not the best person out there.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "She posted a story on Instagram stating that she wanted someone to message her so they could take an exam for her.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I am considering reporting her to the school she attends for academic dishonesty.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACCOUNT",
+      "content": "I think it's really unfair to those who study and take the exam for real.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "This isn't personal — it's about the principle of fairness.",
+      "valence": "neutral",
+      "importance": 2
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "b678ly",
+  "title": "aita for not taking my ex back?",
+  "text": "our relationship was very one sided and she started flirting with another guy while we were still together. she texted me yesterday asking for a second chance and that she\u2019d change (i already talked to her about the whole thing before and she didn\u2019t change) and my response was a \u201ci don\u2019t want to put myself through that again\u201d and she called me selfish and cold and threatened to tell her friends about how much of an ass i was to her.  i called her out on her shortcomings in response and i don\u2019t know if i should have even replied in the first place. she told me that everyone should have a second chance and i said \u201ci believe that but you\u2019ve had about 9 of those so why would i do that \ud83e\udd23\ud83e\udd23\ud83e\udd23\u201d and i was told she cried for a while through a mutual friend and i told her \u201cno i can do better, so i\u2019m going to\u201d and now people think i\u2019m cold and heartless for blowing her off? people keep telling me \u201coh you told everyone you really like her and now you\u2019re just leaving her when it\u2019s clear she wants you?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "Our relationship was very one-sided, and she started flirting with another guy while we were still together.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "I had already talked to her about the issues before, and she didn't change.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "She texted me asking for a second chance and saying she'd change.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I told her I didn't want to put myself through that again.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "She called me selfish and cold and threatened to tell her friends what an ass I was to her.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I called her out on her shortcomings and told her she'd had about 9 second chances already.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I told her I could do better and that I was going to.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "A mutual friend told me she cried for a while after our conversation.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "REACTION",
+      "content": "People think I'm cold and heartless for blowing her off. They keep saying I told everyone I really liked her and now I'm just leaving when she clearly wants me.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

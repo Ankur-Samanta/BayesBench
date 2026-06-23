@@ -1,0 +1,57 @@
+{
+  "case_id": 124,
+  "true_urgency": "Routine",
+  "specialty": "Cardiology",
+  "self_diagnosis": "heart palpitations anxiety",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I keep getting a fluttering feeling in my chest that comes and goes",
+      "urgency_signal": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "Sometimes it feels like my heart is racing or skipping beats",
+      "urgency_signal": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I get a bit short of breath climbing stairs lately, which never used to happen",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "content": "This has been happening on and off for the past three months",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ASSOCIATED",
+      "content": "The fluttering usually happens when I'm stressed at work",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "The symptoms are annoying but not stopping me from going about my normal day, and I haven't had any chest pain or passed out",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I'm a 42-year-old woman",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

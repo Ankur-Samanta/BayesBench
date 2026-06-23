@@ -1,0 +1,51 @@
+{
+  "id": "i0z3ig",
+  "title": "aita for not bringing my sister ice cream?",
+  "text": "background: she works at an expensive ice cream shop that is a ~5-minute bike ride away and she is under travel quarantine and may not leave. earlier today my sister was craving ice cream so she asked if i could go and pick some up for her. i asked if she could give me enough money for me to get one but she refused and said that she's providing the employee's discount. i thought that was ridiculous and said no, so she flipped out. aita for expecting her to buy me ice cream in return for me bringing her ice cream?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My sister works at an expensive ice cream shop that is about a 5-minute bike ride away. She is under travel quarantine and may not leave.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "My sister was craving ice cream and asked me to go pick some up for her.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I asked if she could give me enough money to get one ice cream for myself as well, since I'd be making the trip for her.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "She refused and said she's already providing the employee's discount, as if that were enough compensation.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I thought that was ridiculous and said no, I wouldn't go.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "OUTCOME",
+      "content": "She flipped out at me for refusing.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

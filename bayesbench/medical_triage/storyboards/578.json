@@ -1,0 +1,57 @@
+{
+  "case_id": 578,
+  "true_urgency": "Routine",
+  "specialty": "Rheumatology",
+  "self_diagnosis": "rheumatoid arthritis",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "content": "My fingers and wrists are stiff and achy, especially when I first wake up in the morning"
+    },
+    {
+      "id": "a2",
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "The symptoms have been slowly getting worse over the past 3 months"
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "The stiffness lasts about 30 to 45 minutes after I get up before it eases off"
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "content": "My finger joints look a little puffy or swollen"
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "The stiffness and aching are mild and haven't stopped me from doing daily things, but they are getting in the way"
+    },
+    {
+      "id": "a6",
+      "category": "ASSOCIATED",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "content": "I have not had any fever along with these symptoms"
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "I'm a 48-year-old woman with no major health problems in the past"
+    }
+  ]
+}

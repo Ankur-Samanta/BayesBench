@@ -1,0 +1,72 @@
+{
+  "id": "jfbei3",
+  "title": "aita for knowing more about a subject a 60 year old man challenged me on?",
+  "text": "sorry if formatting is weird, i'm typing it up on my phone. also please dont post this anywhere else. i (24f) am currently doing an ma in european history. this incident took place during an online class that is shared with all of the ma courses in the history department and involved an older student, round 60 years old that we will call richard. everything is online now and where i live it is getting very cold and wet as is usual for this season. so i threw on my red bull racing hoodie because i love formula 1, i have been watching grand prixs since i was 10 and this hoodie is the coziest i own. i forgot to take it off before joining our class call a few minutes early to chat to some of my course mates about our thesis proposals that are due soon when richard joined the call. richard is in military history and i have previously only exchange pleasanteries and hellos with him until yesterdays class. richard joined the call, noticed my hoodie and jokingly stated 'oh op very nice of your boyfriend to let you borrow his hoodie'. i laughed it off and politely corrected him going, 'oh this old thing is actually mine, no hoodie robbing here'. richard did not like this answer. he followed it up with 'but you're a girl. you probably don't even know what that hoodie is about so it can't be yours'. again i laughed this off and replied 'i've been following formula one for about 14 years. i actually prefer mclaren but red bull is a good team too right now'. i thought at this point he would drop it. that we could go back to just discussing random stuff while waiting for our lecturer to join. he didn't. richard proceeded to, in front of the 30 others in this call, tell me that i only like formula 1 for how attractive the drivers are. that no girl could ever understand the complexity of f1 and i was obviously lying to show him up and wouldn't be able to tell the chassis from the rear wing. this is where i might be the asshole. at this point i was fed up and i answered him back. i pointed out that his question was ridiculous as the chassis was the base frame of an f1 car and explained how the rear wing is attached to help with the drag of the car and the straight line speed which is why they included drs to help reduce drag and allow for over taking in straight lines or closing gaps in seconds. i also asked him not to refer to me as a girl, that we were all equal academics and to show some respect to the females in the class which he hadn't been (he tends to speak over us) and that i know more female watchers of f1 than men so his little rant was unfounded. richard at this point went silent and left the class. i have been told that by speaking back to him in a public forum (our online class) that i am an ah because i embarrased an elder and it was petty to take offence and call him out for what he said to me. the ah move was that i called him out on how he was treating me and the other women in our class in front of our 30 peers. since talking to friends and classmates and my family, theyre split. most of my classmates think i handled it politely and he was being an asshole. as do most of my friends. my mother however and some male friends think i was an asshole to talk back to an elder and should have just laughed it off and ignored him. that he was just expressing an opinion and i shouldn't have corrected him publicly. i don't think i was an asshole. wow. im actually really overwhelmed by this. i honestly thought this would get a few comments and then ignored. thank you to everyone saying im nta and for the awards and votes. i really didnt expect this. to the people asking why i would post this when im clearly nta as youve stated. its because while objectively knowing i wasnt in the wrong i felt awful and guilty. i felt horrible that my reaction made him leave. im dreading class next week. im not a confrontational person by nature. i also dont stand up for myself and my family have been heavily criticising me for talking back to someone older and not handling it privately. im not looking for validation. i genuiely felt when i posted this there was a chance i was being horrible. i am from a small catholic town where women are seen not heard and definetly arent encourage to speak against older people although this is slowly changing. to the people saying this isnt true because the lecturer didnt react....i stated above that we started the call early. our lecture doesnt join us till five past hour. we started the call early to discuss assignments while waiting for class to begin. this took place before my lecturer joined the call. also to the people sending me abusive private messages about this and f1 please stop. they arent funny.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I am a 24-year-old woman doing an MA in European history. I have been watching Formula 1 since I was 10 — about 14 years. I joined an online class call early wearing my Red Bull Racing hoodie.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "Richard, an older student around 60, noticed my hoodie and said it was nice of my boyfriend to let me borrow it. When I corrected him that it was mine, he said I'm a girl and probably don't even know what the hoodie is about.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I laughed it off and politely told him I've been following F1 for 14 years and that I actually prefer McLaren but Red Bull is a good team too.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "Richard escalated in front of 30 other students, telling me I only like F1 for how attractive the drivers are, that no girl could understand the complexity of F1, and that I was lying and wouldn't be able to tell the chassis from the rear wing.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I answered him back by explaining that the chassis is the base frame of an F1 car and described how the rear wing works with drag and DRS, demonstrating my actual knowledge.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I asked him not to refer to me as a girl, said we were all equal academics, and told him to show respect to the women in the class, noting he tends to speak over us.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "OUTCOME",
+      "content": "Richard went silent and left the class call.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "REACTION",
+      "content": "Most of my classmates and friends think I handled it politely and Richard was being an asshole.",
+      "valence": "pro_poster",
+      "importance": 2
+    },
+    {
+      "id": "a9",
+      "category": "REACTION",
+      "content": "My mother and some male friends think I was an asshole for talking back to an elder in a public forum and that I should have just laughed it off or handled it privately.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

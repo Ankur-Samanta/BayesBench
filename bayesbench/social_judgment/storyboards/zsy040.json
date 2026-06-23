@@ -1,0 +1,65 @@
+{
+  "id": "zsy040",
+  "title": "aita for refusing to go to my in laws house for christmas?",
+  "text": "my (f27) husband (m27) and i have been together for 7 years and married for 4. we've gone to his family's for christmas every year since we've been together. i'm completely estranged from my family since i was 18, so i've never really had an alternative to consider. my parents were very angry alcoholics which lead to me developing cptsd and i can't really handle being around drunk people. i've been through a lot of therapy and i'm now okay with being around alcohol/people who are drinking, but once they reach a certain level and start getting loud/upset, it sends me into panic attacks. his family gets absolutely plastered every year. we spend 3 days with them every christmas and all three days are just them drinking nonstop from the time they wake up till they pass out. they tend to get into very loud arguments and sometimes they throw things/slam doors. i spend several hours each day locked in our room in an absolute panic while my husband helps me calm down. i've decided i've had enough of this and told my husband a few weeks ago that i wouldn't be attending christmas and would be staying home alone. i told my husband that he is absolutely more than okay to go anyway, and i mean it. i don't want him to miss time with his family but i just can't deal with it anymore. he's been begging me to go since it'll look bad if he shows up without his wife and that he doesn't mind helping me through the panic attacks. but i mind having them. my body is always sore and exhausted afterwards and i just don't want that this year. he asked me if there was anything he could do to change my mind and i told him no, not unless he could guarantee his family wouldn't get shitfaced this year. he said we can't police his family's drinking and i agree. that's why i'm trying to remove myself from the situation, because that's all i can do. he says that even if i'm okay with him going, i'm forcing him to choose between two halves of his family. and i do understand that. but i just really don't want to do it again. i feel bad that he has to make the decision and i don't want to cause him distress over this, but i don't know if i can handle hours of drunk people shouting anymore. so aita for refusing to go?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My husband and I have been together for 7 years and married for 4. We've gone to his family's house for Christmas every year since we've been together.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "I'm completely estranged from my own family since I was 18. My parents were angry alcoholics, which led to me developing CPTSD. I can't handle being around drunk people — once they get loud or upset, I go into panic attacks.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "His family gets absolutely plastered every Christmas. We spend 3 days with them and all three days are nonstop drinking from wake-up to pass-out. They get into very loud arguments and sometimes throw things and slam doors.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "OUTCOME",
+      "content": "Every year I spend several hours each day locked in our room in an absolute panic while my husband helps me calm down. My body is always sore and exhausted afterwards.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I told my husband a few weeks ago that I wouldn't be attending Christmas this year and would be staying home alone.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I told my husband he is absolutely more than welcome to go without me. I don't want him to miss time with his family.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "My husband has been begging me to go, saying it'll look bad if he shows up without his wife. He says that even if I'm okay with him going, I'm forcing him to choose between two halves of his family.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I told him the only thing that could change my mind is if he could guarantee his family wouldn't get drunk this year. He agreed we can't police his family's drinking — so removing myself from the situation is all I can do.",
+      "valence": "pro_poster",
+      "importance": 4
+    }
+  ]
+}

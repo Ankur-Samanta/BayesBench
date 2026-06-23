@@ -1,0 +1,57 @@
+{
+  "case_id": 590,
+  "true_urgency": "Routine",
+  "specialty": "Dermatology",
+  "self_diagnosis": "seborrheic dermatitis",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have been getting more and more dandruff over the past 2 months and it is quite noticeable.",
+      "urgency_signal": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "TIMELINE",
+      "content": "It started about 2 months ago and has been gradually getting worse.",
+      "urgency_signal": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "My scalp is very itchy and covered in flakes.",
+      "urgency_signal": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "SEVERITY",
+      "content": "The itching is sometimes bad enough to be distracting, but it hasn't stopped me from doing daily activities.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ASSOCIATED",
+      "content": "I have tried several dandruff shampoos but they only help for a short time before it comes back.",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "content": "I am a 27-year-old man with no other health conditions or medications.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    },
+    {
+      "id": "a7",
+      "category": "SYMPTOM",
+      "content": "The dandruff is visible on my clothes and has become a social concern for me.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

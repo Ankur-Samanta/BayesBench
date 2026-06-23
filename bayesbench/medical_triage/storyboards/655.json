@@ -1,0 +1,57 @@
+{
+  "case_id": 655,
+  "true_urgency": "Routine",
+  "specialty": "Orthopedics",
+  "self_diagnosis": "knee osteoarthritis",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have a dull ache in my right knee that is getting worse over time",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "My knee feels stiff in the morning and it takes a while to loosen up",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I hear a clicking sound when I bend my knee",
+      "urgency_signal": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "content": "This has been gradually getting worse over the past 6 months",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "content": "The pain is moderate, around 5 to 6 out of 10, and it is interfering with my tennis games and daily tasks",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ASSOCIATED",
+      "content": "The pain is worst going up stairs, getting up after sitting, and after my weekly tennis games, but ice helps temporarily",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I am a 58-year-old woman who plays tennis regularly each week",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

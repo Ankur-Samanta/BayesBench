@@ -1,0 +1,58 @@
+{
+  "id": "pjrv6o",
+  "title": "wibta for making my brother in law confirm his kids aren\u2019t sick before allowing my family to go to any family events.",
+  "text": "so for some context my inlaws are great in most regards, but my family does not do daycare and their kids are in daycare.  so about 50% of the time we see them their kids are sick or have just been sick.  we may realize at the time or hear about it after.  so far we have gotten rsv, hfm, multiple colds.  i hate to say it but my family has been sick about 5-6 times in the last 2 years and almost every event is traced back to them.  they also had covid and still had mil and fil over and i put down my foot that we were quarantining and not seeing any of my in-laws for 14 days whether they thought they were exposed or not. we currently have a baby on the way and i don\u2019t want to expose a young child to these illnesses we are picking up.  wibta if i enact a policy where we call and check every time in that there kids are not sick before we attend a family event.    i\u2019m close to walking the though a symptoms checklist over the phone and not making this subtle.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My in-laws are great in most regards. Their kids are in daycare while my family does not do daycare, so their kids are frequently exposed to illnesses.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "About 50% of the time we see them, their kids are sick or have just been sick. We may only realize at the time or hear about it after the fact.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "OUTCOME",
+      "content": "My family has been sick about 5-6 times in the last 2 years from illnesses traced back to them, including RSV, hand-foot-and-mouth, and multiple colds.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "When they had COVID, they still had my mother-in-law and father-in-law over to their house.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "After they had COVID, I put my foot down and insisted we quarantine and not see any of my in-laws for 14 days regardless of whether they thought they were exposed.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ORIENTATION",
+      "content": "We currently have a baby on the way and I don\u2019t want to expose a young child to these illnesses.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I want to enact a policy where we call and check every time that their kids are not sick before we attend a family event. I\u2019m considering walking them through a symptoms checklist over the phone.",
+      "valence": "against_poster",
+      "importance": 5
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "z31ujq",
+  "title": "aita for ignoring my family & working on thanksgiving",
+  "text": "i work at the grocery store in the prepared hot foods part of the store. i'm there almost every day and i see my family there a lot. my aunt and grandma shop 3 days a week sometimes and every time they come over and get something from my department and expect me to have a 5 to 10 minute chat with them. some days when it is slow i can. during the dead hours i can stand there and talk for 15 minutes sometimes. but when they come during busy hours and there is a line they get annoyed when i am not engaged in conversation with them or addressing people behind them. i'll handle their order and then ask the person who's next what they want so i can make preparations for it.  i'll be packaging and weighing my family member's food and they'll be talking and i'll say \"what would you like\" to the person behind them and they look at me annoyed for cutting them off. a good amount of family members do this but i see them the most. they've brought it up outside of work. when i see them at a gathering they'll say \"oh look who has time to talk\" and i'm sick of it. i explain to them over and over that this is my job. i ask them how would you feel if i showed up at your job and lingered around trying to talk for a while. but they don't get it. a lot of the time i am in the back cooking and i only come up from when the front person is taking a break or if the line is really long. so most of the time i am in the back and my coworker will come by and say \"someone asked to see you\" and i just know it is them. if i am in the middle of something i just don't go up front. i don't mind talking to them when i am not busy. my parents have been sassy because of this and nobody seems tot get it. they've brought it up a lot lately because i am working on thanksgiving. i go in early and leave at around 3-4ish but they are not having it. i've worked every thanksgiving since i've had a job so i don't get why they are so upset. my family always goes out and has to get more food or supplies on thanksgiving. they've been saying the \"who works on thanksgiving!\" and i ask them if they'd be okay with the grocery store being closed that day and they don't respond. i think this is a buildup because i've worked here for three years now and it all seems to be spilling out now. i don't want my family to feel like i am ignoring them or don't enjoy their company.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I work at a grocery store in the prepared hot foods department. I'm there almost every day and I've worked here for three years.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My aunt and grandma shop at my store about 3 days a week. They always come to my department and expect a 5-10 minute chat with me.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "When they come during busy hours and there's a line, I handle their order and then address the next customer. Sometimes I ask the person behind them what they'd like while I'm still packaging my family's food.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "When I do this, my family members look at me annoyed for cutting them off. They get upset that I'm not fully engaged in conversation with them during busy periods.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "REACTION",
+      "content": "At family gatherings they make sarcastic comments like 'oh look who has time to talk.' My parents have been sassy about it too. Nobody seems to understand that I'm working.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "Sometimes when my coworker says someone is asking to see me up front and I'm in the middle of cooking in the back, I just don't go up.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I am working on Thanksgiving this year. I go in early and leave around 3-4pm. I've worked every Thanksgiving since I've had a job.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_OTHER",
+      "content": "My family has been saying 'who works on Thanksgiving!' and making a big deal of it, even though they themselves go out to buy more food and supplies on Thanksgiving day.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I don't mind talking to them when I'm not busy. I don't want them to feel like I'm ignoring them or don't enjoy their company — this is just my job.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

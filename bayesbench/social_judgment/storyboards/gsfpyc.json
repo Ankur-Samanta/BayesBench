@@ -1,0 +1,72 @@
+{
+  "id": "gsfpyc",
+  "title": "aita for not wanting to forgive my cousin?",
+  "text": "(throwaway account and on mobile) now i (21m) have been struggling for a while to try and forgive my cousin (19f) for something that really turned my life around.  when we were younger our families were very close. but as we got older things changed. a messy divorce between her parents. while my parents are still together, got married at 18 and 19 and are still (to my knowledge at least) going strong. this created a little resentment from her i think.  the problem: she began to get annoyed at things i would do, or praise i would get. whether related to our high school theatre department, or family related. now mind you i have a great relationship with my grandparents, as they live across the street from my parents house. she started treating me different. and i always included her in things as i loved her a lot! and she was my best friend.  after i graduated she made a video bullying me and my parents. i found it, got angry, but said nothing. i didn't care enough. she found out i knew about it, and started going around spreading rumors about me and digging for dirt to protect herself. and the police got involved. she then orchestrated these people she asked to lie and say things to the police about me. and wanted to get me with harassment charges (a class b misdemeanor that means unwanted physical or emotional interaction). i was in college and didn't have any idea this was happening as she was still being nice to me.  then my life fell apart, i got very depressed. gained almost 200 pounds. i have always tried to be kind to everyone, and then this happened. i dropped out of college, and i worked at a place that i hated, to avoid doing nothing, and to keep me busy. i was eventually cleared of all charges, as i had enough evidence to prove my innocence, but only after 16 months of court dates. i haven't seen or talked to her in 2 years. i tried reaching out before all the court dates to no avail. recently our mutual aunt, asked if we could reconcile. but i said i'm not ready. i said, \"she is the reason i dropped out of college and had a year of my life stolen from me. and she didn't even care. she doesn't know what i've gone through, and i don't want to see her. she treated me poorly before and after. i have no reason to reconcile.\" she then told me that i need to grow up, because \"family forgives family\". i currently am back in college and love it. i also think that my life has changed for the better without her in it. so reddit, aita here?  the police got involved because it started to spread around the high school that i (a former student) harrassed and continued to harrass people in our department. (i had no contact with most of them, as i was happily in college) i gained almost 200 pounds from when i talked to the police for the first time, nov. 2k17 to around jan of 2019. so over a year.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My cousin (19F) and I (21M) were very close growing up \u2014 she was my best friend. Her parents went through a messy divorce while my parents stayed together, which I think created some resentment on her part.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "After I graduated high school, my cousin made a video bullying me and my parents. When she found out I knew about it, she started spreading rumors about me and digging for dirt to protect herself.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "She orchestrated people to lie to the police about me and tried to get me charged with harassment. I was in college and had no idea this was happening, as she was still being nice to me in person.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "OUTCOME",
+      "content": "My life fell apart. I got severely depressed, gained almost 200 pounds, and dropped out of college. I was eventually cleared of all charges after 16 months of court dates.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I tried reaching out to my cousin before the court dates but she wouldn\u2019t respond. I haven\u2019t seen or talked to her in 2 years.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "When our mutual aunt asked if we could reconcile, I said I\u2019m not ready and that I have no reason to reconcile.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "She is the reason I dropped out of college and had a year of my life stolen from me. She didn\u2019t even care, and she treated me poorly before and after.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "REACTION",
+      "content": "My aunt told me I need to grow up because \u201cfamily forgives family.\u201d",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "I am currently back in college and love it. I also think my life has changed for the better without her in it.",
+      "valence": "pro_poster",
+      "importance": 2
+    }
+  ]
+}

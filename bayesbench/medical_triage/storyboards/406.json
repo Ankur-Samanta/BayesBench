@@ -1,0 +1,57 @@
+{
+  "case_id": 406,
+  "true_urgency": "Routine",
+  "specialty": "Neurology",
+  "self_diagnosis": "peripheral neuropathy",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have pins and needles in my hands and feet, especially in the morning, and it does not go away quickly the way it does when your foot falls asleep."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "My grip strength has gotten weaker \u2014 I dropped a coffee mug last week because I just could not hold onto it."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "Sometimes the numbness travels up my arms."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "The symptoms have been slowly getting worse over the past three months."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a5",
+      "content": "It affects my daily activities, especially fine motor tasks, but I am still able to work. The biggest problem is with my grip and fine motor control."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a6",
+      "content": "I am a 42-year-old woman."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "id": "a7",
+      "content": "The numbness and tingling are worse first thing in the morning."
+    }
+  ]
+}

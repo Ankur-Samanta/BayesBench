@@ -1,0 +1,57 @@
+{
+  "case_id": 823,
+  "true_urgency": "Emergency",
+  "specialty": "Neurology",
+  "self_diagnosis": "stroke",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "My entire right side suddenly became weak about an hour ago"
+    },
+    {
+      "id": "a2",
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "This came on all of a sudden about one hour ago and has not improved"
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "My right arm and right leg feel very heavy and I can barely move them"
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "My speech has become slurred and I am having trouble finding the right words"
+    },
+    {
+      "id": "a5",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "I have a very severe headache that came on out of nowhere"
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "I cannot move my right arm and leg properly and I cannot speak clearly. This is unlike anything I have ever felt"
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "I'm a 61-year-old man with high blood pressure and I take blood pressure medication. I have never had anything like this before"
+    }
+  ]
+}

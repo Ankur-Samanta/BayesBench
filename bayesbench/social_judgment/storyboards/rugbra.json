@@ -1,0 +1,65 @@
+{
+  "id": "rugbra",
+  "title": "aita for telling my brother \u201chow to parent\u201d his daughter?",
+  "text": "i\u2019m 21f, brother is 28m. i woke at a daycare-i know it\u2019s not the same as having your own kid lol, but every few months we need to do training on basic safety for infants/toddlers.  my brother has a 9 month old girl. the other day i was going to visit my parents and my brother was leaving (he lives there) to drop his daughter off at her other grandparents house. hes always in a bad mood when he goes to drop offs because he\u2019s  not technically supposed to see his daughters mother (*long* story, it\u2019s the other grandparents rule) and is just supposed to keep all interaction strictly about his daughter and then go. so he\u2019s always always in a bad mood when he goes because her other grandparents are *not* nice to him. but this time i guess he had gotten into a fight with our dad too so he was in a really bad mood. so as i was walking up the driveway i see him open the passenger side door, put his daughter who was in her car seat just behind the passenger side door. not clicked into her car seat base, just wedged between the front and back seats.  he gets into the driver side and  i knock on his window and i\u2019m like youre not leaving her like that right? that\u2019s so wildly unsafe. and he immediately tells me to eff off, he\u2019s not asking for advice on how to take care of his kid, mind my own buisness, don\u2019t tell him how to parent. i open the back door and click her into the base (it takes literally four seconds) and my brother looses it on me, calling me an a-hole for butting in where i shouldnt. aita here?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I'm 21F and I work at a daycare. Every few months we do training on basic safety for infants and toddlers.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My brother is 28M and has a 9-month-old daughter. He lives with our parents.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "My brother was in a really bad mood because drop-offs to his daughter's other grandparents are always tense, and he had also gotten into a fight with our dad.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "As I walked up the driveway, I saw my brother put his daughter's car seat behind the passenger door — not clicked into the base, just wedged between the front and back seats.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I knocked on his window and told him that leaving her like that was wildly unsafe.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "He immediately told me to eff off, said he wasn't asking for advice on how to take care of his kid, and told me to mind my own business.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I opened the back door and clicked his daughter's car seat into the base myself. It took about four seconds.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "My brother lost it on me, calling me an a-hole for butting in where I shouldn't.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

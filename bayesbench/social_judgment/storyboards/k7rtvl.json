@@ -1,0 +1,65 @@
+{
+  "id": "k7rtvl",
+  "title": "aita for telling a co-worker they may need to delete a photo",
+  "text": "so for context i work at a school which while not a religious school can be old fashioned in some regards and has a policy best summed up as what you do in private is your business but what you make public is the schools business.  we had a teacher retire for health reasons and as a result a young casual was offered a full time position. she started at the start of term and she is a brilliant teacher who the students love. she is also in a throuple (sorry if that's the wrong term). now while i personally don't have a problem with this i know for a fact that other people specifically one of the people who will decide if she gets through the probationary period and remains a full time teacher next year will. i privately messaged her and explained that to her and she thanked me and took the photo down.  the problem is that her partners have since messaged me getting angry and berating me saying i'm shaming them and trying to force a \"heteronormal, monogamous lifestyle\" on everyone and that i should be trying to make the school change not force her to hide who she is.  i didn't message either of them back and haven't told my co-worker what they've done either but i'm curious to see people think. also for clarification i have no way of changing the schools policy being a new teacher myself and no way of raising the issue to the people who could without risking outing my co-worker which i don't want to do. the photo is also of her kissing them calling them the loves of her life but they have asked other teachers to take down photos like that of them and their spouse's so they do go after images like this.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I work at a school that can be old-fashioned and has a policy that what you do in private is your business, but what you make public is the school's business. They have asked other teachers to take down photos of them kissing their spouses.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "A young casual teacher was offered a full-time position. She is a brilliant teacher whom the students love, and she is in a throuple. She is still in her probationary period.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "I know for a fact that one of the people who will decide if she gets through her probationary period has a problem with her relationship arrangement.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I privately messaged my co-worker to explain that her photo could be a problem with the person who decides on her probation, and suggested she might want to take it down.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "My co-worker thanked me and took the photo down.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "REACTION",
+      "content": "Her partners messaged me, getting angry and berating me. They said I was shaming them and trying to force a heteronormative, monogamous lifestyle on everyone, and that I should be trying to change the school instead.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I didn't message either of her partners back, and I haven't told my co-worker what they've done.",
+      "valence": "pro_poster",
+      "importance": 2
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I personally don't have a problem with her relationship. I'm also a new teacher myself with no power to change the school's policy, and raising the issue would risk outing my co-worker, which I don't want to do.",
+      "valence": "pro_poster",
+      "importance": 4
+    }
+  ]
+}

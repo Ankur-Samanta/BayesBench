@@ -1,0 +1,57 @@
+{
+  "case_id": 470,
+  "true_urgency": "Observation",
+  "specialty": "Neurology",
+  "self_diagnosis": "carpal tunnel syndrome",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I keep getting tingling and numbness in my hands, especially in my thumb and first two fingers",
+      "urgency_signal": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "It wakes me up at night and I have to shake my hands to get the feeling back",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "During the day it flares up when I'm typing or holding my phone for a long time",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "content": "This has been slowly building up over the past 4 months",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "content": "It's not excruciating, but it's disrupting my sleep and making work uncomfortable",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "content": "I'm a 42-year-old woman and I work in an office, spending most of my day at a keyboard",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "content": "Shaking or moving my hands seems to help get the feeling back when it happens",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 173,
+  "true_urgency": "Observation",
+  "specialty": "Cardiology",
+  "self_diagnosis": "heart palpitations from caffeine",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a1",
+      "content": "My heart sometimes pounds very hard or feels like it skips a beat"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "When it happens I feel slightly lightheaded"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "reassuring",
+      "importance": 4,
+      "id": "a3",
+      "content": "No chest pain or shortness of breath during the episodes"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "This has been happening a few times a week for about a month"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a5",
+      "content": "Each episode lasts only a few seconds and does not stop me from my daily activities"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a6",
+      "content": "I am a 40-year-old woman with no history of heart problems and I drink about 4 cups of coffee a day"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a7",
+      "content": "The episodes seem to come on their own without a clear trigger I can pinpoint"
+    }
+  ]
+}

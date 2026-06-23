@@ -1,0 +1,65 @@
+{
+  "id": "up2wiy",
+  "title": "aita for telling my friend i don't care about her relationship?",
+  "text": "i made an account just for this, also i apologize for the weird formatting (i\u2019m on mobile lol.) i (18f) have been good friends with a girl (19f) who we will call emily. emily has been in a very shitty relationship for about 4-5 months. it seems like every week she calls me sobbing telling me how her boyfriend is being an asshole and how their relationship is toxic. i constantly have to be the therapist friend and listen to her vent about her stupid bastard of a boyfriend and it\u2019s getting annoying. despite the fact that i tell her to break up with him, a day after she complains that he\u2019s a bad boyfriend, she\u2019s all over him, kissing him and telling him that she loves him. yesterday i was doing my daily workout. i always turn my phone off and use my t.v for music since i have a speaker and it\u2019s louder. after about 1 hour, i finished and took a shower. when i got out and turned my phone on, i was shocked to see like 40 text messages and 10 missed calls. they were from emily. i read them and to my \u201csurprise\u201d she was crying about her stupid boyfriend. i called her back and when she answered she started screaming at me. telling me that she needed me and that i was ignoring her messages and calls. i was really pissed off at this point because she had been treating me like her therapist. i told her that i didn\u2019t care about her shitty relationship and if she hates her boyfriend so much why doesn\u2019t she leave him. i told her if she had an ounce of self respect and knew her worth, she wouldn\u2019t be staying with him. there was a few seconds of silence before she started sobbing, calling me a bad friend and a bitter bitch. she told me i was a jealous whore and that she was done being my friend. she hung up me and i\u2019ve been thinking about it ever since. maybe i was too harsh? i feel bad for telling her she had no self respect. so aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I (18F) have been good friends with Emily (19F). Emily has been in a very shitty relationship for about 4-5 months.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "It seems like every week Emily calls me sobbing, telling me how her boyfriend is being an asshole and how their relationship is toxic. I constantly have to be the therapist friend and listen to her vent.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "Despite the fact that I tell her to break up with him, a day after she complains he's a bad boyfriend, she's all over him, kissing him and telling him that she loves him.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ORIENTATION",
+      "content": "Yesterday I was doing my daily workout. I always turn my phone off and use my TV for music. After about an hour, I finished and took a shower.",
+      "valence": "neutral",
+      "importance": 1
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "When I got out and turned my phone on, I saw about 40 text messages and 10 missed calls from Emily. When I called her back, she started screaming at me, telling me I was ignoring her messages and calls.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I told her that I didn't care about her shitty relationship and if she hates her boyfriend so much, why doesn't she leave him. I told her if she had an ounce of self-respect and knew her worth, she wouldn't be staying with him.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I was really pissed off at that point because she had been treating me like her therapist for months.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "There was a few seconds of silence before she started sobbing, calling me a bad friend and a bitter bitch. She told me I was a jealous whore and that she was done being my friend. She hung up on me.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

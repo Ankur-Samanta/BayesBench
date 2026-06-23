@@ -1,0 +1,65 @@
+{
+  "id": "eb7g46",
+  "title": "wibta for not getting my aunt and her family gifts for christmas?",
+  "text": "every year, since i can remember, i have been spending christmas at my grandma's house where we exchanged gifts. gifts are made mainly from 3 groups (so each person gets 2-3 gifts). one group is my grandma and my two uncles, with one uncle making the purchases as he has been looking after my grandma and the other uncle who is mentally ill since my grandpa past away around 20 years ago. one group is me and my parents and the final group is my aunt, her husband and two children (one is 26 (m) same age as me (f) and the other is 19 (m)). my uncle had a period where he had a good job and got amazing gifts for everyone, and my parents had a period when they lived abroad and also did quite well, so got good presents. however, times have been hard for everyone due to the economy, health issues etc. i now buy gifts on behalf of me and my parents (they don't have a job now). i recently changed job and city so i'm finding it hard to afford gifts, this year, so i've been buying a lot of small \u00a31-3 gifts for everyone. however, we are 11 on my mom's side alone, i also have my dad's side and very close family friends that have been helping us through these tough times. so even if i'm only spending a little, with around 30 people in total it's getting to \u00a3200-300 which is most of my savings right now. today my aunt in the family group chat said this year they don't have money (although they have more than everyone else) and they don't feel like doing small \u00a35 gifts because it's depressing and pointless less. my younger cousin then chimed in saying every year the gifts \"end up in a corner of the garage or in the trash\" and that we should stop buying each other crappy gifts. now, this is where the aita comes in. i don't want to by this group gifts this year for christmas. they made me feel like shit for the gifts i got them in the past and even shittier about what i was gonna get them this year. however, i feel guilty for not getting them anything. i feel like it is an asshole move and that even if i get them a \u00a31 box of chocolates each i would at least not stoop to their level and ruin christmas. i feel like i would ruin it by not getting them gifts. we sit together and open all the gifts together at christmas. i feel terrible at the idea of them being the only ones not opening gifts while everyone else in the family has gotten something from me. wibta if i didn't get this group gifts?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "Every year my family spends Christmas at my grandma's house where we exchange gifts between three family groups. There are about 11 people on my mom's side alone.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "Times have been hard for everyone. My parents don't have jobs now, so I buy gifts on behalf of all three of us. I recently changed jobs and cities, so I'm finding it hard to afford gifts. Even buying small \u00a31-3 items for around 30 people is costing \u00a3200-300, which is most of my savings.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "My aunt said in the family group chat that this year they don't have money and don't feel like doing small \u00a35 gifts because it's 'depressing and pointless.' She said this despite her family being better off than everyone else.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "My younger cousin chimed in saying every year the gifts 'end up in a corner of the garage or in the trash' and that we should stop buying each other crappy gifts.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "OUTCOME",
+      "content": "Their comments made me feel terrible about the gifts I got them in the past and even worse about what I was planning to get them this year.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I don't want to buy this group gifts this year for Christmas.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I feel guilty about not getting them anything. We all sit together and open gifts at Christmas, and I feel terrible imagining them being the only ones not opening gifts from me.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I feel like even a \u00a31 box of chocolates each would be better than stooping to their level, because not getting them gifts might ruin Christmas.",
+      "valence": "against_poster",
+      "importance": 2
+    }
+  ]
+}

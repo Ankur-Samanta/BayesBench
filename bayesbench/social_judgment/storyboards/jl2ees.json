@@ -1,0 +1,72 @@
+{
+  "id": "jl2ees",
+  "title": "aita for denying an employee\u2019s request to change his days off because of a video game delay?",
+  "text": "i\u2019m a manager at a large big box store. one of my employees \u201ceric\u201d requested a couple of days off in mid november a few weeks ago. i didn\u2019t ask for the reason (i pretty much never do unless its a last minute thing) and i approved it.  a couple of days ago, he asked me if i could change his days off from then to thanksgiving. i told him i couldn\u2019t do that because i already gave other employees time off for thanksgiving and i needed him to work. he said that he didn\u2019t need the original days any more off because a video game got delayed and that he wanted to use the days off to spend time with family at thanksgiving (which is kind of useless to me because thats what everyone who requests thanksgiving off wants). i kind of laughed and told him that i\u2019m sorry that his video game was delayed. i said he could work those days and use his time off differently but that he couldn\u2019t use them for thanksgiving. he told me that i was being unfair and that it wasn\u2019t his fault the stupid video game got delayed and now his parents were pressing him to take thanksgiving off. i basically told him \u201ctough shit\u201d but in kinder words than that.  what makes me think i might be the asshole is my wife\u2019s reaction. i told her because i thought she would also find it amusing that the guy requested time off for a video game (not that i have a problem with that, its just kind of funny). she didn\u2019t find it as funny as i did and said that i probably made him feel stupid. i said i didn\u2019t tell him that at all and i wasn\u2019t going to let him take thanksgiving off period regardless of the whole video game shit. she said that i shouldve been more sympathetic and seen if i could work something out. i don\u2019t think i did anything wrong but aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I'm a manager at a large big box store. I pretty much never ask employees the reason for their time-off requests unless it's last minute.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "One of my employees, Eric, requested a couple of days off in mid November a few weeks ago. I approved it without asking the reason.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "A couple of days ago, Eric asked me to change his days off from mid November to Thanksgiving instead. He explained that a video game had been delayed so he didn't need the original days anymore, and he wanted to spend Thanksgiving with family.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I told him I couldn't do that because I had already given other employees time off for Thanksgiving and I needed him to work.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I kind of laughed and told him I was sorry his video game was delayed. I offered that he could work those original days and use his time off differently, but not for Thanksgiving.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "Eric told me I was being unfair. He said it wasn't his fault the video game got delayed and that his parents were pressing him to take Thanksgiving off.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I basically told him 'tough shit,' though in kinder words than that.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "REACTION",
+      "content": "My wife didn't find the story as funny as I did. She said I probably made Eric feel stupid and that I should have been more sympathetic and tried to work something out.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I wasn't going to let him take Thanksgiving off regardless of the video game situation — the schedule was already set with other employees' time off approved.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

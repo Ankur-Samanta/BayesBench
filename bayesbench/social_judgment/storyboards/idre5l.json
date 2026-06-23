@@ -1,0 +1,79 @@
+{
+  "id": "idre5l",
+  "title": "aita for telling my mom what she said was very hurtful?",
+  "text": "my paternal grandmother is in the hospital for the past week. while she's there, it's been a stressful situation at home because of the pandemic and all that.  because my dad was with her during her latest appointments, my mom and dad decided that dad will stay in the hospital till she gets discharged so as to lessen the risk for everyone at home. my mom managed the house with me and my sister's help.  a little information about my mom. she will always preach to \"think before you speak\". but in my opinion, she never practices it.  cut to yesterday morning. so, today morning, my mom had some bank work to do and she told me to help her. it was fine since me n sis helped her out everyday as much as we can. so, i was just carrying some clothes back to my room and i saw i had left a jeans. both my hands were full of clothes so i asked my mom to come n put the jeans on the pile i was carrying. she was in the kitchen and it took her around a minute to do this. but she said that it was a very small work so i shouldn't have asked her. i accepted and i went to keep it. during this, she suddenly started scolding me for this and i just ignored her. and then she said \"you're wasting my time here and my time is much more precious then yours.\" this really pissed me off and i told her that what she said was really hurtful as me n sis were doing the best we could and also my sis was managing her work and i was managing my studies. and she won't accept it saying she had done nothing wrong and that she was in immense pressure and etc. i said i understood and just repeated that what she said was really very hurtful. then i said \"if i am just wasting all of our times, i won't help anyone. and you can do it all themselves.\" then, she called dad and literally said \"children are creating a nuisance for me at home and not helping and wasting my time.\" (i really don't know why she including my sis) i refused to talk or listen to her. i am still repeating the same thing that what she said was hurtful. 2 hours later, she came back from bank and i had to take some stuff to dad. that's when we started fighting again. she refused to apologize and i simply said i didn't want an apology, i just wanted her to accept that what she said was really hurtful and own up. she refused. so, am i wrong? i really don't know.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My paternal grandmother has been in the hospital for the past week. My dad is staying with her at the hospital to reduce infection risk during the pandemic, so my mom has been managing the house with help from me and my sister.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My sister and I have been helping my mom out every day as much as we can. My sister is also managing her work and I am managing my studies on top of this.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I was carrying a pile of clothes with both hands full and asked my mom to put a pair of jeans I had left behind on top of the pile I was carrying.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "My mom scolded me for asking her to help with the jeans, saying it was a very small task and I shouldn't have asked. Then she said, \"You're wasting my time here and my time is much more precious than yours.\"",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I told my mom that what she said was really hurtful.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "My sister and I were doing the best we could to help around the house.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I said, \"If I am just wasting all of our times, I won't help anyone. And you can do it all yourselves.\"",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_OTHER",
+      "content": "My mom called my dad and told him that the children are creating a nuisance at home, not helping, and wasting her time. She included my sister in the complaint even though my sister had nothing to do with it.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "ACTION_POSTER",
+      "content": "I told my mom I didn't even want an apology — I just wanted her to accept that what she said was really hurtful and own up to it.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a10",
+      "category": "ACTION_OTHER",
+      "content": "My mom refused to acknowledge that her words were hurtful, saying she had done nothing wrong and that she was under immense pressure.",
+      "valence": "pro_poster",
+      "importance": 4
+    }
+  ]
+}

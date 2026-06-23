@@ -1,0 +1,57 @@
+{
+  "case_id": 920,
+  "true_urgency": "Observation",
+  "specialty": "Urology",
+  "self_diagnosis": "urinary tract infection",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have a mild burning feeling when I urinate."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "I am going to the bathroom to urinate much more often than usual."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "My urine looks a little cloudy."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a4",
+      "content": "The burning started a few days ago and has stayed about the same \u2014 it is not getting worse."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "id": "a5",
+      "content": "The discomfort is mild and is not stopping me from doing my normal activities."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 3,
+      "id": "a6",
+      "content": "I am a 28-year-old woman, sexually active, with no previous medical conditions."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a7",
+      "content": "I do not have a fever and I have not seen any blood in my urine."
+    }
+  ]
+}

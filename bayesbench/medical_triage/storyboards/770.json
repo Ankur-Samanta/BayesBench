@@ -1,0 +1,57 @@
+{
+  "case_id": 770,
+  "true_urgency": "Routine",
+  "specialty": "Gastroenterology",
+  "self_diagnosis": "stomach ulcer peptic ulcer",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "content": "I have a burning pain in my upper stomach, especially between meals and at night."
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "content": "I feel full very quickly, even when I eat only a small amount."
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "I occasionally feel nauseated, though I have not vomited."
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "These symptoms have been slowly developing over the past 3 months."
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "content": "The discomfort is moderate. It changes how I eat but I can still work and do daily activities."
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "content": "I am a 42-year-old man."
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "Eating temporarily relieves the pain, but it comes back 2 to 3 hours later. Antacids help for a short while."
+    }
+  ]
+}

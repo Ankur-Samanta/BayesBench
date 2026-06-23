@@ -1,0 +1,51 @@
+{
+  "id": "czoj31",
+  "title": "aita for not directly paying my friend for half of the gas used on a trip?",
+  "text": "i will keep this short. we went on a trip and used two tanks of gas. 1 tank there and 1 tank back. i used my company gas card to fill up when we left our home city (the tank was on empty). when he went to fill up the tank on the way home he asked for half the money but i said no since i provided us with an entire tank to get to the destination. his argument was that since i didn't pay for it myself it didn't count, i think it does count since i still supplied us with half the tank and my method of acquiring the gas shouldn't matter. we did use his car but it shouldn't matter since we had used my car for the last trip which was roughly the same distance and it was his turn to provide the vehicle. aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My friend and I went on a trip that used two tanks of gas total -- one tank there and one tank back. We used his car, but we had used my car for the last trip which was roughly the same distance, so it was his turn to provide the vehicle.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "I used my company gas card to fill up the tank when we left our home city. The tank was on empty, so I provided a full tank to get us to the destination.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "When my friend went to fill up the tank on the way home, he asked me for half the money for that tank.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I said no, since I had already provided us with an entire tank to get to the destination.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "His argument was that since I didn't pay for the gas myself and used a company card, it didn't count.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I think it does count since I still supplied us with half the gas, and my method of acquiring the gas shouldn't matter.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

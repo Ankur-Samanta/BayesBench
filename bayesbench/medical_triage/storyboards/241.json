@@ -1,0 +1,57 @@
+{
+  "case_id": 241,
+  "true_urgency": "Urgent",
+  "specialty": "Emergency Medicine",
+  "self_diagnosis": "appendicitis",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have severe sharp pain in my lower right side of my belly that started around my belly button and has moved and keeps getting worse"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "I feel nauseous and have vomited twice this morning"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a3",
+      "content": "I have a fever of 101.2 degrees that started a few hours ago"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "Symptoms started about 12 hours ago and have been getting steadily worse since then"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a5",
+      "content": "The pain is about an 8 out of 10 and even walking makes it worse - I cannot eat or drink anything right now"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a6",
+      "content": "I am a 22-year-old man with no major health problems"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "I have no appetite at all and the pain gets sharper when I move around"
+    }
+  ]
+}

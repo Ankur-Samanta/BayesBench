@@ -1,0 +1,57 @@
+{
+  "case_id": 159,
+  "true_urgency": "Routine",
+  "specialty": "Cardiology",
+  "self_diagnosis": "heart arrhythmia",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I keep getting this fluttering feeling in my chest, like my heart is skipping beats. It's been bothering me for a while now.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I get a bit lightheaded when I climb stairs — it never used to happen before. It's a new thing for me.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I have occasional discomfort in my chest, but it's not really pain. More like a vague uncomfortable feeling.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "content": "These symptoms have been gradually building up over the past three months. Nothing came on suddenly — it's been a slow creep.",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ASSOCIATED",
+      "content": "The palpitations are especially noticeable when I'm lying down trying to sleep at night. That's when I feel them most.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "The symptoms are annoying and I definitely notice them, but they're not stopping me from doing my day-to-day stuff. It's mainly bothersome at night and when I'm climbing stairs.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I'm a 46-year-old woman. I don't have any known heart problems or other major medical conditions.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

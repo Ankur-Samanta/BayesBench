@@ -1,0 +1,65 @@
+{
+  "id": "kb5uuo",
+  "title": "aita for having a dead car battery and being late to a minor surgery?",
+  "text": "greetings,  i have malignant melanoma and had a confirmed appointment to have an excision done this morning at 9:30 with a dermatologist. as i was leaving for the appointment, my car battery was dead and i had to find a neighbor for a jump. i called the doctor's office and left a voicemail at 9 (nobody in reception picked up). as i'm 10 minutes away, the doctor called me on his personal cell phone wondering where i was, so i informed him i was 10 minutes out, would be there at 9:40 and what happened. he started to yell at me saying how unhappy he was that i missed the appointment. i proceeded to the office hoping to reschedule and apologize in person.  when i arrived at the office, no one was there and i received a text (again, from his personal cell phone, a number which i did not have until this morning) from the doctor saying he doesn't normally work friday's, he drove 2 hours round-trip for me, and that he is surprised and dismayed that i do not value his time and efforts to help me, and upset that i didn't call his cell phone. i texted him back explaining the situation, apologized for wasting his time and that i appreciate his efforts greatly.  so redditors, am i the asshole for being 10 minutes late? i found it unprofessional that he was calling and texting me directly from his personal phone. also, it was going to be him alone performing the procedure (local anesthetic and some cutting on my back).",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I have malignant melanoma and had a confirmed appointment to have an excision done at 9:30 this morning with a dermatologist.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "As I was leaving for the appointment, my car battery was dead. I had to find a neighbor for a jump start, which made me late.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I called the doctor\u2019s office at 9:00 and left a voicemail since nobody in reception picked up.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "The doctor called me on his personal cell phone wondering where I was. When I told him I was 10 minutes out and explained what happened, he started yelling at me about how unhappy he was that I missed the appointment.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I drove to the office hoping to reschedule and apologize in person, but when I arrived, no one was there.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "The doctor texted me from his personal cell phone saying he doesn\u2019t normally work Fridays, he drove 2 hours round-trip for me, and that he is surprised and dismayed that I do not value his time and efforts.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I texted him back explaining the situation, apologized for wasting his time, and told him I greatly appreciate his efforts.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I found it unprofessional that he was calling and texting me directly from his personal phone, a number I did not have until this morning.",
+      "valence": "pro_poster",
+      "importance": 2
+    }
+  ]
+}

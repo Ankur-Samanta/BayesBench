@@ -1,0 +1,79 @@
+{
+  "id": "iovis9",
+  "title": "aita for kicking my sister out my house for breaking her conditions?",
+  "text": "it\u2019s long but i feel we need detail and i\u2019m sorry for any grammatical errors. thank you for your answers. my sister and her boyfriend have often brought their drama to my family, even though she lives on her own with her boyfriend. she would call me to pick her up for every petty argument or fight she had with her bf and eventually i just stopped giving her rides because it always meant drama to my house because her bf would follow her soon after moving the scene to my house. my sister had money issues paying her rent on time as well and would bring her bf along to ask for money to pay for rent literally every month and i grew tired of it and said no, her bf had the audacity to get mad about it and lash out on me. i told her that her bf could no longer come around my home, soon enough i would catch him in my home when i\u2019ve allowed her to come do laundry and since im not an asshole, i would just let it slide and remind her later, which also falls on deaf ears.  fast forward to the beginning of this year, she and her bf was evicted, but she didn\u2019t want to move in with bf family because they had too many people. i the older brother offered her a spare room in my house rent free including all utilities on the condition that she get her ged, a driver\u2019s permit and get a job, could only hang out with her bf and her friends away from my home. she also cannot bring drama she had with her friends or bf back to my home or she would be out. she agreed to these conditions. 3 months in she gets into a big fight with her bf and they got into a car accident and her bf came to my house creating drama left and right and tried to manipulate me into giving him a place to stay in my home & a new car and how it was her fault and that he could charge her criminally if i did not allow him to live with her on my property, he was trying to blackmail me. i had none of it and sent him on his merry way. turned out he was the one who committed a crime and he got charged for it.  before this my sister invited her friend to my house without my permission too, and her friend brought along her 3 kids. i had a brief talk with her about breaking her promises and how she hasn\u2019t even worked on her 3 tasks yet and it has been 3 months already. i gave her one last option. she does those three tasks, but now she isn\u2019t allowed to go hang out with friends or see her bf until she gets all her tasks done. she agreed to the new conditions but you can guess what happens. 2 months into the new conditions and she goes to meet her bf secretly and lied to me about. literally 5 months and she could not get any of the three tasks i set for her completed. i had enough so i kicked her out of my home, but my mom says i am being so unreasonable and that she is just a kid. my sister is 21, not a kid. after all said and done i feel like the asshole, but i felt she needed to be kicked out for her own sake so she could get her act together and be a responsible adult. so reddit, aita ?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My sister and her boyfriend have a history of bringing drama to my family. She would call me to pick her up for every petty argument with her boyfriend, and he would follow her to my house, moving the scene there.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My sister had money issues and would bring her boyfriend to ask me for rent money every month. When I said no, her boyfriend lashed out at me. I told her he could no longer come to my home.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "When my sister and her boyfriend got evicted, I offered her a spare room in my house rent-free including all utilities, on three conditions: get her GED, get a driver's permit, and get a job. She also could not bring her boyfriend or friends to my home or bring drama back, or she would be out.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "Three months in, my sister's boyfriend came to my house creating drama after a car accident. He tried to manipulate and blackmail me into giving him a place to stay and a new car, threatening to press criminal charges against my sister if I didn't comply.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "My sister invited her friend to my house without my permission, and the friend brought along her 3 kids. She also hadn't worked on any of her three tasks after 3 months.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I gave my sister one last chance with stricter conditions: complete the three tasks, and she can't see her boyfriend or hang out with friends until all tasks are done. She agreed.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "Two months into the new conditions, my sister went to meet her boyfriend secretly and lied to me about it. After 5 full months she had not completed any of the three tasks I set for her.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "I kicked my sister out of my home after she repeatedly broke her conditions and failed to complete any of the agreed-upon tasks over 5 months.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I felt she needed to be kicked out for her own sake so she could get her act together and become a responsible adult. She is 21 years old, not a kid.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a10",
+      "category": "REACTION",
+      "content": "My mom says I am being unreasonable and that my sister is just a kid.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

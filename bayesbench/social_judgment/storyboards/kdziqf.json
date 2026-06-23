@@ -1,0 +1,79 @@
+{
+  "id": "kdziqf",
+  "title": "aita for shushing someone?",
+  "text": "a travel companion / friend and i were on a workvacation together in an unfamiliar city for us both this evening. i'm a very mindful driver. i'm always hyper aware of my surroundings and like to be prepared for turns, exits etc. ahead of time to minimize missed turns and avoid split second decisions that can result in an accident. especially in a large city with roads i'm not familiar with. let me set the stage, i'm relying heavily on gps voice directions as our rental car did not have a screen to follow visually. i'm also partially deaf in my left ear which can make hearing a little harder over outside noise and talking. i am driving, he's the passenger. he has a habit of talking over people when he drinks, which he had drank at minimum a bottle of wine at this point. he's semi aware of this but still does it nonetheless. i'm trying to listen to the gps to follow directions so i can hear what lane i need to be in for an upcoming turn. he starts talking rather loudly over the gps. so i say \"hey i need to hear the directions\". he keeps talking over both me and the gps. my turn is quickly approaching. so, i shushed him. i wasn't angry in my tone, at least i don't feel i was as i wasn't angry, frustrated perhaps but not mad. holy shit this set off a whole orchestra of events. he leaped into a tirade of how i'm incredibly rude. how dare i shush him. etc. i stand by my point that in this situation shushing was warranted. i need to know where to turn. it was such a nerve-wracking moment that i pulled off the shoulder of the interstate ramp and let him out. which he did without much incident except for telling me my \"bags would be set outside the room\" as we were sharing a hotel room for the night as he slammed the car door.. thanks dude. any attempt to discuss this has fallen on deaf ears. he won't respond to my texts or calls. which is fine, but leads me to wonder if i'm truly the asshole here.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My friend and I were on a work-vacation together, driving in an unfamiliar large city. Our rental car had no GPS screen, so I was relying entirely on voice directions. I'm also partially deaf in my left ear.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My friend has a habit of talking over people when he drinks. He had drunk at least a bottle of wine by this point.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I told him 'hey I need to hear the directions' as he started talking loudly over the GPS while I was trying to figure out my lane for an upcoming turn.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "He kept talking over both me and the GPS after I asked him to stop, with my turn quickly approaching.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I shushed him.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I wasn't angry in my tone \u2014 frustrated perhaps, but not mad.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "He launched into a tirade about how I'm incredibly rude and how dare I shush him.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "It was so nerve-wracking that I pulled off onto the shoulder of the interstate ramp, and he got out of the car on his own.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "As he slammed the car door, he told me my bags would be set outside the hotel room we were sharing. He won't respond to my texts or calls since then.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a10",
+      "category": "ORIENTATION",
+      "content": "He's currently trying to get sober from methamphetamines and hasn't used in at least 5 days, so he may be very irritable. He uses alcohol to cope.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 720,
+  "true_urgency": "Observation",
+  "specialty": "Orthopedics",
+  "self_diagnosis": "knee osteoarthritis",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have a dull ache in my right knee, especially when I go up and down stairs."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a2",
+      "content": "My knee feels stiff in the morning, though it loosens up once I start moving around."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "I sometimes hear a clicking sound when I bend my knee."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "This has been coming on gradually over the past four months."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a5",
+      "content": "The pain is about a three or four out of ten. It is noticeable but does not stop me from doing daily activities."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a6",
+      "content": "I am a 46-year-old woman and I am moderately active."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 3,
+      "id": "a7",
+      "content": "The pain is more noticeable after I have been physically active, and stair climbing makes it worse."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "co5ykd",
+  "title": "aita for having my wedding close to my cousins?",
+  "text": "so i want to give some background here. i have a pretty close family, me and my cousin grew up basically as brothers, as we have gotten older we have drifted apart, but we still see each other once a month at least and are always really excited to see each other as we share a lot of common interests. now recently both of us got engaged and he and his fiance booked their wedding first, probably about 4 - 5 months ago, let's just say 12/22 of this year. my fiance and i were on the fence about what we wanted to do about our wedding and we very recently also booked our venue and date, 12/07, about 2 weeks prior to theirs. now, my fiance reached out on social media to my cousin's fiance basically double checking the date, but did not mention our date. word got around of our date prior to us sending invites and yesterday i go on social media and see my cousins fiance has posted an ambiguous status about people fucking with her wedding date and that she has no respect for them and they can \"eat a dick\". never mentions me or my fiance directly. of course, i am worried this is about me and later i confirm with my cousin it is indeed. basically his fiance is upset we scheduled our wedding so close to theirs and they feel like we did this on purpose. i told my cousin to call me so i can explain my intentions and let him know that the date we picked was purely because it was the best price and has nothing to do with their date at all. also, i have a small family, so only about 5 people will be actually attending both weddings and both are in state and require minimal travel. another important part to mention is that we are in the us and given the state we are in, the actual month both of us chose are peak wedding season due to the weather conditions that time of year. just want to get an outside opinion before i talk to my cousin, aita?",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My cousin and I grew up basically as brothers. We've drifted apart as we've gotten older but still see each other at least once a month and share a lot of common interests.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My cousin and his fiance booked their wedding first, about 4-5 months ago, for the 22nd of the month. We knew their date.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "My fiance and I booked our wedding for the 7th of the same month \u2014 about two weeks before my cousin's wedding.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "My fiance reached out to my cousin's fiance on social media to double-check their date, but did not mention our own date.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "The date we picked was purely because it was the best price and has nothing to do with their date. The month we both chose is peak wedding season in our state due to the weather.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I have a small family, so only about 5 people will actually be attending both weddings, and both are in-state requiring minimal travel.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "My cousin's fiance posted an ambiguous status on social media about people fucking with her wedding date, saying she has no respect for them and they can 'eat a dick.' She never mentioned us directly.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "My cousin confirmed the post was about us. His fiance is upset we scheduled so close to theirs and they feel we did it on purpose.",
+      "valence": "neutral",
+      "importance": 3
+    }
+  ]
+}

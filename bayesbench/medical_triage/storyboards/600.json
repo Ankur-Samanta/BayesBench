@@ -1,0 +1,57 @@
+{
+  "case_id": 600,
+  "true_urgency": "Observation",
+  "specialty": "Dermatology",
+  "self_diagnosis": "tinea versicolor",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "content": "I have small, round, slightly scaly patches on my trunk and arms that are lighter than my normal skin color"
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "The spots are slowly spreading over time"
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "The patches become much more noticeable when I get a tan"
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "content": "The patches have been gradually developing over the past 6 months"
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "content": "They are not itchy or painful but I am worried about how they look and that they keep spreading"
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "content": "I am a 25-year-old man"
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 3,
+      "content": "I tried over-the-counter antifungal creams but they have not helped"
+    }
+  ]
+}

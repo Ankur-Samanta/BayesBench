@@ -1,0 +1,57 @@
+{
+  "case_id": 464,
+  "true_urgency": "Routine",
+  "specialty": "Orthopedics",
+  "self_diagnosis": "rotator cuff injury",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "My right shoulder has been aching and feeling stiff for the past 2 months."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "I cannot reach overhead or behind my back without pain."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "My range of motion in that shoulder feels limited compared to normal."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a4",
+      "content": "This started 2 months ago right after I had a minor fall, and it has been going on since then."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a5",
+      "content": "The pain is dull and achy, not sharp. I can still use my arm but certain movements hurt."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 3,
+      "id": "a6",
+      "content": "I am a 55-year-old woman and I am otherwise healthy."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a7",
+      "content": "The pain is worse with specific movements like reaching up or back, but is manageable at rest."
+    }
+  ]
+}

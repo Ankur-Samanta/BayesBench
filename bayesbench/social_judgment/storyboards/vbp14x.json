@@ -1,0 +1,44 @@
+{
+  "id": "vbp14x",
+  "title": "aita if i don't attend my uncles funeral",
+  "text": "so a bit of backstory..this yeah has been total ass for me and my family members\u2026first my father (step father but i consider him my real dad) passed away, then my grandmother a few months later, and now my uncle has recently passed away and his funeral is next tuesday\u2026no one is really forcing me to do anything but i feel like i would be the asshole for not attending the funeral..but at the same time i don\u2019t know how much more i can take\u2026so would i be the asshole?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "This year has been terrible for me and my family. First my father passed away -- he was my stepfather but I consider him my real dad. Then my grandmother passed away a few months later.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "Now my uncle has recently passed away and his funeral is next Tuesday.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I am considering not attending my uncle's funeral.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACCOUNT",
+      "content": "I don't know how much more I can take emotionally after losing my father and grandmother already this year.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "No one is really forcing me to attend the funeral.",
+      "valence": "neutral",
+      "importance": 2
+    }
+  ]
+}

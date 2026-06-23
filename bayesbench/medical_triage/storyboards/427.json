@@ -1,0 +1,64 @@
+{
+  "case_id": 427,
+  "true_urgency": "Routine",
+  "specialty": "Neurology",
+  "self_diagnosis": "carpal tunnel syndrome",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I've been having tingling and numbness in my hands, especially in the mornings. It feels like pins and needles but it doesn't go away quickly.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I also get the same tingling in my feet, especially in the mornings.",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "My fingers feel clumsy and I've been dropping things more often than usual \u2014 like I just can't grip properly. It's gotten noticeably harder to do things that require fine motor skills.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "content": "This has been gradually getting worse over the past 4 months. It didn't come on suddenly \u2014 it just slowly crept up on me.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "content": "It's affecting things I do every day, like typing and buttoning my clothes. I can still do most tasks but I have to work harder at them and it slows me down.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ASSOCIATED",
+      "content": "The tingling is different from when your foot normally falls asleep \u2014 it doesn't go away quickly. It lingers, especially in the mornings and after I've been sitting for a while.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "content": "The symptoms seem to get worse when I've been sitting still for a long period of time. Moving around doesn't seem to make it much better.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a8",
+      "category": "CONTEXT",
+      "content": "I'm a 47-year-old woman. I don't have any diagnosed medical conditions that I know of, and I'm not on any regular medications.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

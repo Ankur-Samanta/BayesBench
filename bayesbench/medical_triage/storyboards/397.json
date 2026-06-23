@@ -1,0 +1,57 @@
+{
+  "case_id": 397,
+  "true_urgency": "Routine",
+  "specialty": "Neurology",
+  "self_diagnosis": "peripheral neuropathy",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I've been getting strange tingling and pins-and-needles sensations in both my hands and feet."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "My hands feel clumsy \u2014 I'm struggling to button my shirt and I keep dropping things."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "Sometimes it feels like I'm wearing invisible gloves."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "It started in my toes and has slowly crept up to my ankles over the past 4 months."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a5",
+      "content": "It's getting in the way of daily tasks, especially anything that needs fine motor control like typing, but I can still work."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a6",
+      "content": "The numbness and clumsiness are most noticeable when I'm doing detailed tasks with my hands."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a7",
+      "content": "I'm a 47-year-old man."
+    }
+  ]
+}

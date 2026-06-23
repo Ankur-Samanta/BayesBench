@@ -1,0 +1,57 @@
+{
+  "case_id": 322,
+  "true_urgency": "Observation",
+  "specialty": "Neurology",
+  "self_diagnosis": "tension headache",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "content": "I get headaches almost every day"
+    },
+    {
+      "id": "a2",
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "content": "This has been going on for about a month and the headaches haven't really changed in how they feel"
+    },
+    {
+      "id": "a3",
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "The pain is mild to moderate, maybe a 3 to 5 out of 10. I can still do my daily activities but it makes things harder"
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "urgency_signal": "reassuring",
+      "importance": 4,
+      "content": "The headache feels like a tight band or pressure squeezing both sides of my head"
+    },
+    {
+      "id": "a5",
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "They get worse in the afternoon and when I'm stressed. Pain relievers help but I've been taking them almost every day"
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "I'm a 34-year-old woman. I have a very stressful job and I haven't been sleeping well"
+    },
+    {
+      "id": "a7",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "content": "My sleep has been poor and I feel the stress building up, which seems to bring on the headaches"
+    }
+  ]
+}

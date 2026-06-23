@@ -1,0 +1,65 @@
+{
+  "id": "zk6osr",
+  "title": "aita for telling my married older brother that it was inappropriate for him to ask my wife to go out with him?",
+  "text": "so my (53m) wife (53f) came home from work and told me that my brother (60m) called her and asked if she wanted to go to a jazz club event with him that he and his wife (56f) had attended last year with another couple, but his wife was sick and couldn't go this year. my wife politely declined.  she does not particularly care for this brother (i have 3, all older) for things that have occurred in the past and comments he has made [i can elaborate if needed].  my wife said she thought it was weird and awkward. i immediately felt myself getting angry believing that this request was inappropriate and crossed a personal boundary for me. after sleeping on it, it was still bothering me the next day, so i texted him saying i thought it was inappropriate and creepy for him to ask my wife out and it pissed me off. i would have called, but i was busy at work and really needed to get it off my chest.   he responded that he couldn't believe my reaction and that he was incredibly insulted. after some back and forth he explained that the event included professionals around our ages and that my wife would be \"a good fit\".  i reiterated my points, but he was having none of it and i'm pretty sure he is cutting off contact. which bothers me, but tbh i'm okay with it  a little background:   my wife is well educated (2 master's degrees) a former scholar athlete, has lived abroad and is the light of my life and the mother of our 2 kids.  his wife is a high school graduate who once mentioned to my mother that she \"has never read a book\".  she has always been described as attractive and is generally a nice person.  conversations with her usually center around shopping and similar topics.  they also have 2 kids.  i only make this comparison b/c i've always believed that he secretly covets my wife.  he has always aspired to be a social climber, but lacks the skillset to not be offensive in most situations and i don't think his wife does well at these types of occasions.   am i outta line here?  i have no problem with my wife being around men. my wife has always gotten along better with men than women.  i like going into social situations with her knowing she can handle herself in just about all situations and she doesn't need me to protect or 'babysit' her.  i guess it's him in particular.  i don't like the way he talks about women or how he talks in front of women.  he consistently sexualizes them and makes inappropriate comments.  example: thanksgiving dinner a couple years ago.  upon learning that asparagus was being served he announced, \"i guess no blow job for me tonight\" in front of our brothers and all our wives.",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My brother is 60 and married. His wife was sick and couldn't attend a jazz club event they had gone to the previous year with another couple.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "My brother called my wife and asked if she wanted to go to the jazz club event with him since his wife couldn't go. He said the event included professionals around our ages and that my wife would be 'a good fit.'",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "My wife politely declined the invitation. She told me she thought it was weird and awkward.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "After sleeping on it and still feeling angry, I texted my brother telling him it was inappropriate and creepy for him to ask my wife out and that it pissed me off.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "I've always believed my brother secretly covets my wife. He aspires to be a social climber but lacks the skillset, and I don't think his wife does well at these types of professional occasions.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I don't like the way my brother talks about women. He consistently sexualizes them and makes inappropriate comments -- at Thanksgiving he announced 'I guess no blow job for me tonight' in front of everyone when asparagus was being served.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "My brother responded that he couldn't believe my reaction and was incredibly insulted. After some back and forth, he is pretty much cutting off contact.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "My wife is well educated with two master's degrees, a former scholar athlete who has lived abroad. My brother's wife is a high school graduate who once said she has 'never read a book.'",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

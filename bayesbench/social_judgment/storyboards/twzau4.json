@@ -1,0 +1,58 @@
+{
+  "id": "twzau4",
+  "title": "aita for keeping my phone on silent?",
+  "text": "i am a 20f my friend is a 21f. we'll call her blue. we both do cosplay stuff, go to conventions, etc. i went out with my family recently to go see the new batman movie. i put my phone on silent and just throw it into my pocket instead of turning it off. the movie starts, i don't look at my phone the whole time until the movie is over. but when i do, i see that i have 17 missed calls from blue. me thinking it's an emergency, i call her back. blue proceeds to answer and says. \"bitch, i've been trying to call you! you finally have the time to speak with me!\" me: \"i'm sorry, i was watching a movie with my family. what's up? did something happen? are you okay?\" blue: \"no, but i wanted to show you this cool cosplay stuff that i got! but you didn't answer, what the hell?\" she made it sound like i was obligated to answer her and when i told her i was at a movie theater, she says \"you could've just texted me so no one would hear you.\" i felt bad but at the same time, i wanted to tell her off that night for making me feel like she was calling me so many times because there was an emergency. idk, aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My friend Blue and I are both into cosplay and conventions. I went out with my family to see a movie at the theater.",
+      "valence": "neutral",
+      "importance": 1
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "I put my phone on silent and didn't look at it for the entire movie.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "Blue called me 17 times while I was watching the movie.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "When the movie ended and I saw 17 missed calls, I thought it was an emergency and called her back immediately.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "Blue answered aggressively, saying she'd been trying to call me and I finally had time for her. When I asked if something happened, she said no — she just wanted to show me some cool cosplay stuff she got.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "When I explained I was at a movie theater, Blue said I could have just texted her so no one would hear me, making it sound like I was obligated to answer.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "OUTCOME",
+      "content": "I felt bad but also wanted to tell her off for making me panic with 17 calls over something that wasn't an emergency.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 593,
+  "true_urgency": "Observation",
+  "specialty": "Psychiatry",
+  "self_diagnosis": "generalized anxiety disorder",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have been feeling very anxious and on edge for the past couple of months."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "This has been going on for about 2 months and is gradually getting worse."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "I have trouble sleeping and my mind races at night."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "I have been having heart palpitations and sweating more than usual."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a5",
+      "content": "The anxiety is affecting my work performance and daily life significantly."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a6",
+      "content": "I am a 32-year-old woman and I went through a stressful job change about 3 months ago."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a7",
+      "content": "I worry constantly about things that did not used to bother me."
+    }
+  ]
+}

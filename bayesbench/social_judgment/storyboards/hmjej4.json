@@ -1,0 +1,72 @@
+{
+  "id": "hmjej4",
+  "title": "aita for kicking a kid out of my daughter\u2019s bday party?",
+  "text": "(this was pre-covid) my daughter was in 1st grade at this time. we were having her birthday party and got her a bouncy castle. we invited everyone in her class, so - around 20 kids. some parents stuck around and helped. others dropped off their kids and left. the kids took off their shoes and playing in the bouncy castle. but at some point we were moving on to the next thing, so the kids came out of the bouncy castle and started putting their shoes on. that\u2019s when i saw that my daughter couldn\u2019t find her shoes - because another kid, let\u2019s call him ethan, was running around in hers. then, this other kid, robert (whose parents were not there), came up to me looking distressed, and i saw that he also couldn\u2019t find his shoes, and that\u2019s when i saw ethan was wearing robert\u2019s shoes on his hands as gloves.  so i catch up to ethan and ask him to return my daughter and robert\u2019s shoes. he laughs and runs away. so i catch up to him again and ask, a little bit more sternly, to return the shoes, as he was being rude and disrespectful to my daughter and robert. he blows a raspberry at me and runs off again. ethan\u2019s parents are seeing this and not really doing anything (everything is sort of just on hold now because we can\u2019t move on to the next thing if not all the kids have their shoes back!) - so i walk over to ethan\u2019s parents and ask if their son could return the shoes and we can move on with the party. they shrugged and said that \u201ctheir son was having fun and that\u2019s what being a kid is all about.\u201d they then told me to relax, to not be \u201cunnecessarily punitive\u201d, and said that \u201csurely i can just go grab some more shoes for my daughter from the house?\u201d i was taken aback by how blas\u00e9 this seemed to them. i say that i\u2019m not here to tell anyone to discipline their kids, i just want the kids to have their shoes so the party can continue. i also point out how unfair they\u2019re being to robert, who now is just standing there not sure what to do, and has no shoes and no parents to defend him. the parents just shrug and say it\u2019s not their business, and to \u201clet kids be kids.\u201d  at this point i\u2019ve had enough, so i said that since they clearly seem to prioritize indulging their son over giving basic respect the other kids, i am going to have to ask them to leave (after ethan returns the shoes). they seemed shocked but comply after ranting about how rude i was.  the other parents who witnessed this are almost all on my side, and robert\u2019s parents were also grateful when they found out. but ethan\u2019s parents have been on the warpath since, saying all kinds of stuff ranging from accusing me of violating the \u201cinvite every classmate to birthday parties rule\u201d to saying that i hate children. it\u2019s been over six months of this, and they\u2019ve been somewhat successful at convincing some parents who weren\u2019t there that i was an asshole for kicking ethan out. so, reddit, was i?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My daughter was in 1st grade. We were having her birthday party with a bouncy castle and invited everyone in her class — about 20 kids.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "A kid named Ethan took my daughter's shoes and was running around in them, and was wearing another kid Robert's shoes on his hands as gloves. Robert's parents weren't there to defend him.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I caught up to Ethan twice and asked him to return the shoes, the second time more sternly.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "Ethan laughed, blew a raspberry at me, and ran off both times I asked him to return the shoes.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "Ethan's parents watched the whole thing and did nothing. When I asked them to have their son return the shoes, they shrugged and said their son was having fun and that's what being a kid is all about. They told me to relax and suggested I just grab more shoes from the house.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I pointed out how unfair they were being to Robert, who was standing there with no shoes and no parents to defend him.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I told Ethan's parents that since they clearly prioritize indulging their son over giving basic respect to the other kids, I was going to have to ask them to leave.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "REACTION",
+      "content": "The other parents who witnessed it were almost all on my side, and Robert's parents were grateful when they found out.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "Ethan's parents have been on the warpath for over six months, accusing me of violating the 'invite every classmate' rule and saying I hate children. They've convinced some parents who weren't there that I was wrong.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

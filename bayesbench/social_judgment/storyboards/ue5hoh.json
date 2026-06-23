@@ -1,0 +1,51 @@
+{
+  "id": "ue5hoh",
+  "title": "aita for texting someone late at night",
+  "text": "don't just read, leave your opinion please, the more opinions the better. i texted someone, as i have done dozens of times before for years, not 12am even 2-3am which never was a problem once. this time they get mad at me saying \"people are sleeping\". i personally put my phone to silent when going to sleep where only important people can call me or text and second attempt calls go through by default, this is also because my phone always makes noises for incoming emails, etc. so until now it didn't even fly past my head that someone would expect to not be texted after a certain time. i want to know what the majority of people think, i always thought people would put their phone on do not disturb because phones have it and i always used it but maybe i am a minority that uses this feature. for the record, if a decent majority of people actually expect such behavior i have no problem rolling with it, that is why i am here and if someone wants me to not text them obviously i won't. also not sure if it is against the rules but please say why you think i am an asshole if so. so i am here to find out the percentage of people who personally think and expect others to not text them after their sleeping schedule",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I have been texting this person at late hours, including 2-3am, dozens of times over the years, and it was never a problem before.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "I texted someone at 2-3am.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "They got mad at me and said \"people are sleeping.\"",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACCOUNT",
+      "content": "I personally put my phone on silent when going to sleep, so it never crossed my mind that someone would expect not to be texted after a certain time.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "I always assumed people would use the do-not-disturb feature on their phones since every phone has it and I always use it myself.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "If a decent majority of people expect me not to text late at night, I have no problem respecting that. And if someone asks me not to text them, I obviously won't.",
+      "valence": "pro_poster",
+      "importance": 2
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "khjm9v",
+  "title": "aita for refusing to babysit for my brother and sil after they previously told me they don't trust me",
+  "text": "i (28m) have an older brother (31m) and sil (30f) who have a 3-year old son and sil is about 7-months pregnant with their second child. i am a single man in my 20s and live by myself. as such, i live a fairly typical bachelor lifestyle. i enjoy going out to bars and clubs, in the past i have attended music festivals and dabbled in drug use, and i do not apologize for it. it's the way i am choosing to live my life right now. but i am also working full-time for a fortune 500 company and making well over 6-figures. all in all, i like to think that i have my stuff together pretty well for a person my age.  when my brother and sil had their first kid, sil pretty much told me in no uncertain terms that she would never trust me to watch her son by myself. she told this to me completely on her own and when i asked my brother about it, he pretty much just sided with her and shrugged. now, i admit that some aspects of my lifestyle are not kid-friendly. but i also understand there is a time and a place for everything and i would never do anything to put my nephew in any compromised situation. i have never pressed the topic with sil or my brother and until recently it has never been a problem. a few weeks ago my brother called me in the middle of the night and asked if i could watch their son. sil was having stomach pains and they needed to go to the hospital but they had no one else to watch their son. sil's parents were quarantined after covid exposure, and every other option they had couldn't do it. i was literally a last resort. i asked if sil was ok with it, and my brother said she didn't know he was asking me and he was desperate. i told him the only way i would be ok with it was if sil asked me herself because i didn't want to cause an issue. my brother told me they didn't have time and they would drop off my nephew on the way to the hospital in an hour. when they got to my apartment i went down to meet them and sil saw me and recognized where they were and started screaming at my brother. she started yelling questions at me like whether or not i have drugs on the counter, or if i have a girl up there with me. so i told my brother i was sorry, but this wasn't going to work. i told him i love him and hope everything works out and i told sil the same but she ignored me and told my brother to take her to the hospital. everything at the hospital ended up being ok and sil and baby are healthy. she wasn't going into early labor and they were back home the next day. however, my brother called me after that and said i was a huge asshole for not helping. i said it wasn't really my decision as sil made it pretty clear in the moment that she didn't want her son staying with me. he said i should have just taken my nephew as sil was in no condition to make a rational decision.  my mom called me the other day and said i should apologize to my brother and sil for what i did, but i don't think i was even in the wrong. was i an asshole for not helping them?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I am a 28-year-old single man. I enjoy going to bars and clubs, have attended music festivals and dabbled in drug use, but I also work full-time at a Fortune 500 company making well over six figures.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "When my brother and SIL had their first kid, my SIL told me in no uncertain terms that she would never trust me to watch her son by myself. My brother sided with her and shrugged.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "My brother called me in the middle of the night because SIL was having stomach pains and they needed to go to the hospital. SIL's parents were quarantined and every other option fell through -- I was literally a last resort.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I asked if SIL was okay with me watching their son. My brother said she didn't know he was asking me. I told him the only way I would do it was if SIL asked me herself, because I didn't want to cause an issue.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "When they arrived at my apartment, SIL saw where they were and started screaming at my brother. She yelled questions at me like whether I had drugs on the counter or a girl upstairs with me.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I told my brother I was sorry but this wasn't going to work. I said I love him and hope everything works out, and told SIL the same, but she ignored me.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I felt it wasn't really my decision since SIL made it clear both previously and in the moment that she didn't want her son staying with me. I didn't want to override her wishes and cause more conflict.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "Everything at the hospital ended up being okay -- SIL and baby are healthy, and they were back home the next day.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "REACTION",
+      "content": "My brother called me afterward and said I was a huge asshole for not helping. He said I should have just taken my nephew because SIL was in no condition to make a rational decision.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a10",
+      "category": "REACTION",
+      "content": "My mom called me and said I should apologize to my brother and SIL for what I did.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 158,
+  "true_urgency": "Routine",
+  "specialty": "Gastroenterology",
+  "self_diagnosis": "lactose intolerance",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a1",
+      "content": "I keep getting stomach cramps and diarrhea"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a2",
+      "content": "The cramping and loose stools come and go rather than staying constant"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "I have not seen any blood in my stool"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "This has been going on for a few weeks, happening on and off"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a5",
+      "content": "The cramping is uncomfortable but not severe and it does not stop me from doing my normal activities"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a6",
+      "content": "I am a 26-year-old woman with no significant past medical history"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "reassuring",
+      "importance": 4,
+      "id": "a7",
+      "content": "The symptoms are worse after eating certain foods and get better when I avoid dairy"
+    }
+  ]
+}

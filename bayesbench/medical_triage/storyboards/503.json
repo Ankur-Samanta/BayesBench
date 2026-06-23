@@ -1,0 +1,64 @@
+{
+  "case_id": 503,
+  "true_urgency": "Urgent",
+  "specialty": "Hematology",
+  "self_diagnosis": "leukemia or blood disorder",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have unusual bruises all over my body that appeared without any injury or bump that I can remember.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I have been getting nosebleeds that are very hard to stop.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "My gums bleed every time I brush my teeth.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "I have been getting frequent infections lately.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "SYMPTOM",
+      "content": "I have lost about 10 pounds in the past month without trying to lose weight.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "I feel very tired all the time. The bleeding is happening in multiple places and is hard to control.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "TIMELINE",
+      "content": "All of these symptoms have been developing and getting worse over the past 6 weeks.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "CONTEXT",
+      "content": "I am a 45-year-old woman with no significant medical history and I am not on any medications.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    }
+  ]
+}

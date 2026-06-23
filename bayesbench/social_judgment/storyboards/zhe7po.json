@@ -1,0 +1,58 @@
+{
+  "id": "zhe7po",
+  "title": "aita for 'not taking care of my stuff'",
+  "text": "my husband and i had to run an errand today. i went into the store first, i took my purse with me but left my phone in the car, something i do often, we always lock the car doors. my husband came in after me. he had brought in one of our many reusable shopping bags in case we bought anything (we live in a state with a plastic bag ban). we ended up buying something and i was carrying it (cumbersome item). i needed to grab one small thing so i asked my husband to take the cumbersome item from me. he did and passed me the reusable bag. i set the bag down at the checkout when i again picked up the cumbersome item to leave. we got all the way home before he asked me about the bag. i honestly hand't even thought about it, and apologized for apparently leaving it behind. he said \"oh, well, it had your phone in it.\" i started to get irritated because i left it safely in the car and there was no reason to bring it in in the first place. he blamed me because leaving my phone in the car was \"not taking care of my stuff\". we argued about it, and i blamed him for micromanaging my things and deciding what i should or should't do with them. the phone was safe as far as i was concerned, and wouldn't have been left in a store if he had left it alone in the first place. he thinks i'm an asshole for placing any of the blame on him. what say you?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My husband and I had to run an errand today. I went into the store first and took my purse but left my phone in the car, something I do often. We always lock the car doors.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "My husband came in after me. Without telling me, he put my phone in the reusable shopping bag he brought in.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I was carrying a cumbersome item and asked my husband to take it. He did and passed me the reusable bag. I set the bag down at checkout when I picked the cumbersome item back up to leave.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "OUTCOME",
+      "content": "We got all the way home before he asked me about the bag. I honestly hadn't even thought about it. He told me it had my phone in it.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "My husband blamed me, saying leaving my phone in the car was 'not taking care of my stuff.'",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I blamed him for micromanaging my things and deciding what I should or shouldn't do with them.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I left my phone safely in a locked car and there was no reason to bring it in. The phone wouldn't have been left in a store if he had left it alone in the first place.",
+      "valence": "pro_poster",
+      "importance": 4
+    }
+  ]
+}

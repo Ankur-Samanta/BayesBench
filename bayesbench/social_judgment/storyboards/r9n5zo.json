@@ -1,0 +1,65 @@
+{
+  "id": "r9n5zo",
+  "title": "aita for wanting a pc",
+  "text": "so heres a little context, i\u2019ve been dreaming of a pc for 4 years. in 2018, i asked my dad if i could get a pc and he said yes the day came and  he said next year. understandable so i saved more money happened again for the next years to come. last year he got me a laptop worth 1k dollars (more like forced it)when i literally said i didnt want one/a desktop worth 50% less would be better now the aptop was ok , for google. but school projects requiring things likelike video editing were just laggy,  even though he got me a  laptop, he said it had nothing to do with the pc so i could still have one now i\u2019ve saved up for 4 years and he said he would add up if it wasnt enough. recently, i asked him if i could get one for christmas since i had some money over the 4 years and that he would add. he started getting mad at me\u2026 he said i already got a laptop and how i should be grateful, mind you he just gave it to me , and yes he did make me decide, but only between 2 similar laptops. he started spewing in about how i wasnt studying. he kept saying i wasnt focusing on my subjects like english or science. context again:  every fucking time i try to concentrate on another subject apart from math, he gets mad as well. he claims  i don\u2019t study math.  basically a hell loop of getting scolded for not studying math and when i do study math, he claims i don\u2019t study my other subjects. he also went on about how my cousin (graduated a degree that had nothing to do with math or banks)  got a job and told me how hard life is he went on this sermon about how hard it is to get money. i just said, \u201cthats because she had a degree with nothing to do with banking. ofc shes gonna get the lowest pay.  why do you think am i studying to go to engineering in the first place?\u201d   she got low pay because shes underqualified. im getting engineering so that i can get high pay and not be underqualified   i said that that was the only reason i was studying for a good course in the first place. he kept trying to say that no matter how good my course would be, i would have the same pay as someone who was under qualified either way. i still don\u2019t get how thats possible. thats like saying a guy who worked out would still get beaten in arm wrestling by someone who never exercised a day regardless of how much he worked harder. so, aita for dreaming of getting a pc? note: if getting a job was possible at my age, i would have gotten one right away. they\u2019re all 92 . my dad just says i don\u2019t study because he saw me watching anime at 10 pm before bed. says i should study every minute and not have fun in life.  even during the sem break and last christmas breaks, he got mad at me for not studying during the break. and how smart people i  my class study even during the break. told him how i saw the \u201csmart people\u201d playing valorant on discord. claimed i was ma- i do t wanna continue this part. pisses me off everytime i think of the phrase",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I've been dreaming of getting a PC for 4 years. In 2018 I asked my dad if I could get one and he said yes, but when the day came he said next year. This happened again for the following years.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "Last year my dad got me a laptop worth $1,000 that I didn't want. I literally said I didn't want one and that a desktop worth 50% less would be better. He forced it on me and only let me choose between two similar laptops.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "The laptop was okay for Google, but school projects requiring things like video editing were laggy. Even though he got me the laptop, he said it had nothing to do with the PC, so I could still have one.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I've saved up money for 4 years and recently asked my dad if I could get a PC for Christmas, since I had money saved and he said he would add to it if it wasn't enough.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "My dad started getting mad at me. He said I already got a laptop and I should be grateful. He started saying I wasn't studying and wasn't focusing on my subjects.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "Every time I try to concentrate on a subject apart from math, he gets mad. When I study math, he claims I don't study my other subjects. It's basically a hell loop of getting scolded no matter what I do.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "My dad says I don't study because he saw me watching anime at 10 PM before bed. He says I should study every minute and not have fun in life. Even during semester and Christmas breaks, he got mad at me for not studying.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "When my dad lectured me about how hard life is using my cousin's low-paying job as an example, I told him she got low pay because her degree had nothing to do with banking and that's why I'm studying engineering.",
+      "valence": "neutral",
+      "importance": 2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 918,
+  "true_urgency": "Observation",
+  "specialty": "Gastroenterology",
+  "self_diagnosis": "chronic constipation",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have been going to the bathroom much less often than usual and my stool is harder than normal."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a2",
+      "content": "I have also been having mild cramping in my belly."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "Drinking more water and eating more fiber has helped a little but has not fully fixed the problem."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "These changes in my bowel habits have been going on for about 2 months and have stayed stable."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "id": "a5",
+      "content": "The discomfort is mild and is not severely limiting my daily life."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a6",
+      "content": "I am a 50-year-old man. I have a sedentary lifestyle and my diet is low in fiber."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a7",
+      "content": "I have not seen any blood in my stool."
+    }
+  ]
+}

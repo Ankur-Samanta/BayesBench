@@ -1,0 +1,72 @@
+{
+  "id": "e0anhb",
+  "title": "aita for telling my stepmom i didn\u2019t want my tweezers back after she used them to pluck an ingrown hair from her private area?",
+  "text": "sorry if this is gross but i\u2019m mega grossed out myself.  i\u2019m 17 years old and basically my dad is a very strict guy who doesn\u2019t like when i work. he likes to shelter me. i\u2019m allowed to work when i\u2019m at my moms place but with my dad i can\u2019t be on shift at my job or he gets funny. i\u2019m basically waiting til i hit 18 and then i never get to stay with my dad again. because of strong family pressure that\u2019s the only reason i go.  anyway i have very limited funds, that\u2019s what i\u2019m getting at. for a white girl i\u2019m unfortunately very prone to long thick ingrown hairs on my legs. it\u2019s disgusting, itchy, they look like thick black lines under my pale white skin and it creeps me out and i compulsively itch and dig at my skin until i get them out.  in order to try minimize damage i purchased a pair for of tweezerman ingrown hair tweezers which cost me a lot of money. i know the $ is nothing to some people but it was expensive for me. i keep them in their special pouch in my makeup bag and i take that makeup bag with me when i visit my dad and stepmom.  now my stepmom, i really dislike her. she isnt rude per se but i definitely don\u2019t feel welcome when she\u2019s around and she treats me waaaayyy differently to her kids with my dad. i don\u2019t have a relationship with her but because my whole family are very strongly religious i have to go to be a good christian blah blah. anyway when i was eating some cereal downstairs she snuck into my room and took my tweezers and used them to pluck an ingrown hair that was covered in pus from her private area. she then replaced them. when she came down she said she \u2018borrowed them\u2019 for that purpose in front of my dad.  i was so angry but i know better to yell so i asked her to clarify. she said she had worn tight panties the week before and she needed to borrow my tweezers and said i might wanna wash them. i told her she had no right to touch my stuff and my dad interrupted and said \u2018everything in this house is ours unless i tell you otherwise\u2019.  i\u2019m pretty emotional i can\u2019t lie so i did cry, which i\u2019m annoyed about, and i told my dad she could keep the nasty ass tweezers, i didn\u2019t want them back. i also called her a thieving loser because i just couldn\u2019t believe someone went into my makeup bag. i went back to my moms and she promised to buy me a new pair, but she also wants me to apologize to my dad and stepmom for disrespecting them in their house.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I'm 17 years old with very limited funds. My dad is strict and doesn't let me work when I'm at his place, so I can only earn money at my mom's. I only visit my dad because of strong family and religious pressure.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "I purchased a pair of specialty tweezerman ingrown hair tweezers that cost me a lot of money. I keep them in a special pouch in my makeup bag.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "I really dislike my stepmom. She isn't rude exactly, but I don't feel welcome when she's around and she treats me very differently from her own kids with my dad.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "While I was eating cereal downstairs, my stepmom snuck into my room, took my tweezers from my makeup bag, and used them to pluck a pus-covered ingrown hair from her private area. She then put them back.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "My stepmom came downstairs and announced in front of my dad that she had 'borrowed' my tweezers for that purpose and said I might want to wash them.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I told her she had no right to touch my stuff.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "My dad interrupted and said 'everything in this house is ours unless I tell you otherwise.'",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "I cried, told my dad she could keep the nasty tweezers because I didn't want them back, and called my stepmom a thieving loser. Then I went back to my mom's house.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "REACTION",
+      "content": "My mom promised to buy me a new pair of tweezers, but she also wants me to apologize to my dad and stepmom for disrespecting them in their house.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

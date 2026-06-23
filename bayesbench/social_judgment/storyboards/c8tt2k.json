@@ -1,0 +1,51 @@
+{
+  "id": "c8tt2k",
+  "title": "aita for going off at a guy i\u2019ve been seeing for sliding in my sisters dms?",
+  "text": "hey so this is my first post and i\u2019m hoping someone can help me out here.  so i (21f) have been seeing a guy (20m) who i met on tinder- it\u2019s nothing serious and that\u2019s exactly what i wanted, no strings attached. however this weekend he slid into my sister\u2019s (18f) dms on twitter- she immediately told me as she had met him slightly vaguely once when she threw my cat at us while we were in bed (she thought he was my ex as they have the same name).  i immediately texted him in mild jest; saying that that was my sister and he got incredibly defensive asking how he was meant to know that (my sister and i interact fairly frequently on twitter and beside that we look quite alike). anyways conversation faded out but today he has once again sent her the what\u2019s up. am i the asshole for being annoyed at this? am i the asshole if i call him out again? should i just delete him from all my social media?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I've been seeing a guy I met on Tinder. It's nothing serious and that's exactly what I wanted — no strings attached.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "This weekend, the guy I've been seeing slid into my sister's DMs on Twitter. My sister and I interact frequently on Twitter and we look quite alike.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "My sister immediately told me about his message. She had briefly met him once before when she came into the room while we were in bed.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I immediately texted him in a joking way, saying that was my sister he had messaged.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "He got incredibly defensive and asked how he was supposed to know that was my sister.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "After the conversation faded out, he sent my sister another message today saying \"what's up\" — meaning he continued to DM her even after I told him she was my sister.",
+      "valence": "pro_poster",
+      "importance": 5
+    }
+  ]
+}

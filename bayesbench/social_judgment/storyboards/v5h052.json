@@ -1,0 +1,15 @@
+{
+  "id": "v5h052",
+  "title": "aita for yelling at my mom?",
+  "text": "my mom is white and laughed at my mixed son when i braided his hair saying he doesn\u2019t have the right hair type for it. my son has 3a/3b hair. she also says he shouldn\u2019t wear bonnets or durags to bed because, \u201che doesn\u2019t need it\u201d. so when i came home last night after braiding his hair and she laughed i went off on her and told her i\u2019d stop bringing him around her. she of course says she\u2019s just looking out for him. aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {"id": "a1", "category": "ORIENTATION", "content": "My mom is white, and my son is mixed race with 3a/3b hair texture.", "valence": "neutral", "importance": 2},
+    {"id": "a2", "category": "ACTION_OTHER", "content": "My mom laughed at my son when I braided his hair, saying he doesn\u2019t have the right hair type for it.", "valence": "pro_poster", "importance": 5},
+    {"id": "a3", "category": "ACTION_OTHER", "content": "She also says he shouldn\u2019t wear bonnets or durags to bed because \u201che doesn\u2019t need it.\u201d", "valence": "pro_poster", "importance": 4},
+    {"id": "a4", "category": "ACTION_POSTER", "content": "When I came home last night after braiding his hair and she laughed, I went off on her.", "valence": "against_poster", "importance": 4},
+    {"id": "a5", "category": "ACTION_POSTER", "content": "I told her I\u2019d stop bringing my son around her.", "valence": "against_poster", "importance": 5},
+    {"id": "a6", "category": "ACTION_OTHER", "content": "She says she\u2019s just looking out for him.", "valence": "pro_poster", "importance": 3}
+  ]
+}

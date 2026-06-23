@@ -1,0 +1,16 @@
+{
+  "id": "mz7v2e",
+  "title": "wibta if i don\u2019t invite my friend to my grad party?",
+  "text": "i am having a grad school graduation party with friends and family to be invited. i have one \u201cfriend\u201d i have been trying to phase out of my life as her inappropriate choices of conversation and vulgar language are inappropriate for most places, and she\u2019s what i will refer to as a \u201cjoy stealer\u201d. she is not the type of person that can be happy for somebody else and always has a negative comment to make about anything. for these reasons i don\u2019t want to invite her to the party. i am quite confident she would have negative comments to make and would definitely act in a manner that would offend some of my family members. for some additional background we\u2019ve been friends for over 10 years, i\u2019ve recently started to phase her out of my life as i feel with maturity we have grown apart. i don\u2019t think she\u2019s even aware i\u2019m trying to do this. with so many mutual friends i still see her quite often. she has asked if i was planning a grad party, and i do believe she would find out through the grapevine. so my question is, wibta if i i don\u2019t choose to invite her for reasons mentioned above? on one hand, we have a lot of history together and i don\u2019t want to hurt her feelings nor do i think she would understand the lack of invite, on the other hand, this was a big accomplishment for me and i want to celebrate without having to babysit anybody\u2019s behavior.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {"id": "a1", "category": "ORIENTATION", "content": "I am having a grad school graduation party with friends and family invited. We\u2019ve been friends for over 10 years, but I\u2019ve recently started to phase her out of my life as I feel we have grown apart with maturity.", "valence": "neutral", "importance": 3},
+    {"id": "a2", "category": "ACCOUNT", "content": "My friend uses inappropriate language and vulgar conversation that is unsuitable for most settings. She is not the type of person who can be happy for someone else and always has a negative comment to make.", "valence": "pro_poster", "importance": 4},
+    {"id": "a3", "category": "ACTION_POSTER", "content": "I don\u2019t want to invite her to my graduation party.", "valence": "against_poster", "importance": 5},
+    {"id": "a4", "category": "ACCOUNT", "content": "I am quite confident she would make negative comments and act in a manner that would offend some of my family members.", "valence": "pro_poster", "importance": 4},
+    {"id": "a5", "category": "ACCOUNT", "content": "This was a big accomplishment for me and I want to celebrate without having to babysit anybody\u2019s behavior.", "valence": "pro_poster", "importance": 3},
+    {"id": "a6", "category": "ACTION_OTHER", "content": "She has asked me if I was planning a grad party, and I believe she would find out about it through our mutual friends.", "valence": "against_poster", "importance": 3},
+    {"id": "a7", "category": "ACCOUNT", "content": "I don\u2019t think she\u2019s even aware I\u2019m trying to phase her out, and I don\u2019t want to hurt her feelings. I don\u2019t think she would understand the lack of an invite.", "valence": "against_poster", "importance": 3}
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "kn9mxn",
+  "title": "wibta if i flaked on my promise to cover rent?",
+  "text": "my roommate and i are coming up on the end of our lease. my parents live in town, and so i moved back home for quarantine, as one of the main reasons for my apartment was to be closer to university, which is completely online.  also, my roommate moved out a few months early as we are not renewing our lease and he signed a lease with some friends at a different place because he didn\u2019t want to miss his window to move in with them. thus, he has been making two rent payments the last few months.  this month, he asked if i could cover his part of the rent until payday and i agreed.  i\u2019ve been packing my stuff up and noticed a few items missing that were definitely there when i moved back home a few months ago. i messaged my roommate and he vehemently denied accidentally taking them or otherwise and guaranteed that they are somewhere in the apartment.  i\u2019m about 90% certain that they are not, as i\u2019ve basically packed up everything that is mine that is not in his room. these particular items only total about 30-50 usd, although i am starting to get concerned that there are more items missing that i just haven\u2019t noticed yet (although aside from the few missing items i have noticed, this worry is unsubstantiated). i\u2019m considering rescinding my offer to cover his rent, although i made this offer a few weeks ago and rent is due in two days. i am not concerned about the items themselves, but more about the principal. it seems unlikely that the items are still in the apartment or that they otherwise left the apartment without him knowing.  wibta if i sent him a text that said \u201csorry, something has come up and i cannot cover your rent anymore?\u201d with such short notice? ",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My roommate and I are coming up on the end of our lease. I moved back home for quarantine and he moved out early, signing a lease at a different place. He has been making two rent payments the last few months.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "This month, my roommate asked if I could cover his part of the rent until payday, and I agreed.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "While packing up, I noticed a few items missing that were definitely there when I moved back home a few months ago. The items total about $30-50.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "I messaged my roommate and he vehemently denied accidentally taking my items or otherwise, and guaranteed they are somewhere in the apartment.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "I'm about 90% certain the items are not in the apartment, as I've basically packed up everything of mine that isn't in his room. It seems unlikely the items are still here or left without him knowing.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I am considering rescinding my offer to cover his rent by texting him that something came up and I can't cover it anymore. Rent is due in two days.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I am not concerned about the items themselves, but more about the principle. I'm also starting to worry there may be more items missing that I haven't noticed yet, though that concern is unsubstantiated.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

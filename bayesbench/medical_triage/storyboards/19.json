@@ -1,0 +1,57 @@
+{
+  "case_id": 19,
+  "true_urgency": "Urgent",
+  "specialty": "Cardiology",
+  "self_diagnosis": "angina heart disease",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I've been having this tight, squeezing pain in my chest that comes and goes."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "The pain spreads to my left arm and jaw sometimes."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "I get really short of breath and sweaty when it happens."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a4",
+      "content": "It started about 2 weeks ago and has been getting more frequent and intense in the last 3 days."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a5",
+      "content": "The pain hits about a 7 out of 10 and each episode lasts 5 to 10 minutes."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a6",
+      "content": "It used to happen when I was climbing stairs or walking fast, but now even carrying groceries sets it off."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "I'm a 58-year-old man. I'm overweight and I smoke."
+    }
+  ]
+}

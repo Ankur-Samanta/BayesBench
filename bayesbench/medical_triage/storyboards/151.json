@@ -1,0 +1,64 @@
+{
+  "case_id": 151,
+  "true_urgency": "Routine",
+  "specialty": "Cardiology",
+  "self_diagnosis": "heart palpitations arrhythmia",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "content": "My heart races and flutters, especially in the evenings when I am trying to relax."
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "content": "Sometimes it feels like my heart skips a beat."
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "content": "I get a bit short of breath when climbing stairs, which never used to happen."
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "I feel tired more easily lately."
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "These symptoms have been slowly building up over the past 3 months."
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "content": "The symptoms are noticeable but I can still do my daily activities. They mainly bother me during exercise and when I am relaxing at night."
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "content": "I am a 42-year-old woman with no chest pain."
+    },
+    {
+      "id": "a8",
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 3,
+      "content": "The fluttering happens most when I am sitting quietly in the evening, not just during activity."
+    }
+  ]
+}

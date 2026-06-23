@@ -1,0 +1,272 @@
+# BayesBench model registry
+# Maps model nicknames (passed to --model) to HuggingFace models + specs.
+
+models:
+  # Qwen Models
+  qwen2b:
+    hf_name: "Qwen/Qwen2.5-3B-Instruct"
+    nickname: "qwen2b"
+    family: "qwen"
+    size: "3B"
+    context_length: 32768
+    trust_remote_code: true
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|im_end|>"]
+
+  qwen3b:
+    hf_name: "Qwen/Qwen2.5-3B-Instruct"
+    nickname: "qwen3b"
+    family: "qwen"
+    size: "3B"
+    context_length: 32768
+    trust_remote_code: true
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|im_end|>"]
+
+  qwen7b:
+    hf_name: "Qwen/Qwen2.5-7B-Instruct"
+    nickname: "qwen7b"
+    family: "qwen"
+    size: "7B"
+    context_length: 32768
+    trust_remote_code: true
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|im_end|>"]
+
+  qwen14b:
+    hf_name: "Qwen/Qwen2.5-14B-Instruct"
+    nickname: "qwen14b"
+    family: "qwen"
+    size: "14B"
+    context_length: 32768
+    trust_remote_code: true
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|im_end|>"]
+
+  qwen32b:
+    hf_name: "Qwen/Qwen2.5-32B-Instruct"
+    nickname: "qwen32b"
+    family: "qwen"
+    size: "32B"
+    context_length: 32768
+    trust_remote_code: true
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|im_end|>"]
+
+  qwen4b:
+    hf_name: "Qwen/Qwen3-4B-Instruct-2507"
+    nickname: "qwen4b"
+    family: "qwen"
+    size: "4B"
+    context_length: 262144
+    trust_remote_code: true
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|im_end|>"]
+
+  # Llama Models
+  llama3b:
+    hf_name: "meta-llama/Llama-3.2-3B-Instruct"
+    nickname: "llama3b"
+    family: "llama"
+    size: "3B"
+    context_length: 131072
+    trust_remote_code: false
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|eot_id|>"]
+
+  llama8b:
+    hf_name: "meta-llama/Llama-3.1-8B-Instruct"
+    nickname: "llama8b"
+    family: "llama"
+    size: "8B"
+    context_length: 131072
+    trust_remote_code: false
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|eot_id|>"]
+
+  llama70b:
+    hf_name: "meta-llama/Llama-3.3-70B-Instruct"
+    nickname: "llama70b"
+    family: "llama"
+    size: "70B"
+    context_length: 131072
+    trust_remote_code: false
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|eot_id|>"]
+
+  # Phi Models
+  phi4b:
+    hf_name: "microsoft/Phi-3.5-mini-instruct"
+    nickname: "phi4b"
+    family: "phi"
+    size: "3.8B"
+    context_length: 131072
+    trust_remote_code: true
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|end|>"]
+
+  # Mistral 3 Models
+  mistral3b:
+    hf_name: "mistralai/Ministral-3-3B-Instruct-2512"
+    nickname: "mistral3b"
+    family: "mistral"
+    size: "3B"
+    context_length: 131072
+    trust_remote_code: true
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["</s>"]
+
+  mistral8b:
+    hf_name: "mistralai/Ministral-3-8B-Instruct-2512"
+    nickname: "mistral8b"
+    family: "mistral"
+    size: "8B"
+    context_length: 131072
+    trust_remote_code: true
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["</s>"]
+
+  mistral14b:
+    hf_name: "mistralai/Ministral-3-14B-Instruct-2512-BF16"
+    nickname: "mistral14b"
+    family: "mistral"
+    size: "14B"
+    context_length: 131072
+    trust_remote_code: true
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["</s>"]
+
+  # OLMo Models
+  olmo7b:
+    hf_name: "allenai/OLMo-3-7B-Instruct"
+    nickname: "olmo7b"
+    family: "olmo"
+    size: "7B"
+    context_length: 65536
+    trust_remote_code: false
+    torch_dtype: "bfloat16"
+    chat_template: true
+    stop_tokens: ["<|im_end|>"]
+
+  # OpenAI GPT-OSS Models (MoE with native MXFP4 quantization)
+  gptoss20b:
+    hf_name: "openai/gpt-oss-20b"
+    nickname: "gptoss20b"
+    family: "gptoss"
+    size: "20B"
+    context_length: 131072
+    trust_remote_code: true
+    torch_dtype: "auto"
+    chat_template: true
+    stop_tokens: ["<|endoftext|>"]
+
+  gptoss120b:
+    hf_name: "openai/gpt-oss-120b"
+    nickname: "gptoss120b"
+    family: "gptoss"
+    size: "120B"
+    context_length: 131072
+    trust_remote_code: true
+    torch_dtype: "auto"
+    chat_template: true
+    stop_tokens: ["<|endoftext|>"]
+
+  # Kimi K2 Models (MoE with native INT4 quantization)
+  kimi_k2:
+    hf_name: "moonshotai/Kimi-K2-Instruct"
+    nickname: "kimi_k2"
+    family: "kimi"
+    size: "1T"
+    context_length: 131072
+    trust_remote_code: true
+    torch_dtype: "auto"
+    chat_template: true
+    stop_tokens: ["<|endoftext|>"]
+
+  kimi_k2_thinking:
+    hf_name: "moonshotai/Kimi-K2-Thinking"
+    nickname: "kimi_k2_thinking"
+    family: "kimi"
+    size: "1T"
+    context_length: 262144
+    trust_remote_code: true
+    torch_dtype: "auto"
+    chat_template: true
+    stop_tokens: ["<|endoftext|>"]
+
+  # Llama 405B (AWQ INT4 quantized)
+  # Note: On 8x A100 40GB, max context ~32K due to KV cache memory limits
+  llama405b:
+    hf_name: "hugging-quants/Meta-Llama-3.1-405B-Instruct-AWQ-INT4"
+    nickname: "llama405b"
+    family: "llama"
+    size: "405B"
+    context_length: 32768
+    trust_remote_code: false
+    torch_dtype: "auto"
+    chat_template: true
+    stop_tokens: ["<|eot_id|>"]
+
+# Default LoRA Configuration
+default_lora_config:
+  r: 32
+  lora_alpha: 64
+  lora_dropout: 0.0
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  target_modules: "auto"  # Will be set per model family
+
+# Model-specific LoRA configurations
+lora_configs:
+  qwen:
+    target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  llama:
+    target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  phi:
+    target_modules: ["qkv_proj", "o_proj", "gate_up_proj", "down_proj"]
+  mistral:
+    target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  gptoss:
+    target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  kimi:
+    target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  olmo:
+    target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+
+# Memory Management
+memory_config:
+  max_models_loaded: 2  # Maximum base models in memory
+  max_adapters_per_model: 10  # Maximum adapters per base model
+  cleanup_threshold: 0.8  # GPU memory threshold for cleanup
+  adapter_cache_size: 100  # Total adapter cache size across all models
+
+# Inference Backend Configuration
+inference_config:
+  backend: "vllm"  # "transformers" or "vllm"
+  # vLLM-specific settings (ignored when using transformers)
+  max_num_seqs: 256  # Maximum number of sequences to process in parallel
+  max_model_len: null  # Maximum model context length (null = use model default)
+  gpu_memory_utilization: 0.9  # Fraction of GPU memory to use
+  tensor_parallel_size: 4  # Number of GPUs for tensor parallelism (16 heads / 4 = 4 heads per GPU)
+  pipeline_parallel_size: 1  # Number of GPUs for pipeline parallelism
+  trust_remote_code: true  # Trust remote code for model loading
+  dtype: "auto"  # Data type for model weights
+  enforce_eager: false  # Disable CUDA graphs (useful for debugging)
+  # LoRA support in vLLM
+  enable_lora: true  # Enable LoRA adapter support
+  max_loras: 4  # Maximum number of LoRA adapters
+  max_lora_rank: 64  # Maximum LoRA rank supported
+  max_cpu_loras: null  # Max LoRAs in CPU memory (null = unlimited)

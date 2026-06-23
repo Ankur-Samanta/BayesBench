@@ -1,0 +1,16 @@
+{
+  "id": "pjavgz",
+  "title": "aita for wanting to quit my job when i'm the only employee?",
+  "text": "i just got hired a few weeks ago for a small business and i was told very vaguely about what i would be doing. i said \"yeah, no problem, i can do all of that easy.\" well, since i was trained and then left on my own, i've realized there's a lot more to my job than what i was originally told. i'm essentially the one running the business and i work under the owner. this is my first job out of college, i have a marketing degree, and i legitimately have no idea what i'm doing as far as explaining to customers about tinting. i have no passion for tinting or cars, and i find myself dreading to go to work and hating my 9 hour shift all 5 days of the week. i'm the only employee, and he only hired me because i said i wouldn't leave right away after getting the job. he's been struggling to hire someone who will stay longer than 6 months, and here i am wanting to quit after 4 weeks. i really really don't want to make his life harder than it already is, but this is already taking a toll on my mental health and my happiness. don't get me wrong, he's a very nice guy, but this job is just not cut out for me. am i the asshole for wanting to quit my job when i'm the only employee and i'm the one basically running the business?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {"id": "a1", "category": "ORIENTATION", "content": "I just got hired a few weeks ago at a small business. I was told very vaguely about what I would be doing, and I said no problem.", "valence": "neutral", "importance": 3},
+    {"id": "a2", "category": "ORIENTATION", "content": "This is my first job out of college. I have a marketing degree, and I legitimately have no idea what I'm doing when it comes to explaining tinting to customers.", "valence": "pro_poster", "importance": 3},
+    {"id": "a3", "category": "ACTION_OTHER", "content": "Since I was trained and left on my own, I've realized there's a lot more to the job than what I was originally told. I'm essentially the one running the entire business under the owner.", "valence": "pro_poster", "importance": 5},
+    {"id": "a4", "category": "ACTION_POSTER", "content": "I want to quit after only 4 weeks, even though I told the owner I wouldn't leave right away when I was hired.", "valence": "against_poster", "importance": 5},
+    {"id": "a5", "category": "ACCOUNT", "content": "I have no passion for tinting or cars, and I find myself dreading going to work and hating my 9-hour shifts 5 days a week. It's taking a toll on my mental health and happiness.", "valence": "pro_poster", "importance": 4},
+    {"id": "a6", "category": "ORIENTATION", "content": "I'm the only employee. The owner has been struggling to hire someone who will stay longer than 6 months.", "valence": "against_poster", "importance": 4},
+    {"id": "a7", "category": "ACCOUNT", "content": "I really don't want to make his life harder than it already is. He's a very nice guy, but this job is just not cut out for me.", "valence": "pro_poster", "importance": 2}
+  ]
+}

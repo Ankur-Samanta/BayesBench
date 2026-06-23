@@ -1,0 +1,57 @@
+{
+  "case_id": 544,
+  "true_urgency": "Routine",
+  "specialty": "Gastroenterology",
+  "self_diagnosis": "acid reflux disease",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "content": "I keep getting heartburn and acid coming back up into my throat"
+    },
+    {
+      "id": "a2",
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "This has been happening on and off for a few months"
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "content": "I get a burning feeling in my chest when the acid comes up"
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "Sometimes I get a sour or bitter taste in my mouth"
+    },
+    {
+      "id": "a5",
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "It's worse after big meals or spicy food, and much worse when I lie down at night. Antacids help but the symptoms always come back"
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "content": "The discomfort is mild to moderate and hasn't stopped me from doing things day to day"
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "I'm a 40-year-old man and I'm overweight"
+    }
+  ]
+}

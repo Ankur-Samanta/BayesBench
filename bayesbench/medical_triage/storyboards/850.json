@@ -1,0 +1,57 @@
+{
+  "case_id": 850,
+  "true_urgency": "Urgent",
+  "specialty": "Pulmonology",
+  "self_diagnosis": "acute bronchitis COPD exacerbation",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have a productive cough that has been getting worse over the past 10 days and I am coughing up yellowish-green mucus.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I am short of breath even when I am just sitting still and not doing anything.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "My chest feels tight and heavy.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "SEVERITY",
+      "content": "I have a fever of 101 degrees and I am so exhausted I cannot do my normal daily activities. I have completely lost my appetite.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "This started 10 days ago and has been getting steadily worse since then.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "content": "I am a 65-year-old man and I have COPD. I have been a smoker for many years.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "content": "My breathing problems are present even at rest, not just during activity.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    }
+  ]
+}

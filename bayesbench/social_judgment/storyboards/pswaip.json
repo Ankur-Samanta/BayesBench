@@ -1,0 +1,15 @@
+{
+  "id": "pswaip",
+  "title": "aita for not consulting my dad before quitting my job?",
+  "text": "i (22f) decided to quit my part time job due to stress. when i got home i told my dad and he's now mad at me.  i live with him because the housing situation in my city sucks majorly. i need some time to recoup and give myself some self care and love, but my dad is pissed off at me because i didn't tell him or talk to him beforehand.  my younger brother (16m) is special needs and requires a level of care, so money is kinds tight and i was paying a little less than half of utilities, but apparently he'll have a hard time paying the extra money.  plus, he now needs to pay for my dog's food and any care he might need. but i don't feel like i did anything wrong because i was struggling and i don't have to get permission from my father to do what i want with my life.  my dad says that i should've consulted him beforehand though.",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {"id": "a1", "category": "ORIENTATION", "content": "I am 22 years old and live with my dad because the housing situation in my city is bad. My younger brother is 16 and has special needs that require a level of care, so money is tight.", "valence": "neutral", "importance": 3},
+    {"id": "a2", "category": "ORIENTATION", "content": "I was paying a little less than half of the utilities, and my dad also covers my dog\u2019s food and care.", "valence": "against_poster", "importance": 4},
+    {"id": "a3", "category": "ACTION_POSTER", "content": "I decided to quit my part-time job and told my dad after I had already done it, without consulting him beforehand.", "valence": "against_poster", "importance": 5},
+    {"id": "a4", "category": "ACCOUNT", "content": "I was struggling with stress and needed some time to recoup and give myself self-care. I don\u2019t feel like I need permission from my father to make decisions about my own life.", "valence": "pro_poster", "importance": 3},
+    {"id": "a5", "category": "ACTION_OTHER", "content": "My dad is now mad at me and says I should have consulted him beforehand, because he\u2019ll have a hard time paying the extra money.", "valence": "pro_poster", "importance": 4},
+    {"id": "a6", "category": "OUTCOME", "content": "My dad now has to cover my share of utilities and my dog\u2019s expenses on top of his existing financial obligations.", "valence": "against_poster", "importance": 4}
+  ]
+}

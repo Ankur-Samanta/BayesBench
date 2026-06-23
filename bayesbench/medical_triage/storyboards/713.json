@@ -1,0 +1,57 @@
+{
+  "case_id": 713,
+  "true_urgency": "Observation",
+  "specialty": "Rheumatology",
+  "self_diagnosis": "rheumatoid arthritis",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have pain and stiffness in multiple joints \u2014 my fingers, wrists, and knees."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "My joints look a bit puffy and swollen."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "I have been feeling generally tired and run down."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a4",
+      "content": "The stiffness is worst in the morning and lasts more than an hour before it loosens up."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a5",
+      "content": "This has been getting progressively worse over the past 2 months."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a6",
+      "content": "The morning stiffness and joint pain are limiting what I can do, especially in the mornings."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a7",
+      "content": "I am a 45-year-old woman with no previous joint disease or arthritis diagnosis."
+    }
+  ]
+}

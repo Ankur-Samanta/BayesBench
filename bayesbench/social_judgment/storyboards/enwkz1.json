@@ -1,0 +1,72 @@
+{
+  "id": "enwkz1",
+  "title": "aita for not inviting my friend's friend to a sleepover at my house?",
+  "text": "so i\u2019ve had this group of friends that i\u2019ve been close with since we were young, and about a year ago, one of those friends introduced his friend that a few of us knew on an acquaintance level, and we\u2019ve since made him a \u201cmember\u201d of our group, so to speak. now for the driving scenario: i decided to invite some of those friends to a sleepover at my house since we\u2019re all going back to college soon and because i thought it would be a fun idea. since i\u2019m not all that close with that person like i am the rest of the group, i decided not to invite him initially, but he texted me yesterday asking if i wanted to hang out this saturday. i didn\u2019t respond partially because i got caught up with other things, and because i had a feeling he\u2019d suspected i didn\u2019t invite him. so he texted me the same thing again a few minutes ago tonight, and i responded by telling him that i\u2019m planning a sleepover at my place if he\u2019s interested. he agreed to come, but a few minutes later, he told me that he asked because he hung out with the others on friday at the house of the friend who introduced us, and before he left, one person said \u201csee you on saturday.\u201d confused by this, he asked the host, and the host told him of the sleepover, and that i probably chose not to invite him because i\u2019m not as close with him as i am with the others (which is true). this person then got upset because they felt left out, and the host then advised him to ask me why i hadn\u2019t invited him. i told him everything i\u2019ve included in this post (me not inviting him since we\u2019re not that close) and apologized for potentially offending him. he claimed he wasn\u2019t offended, and that was the end of the conversation. even though i apologized and extended the invite, i still feel kind of bad for not inviting him at first even though he\u2019s so close with the friend who introduced him to us. so commenters, you be the judge. aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I have a close group of friends I've known since we were young. About a year ago, one friend introduced someone new that a few of us knew on an acquaintance level, and he has since become a member of our group.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "I decided not to invite the newer member to my sleepover.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACCOUNT",
+      "content": "I'm not as close with him as I am with the rest of the group.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "He texted me asking if I wanted to hang out this Saturday.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I didn't respond, partially because I got caught up with things, and because I suspected he knew about the sleepover.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "He found out about the sleepover when another friend accidentally said 'see you on Saturday' while he was hanging out with the group on Friday. The host confirmed the sleepover existed and said I probably didn't invite him because we're not that close.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "When he texted me again, I responded by telling him I'm planning a sleepover at my place and invited him to come. He agreed.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "I told him honestly that I hadn't invited him because we're not that close, and I apologized for potentially offending him.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "He claimed he wasn't offended, and that was the end of the conversation.",
+      "valence": "pro_poster",
+      "importance": 2
+    }
+  ]
+}

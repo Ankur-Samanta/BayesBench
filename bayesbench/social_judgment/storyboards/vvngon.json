@@ -1,0 +1,72 @@
+{
+  "id": "vvngon",
+  "title": "aitah for not turning off my xbox?",
+  "text": "i'm 18(f) and i live with my mom along with my other 4 siblings and my nephew.  my 2year old nephew goes into my cat's food bin and throws it out into the hallway all the time. my big sister(his mother) does not clean it up and only tells him to stop or not to play with it, etc. leaving me to clean it. so i swept it after my mom woke me up and said that my nephew spilled cat food all over the hall. so i got up and swept it. that was yesterday.  today i'm playing injustice with my sibling and she barges into the room and tells me i never swept the floor. which i did. so i told her \"i did\" and she said \"i didn't do it right and how i'm too old to not sweep floors right. \" and i honestly didn't know i left any behind plus it's a whole new day my nephew could've thrown it all over again. but it wasn't a lot it was a few scattered. so i said \"okay i'll sweep it right now\"  she said okay and i thought everything was all good till she said \"turn off your xbox and stay off of it you aren't allowed to play it.\"  and i asked \"why? and how i was still going to clean it up\" and she goes \" i'm punishing you. i bought you that xbox so do as you're told\"  after a few backs and forth and threats to kick me out. i refused to turn it off. so she unplugged my sister's tv (cause i was in her room) and told us \"not to plug it back in since i'm not listening\" so i brought my tv in here.  but she bought me that xbox for christmas last year. and i'm turning 19 in a few months. and she never takes my older sister's things and she barely cleans up after him and she does leave messes out but my mom never says anything. i feel like i'm too old to be getting my phone and xbox taken from me. plus i said i'd clean it up so it shouldn't be a big deal right? so aitah?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I'm 18 years old and I live with my mom, four siblings, and my 2-year-old nephew. My nephew regularly gets into my cat's food bin and throws it all over the hallway.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "My big sister, the nephew's mother, never cleans up after him when he spills the cat food. She only tells him to stop, leaving me to clean it.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "Yesterday, my mom woke me up saying my nephew spilled cat food all over the hall, so I got up and swept it.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "Today while I was playing Xbox with my sibling, my mom barged in and told me I never swept the floor. When I said I did, she said I didn't do it right and that I'm too old to not sweep floors correctly.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I offered to sweep it right now, and she said okay. I thought everything was fine.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "She then told me to turn off my Xbox and stay off it as punishment, saying she bought it for me so I have to do as I'm told. She also threatened to kick me out.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I refused to turn off the Xbox. When she unplugged my sister's TV, I brought my own TV in instead.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I feel like I'm too old to be getting my phone and Xbox taken from me at almost 19. Plus I had already said I'd clean it up, so it shouldn't have been a big deal.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "My mom never takes my older sister's things or says anything about her messes, even though she barely cleans up after her own son.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

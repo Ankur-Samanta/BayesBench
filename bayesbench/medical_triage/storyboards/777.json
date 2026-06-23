@@ -1,0 +1,57 @@
+{
+  "case_id": 777,
+  "true_urgency": "Routine",
+  "specialty": "Ophthalmology",
+  "self_diagnosis": "pink eye",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a1",
+      "content": "My child's right eye is red and irritated"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "There is a yellowish gooey discharge that glues his eyelashes together in the morning"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "His eye feels itchy and gritty, like something is stuck in it"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a4",
+      "content": "This started 3 days ago and seems to be getting a little better on its own"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a5",
+      "content": "The discomfort is mild and his vision seems fine"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a6",
+      "content": "He is an 8-year-old boy with no previous eye problems"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "No vision changes or significant pain, and the redness is slowly improving"
+    }
+  ]
+}

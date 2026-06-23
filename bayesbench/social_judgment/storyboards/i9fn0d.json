@@ -1,0 +1,65 @@
+{
+  "id": "i9fn0d",
+  "title": "aita for simply requesting my boyfriend charge his phone after potentially calling the police on him?",
+  "text": "so my (f19) boyfriend (m20) never charges his phone.  we live together and he has charger next to his bed and he never plugs it in.  every time i call him to talk he has to end the call early because his phone is about to die or it does die.  now this is irritating and i\u2019ve gotten used to it but it\u2019s gotten out of hand. coronavirus where i live had died down a bit so restaurants are opening up for people to eat at them. we share each other\u2019s location just in case anything happens and for safety.   before he left the house i asked him what his phone battery was at and he said 25% so i reminded him to charge his phone in his friend\u2019s car.  he went out late at night with some friends for dinner.  he met up with friends from another town in a town in the middle.  the friend who picked him up left early and he called me letting me know i shouldn\u2019t go to sleep since he would call me in an hour or two to pick him up since his friends were going the other direction and his ride left early.  i was fine with it.  he\u2019s never been in the town he went to, but i could track him so it was good.  he called me later saying that his friends were leaving and to pick him up.  i got ready to pick him up. on the way there, i call him and his phone is dead.  i try to see his location and it says no location found.  it\u2019s one am and i don\u2019t know where he is.  he\u2019s alone with no way home.  i looked for him for half an hour and couldn\u2019t find him.  i thought about calling the police to help out.  eventually i found him outside a cvs.  we got into a huge argument on the way back about him going out with 25% and not charging his phone in his friends car or during class which lead into talking about how his phone is always low or dead. our friends are split.  some say he should be more responsible and have his phone charged just in case of an emergency.  others are saying i\u2019m being too dramatic about the situation and that nothing happened. i should add he has a phone case with a portable charger built in. so aita for wanting him to be more responsible and charge his phone?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My boyfriend never charges his phone. He has a charger next to his bed and a phone case with a built-in portable charger, but he never plugs in. Every time I call him he has to end the call early because his phone is about to die.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "We live together and share each other's locations for safety. He went out late at night with friends for dinner in a town he's never been to before.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "Before he left, I asked what his phone battery was at. He said 25%, so I reminded him to charge his phone in his friend's car.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "His ride left early, so he called me to say I should stay up to pick him up in an hour or two since his other friends were going the other direction.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "When he called me to come pick him up, his phone died before I could reach him. His location showed 'no location found.' He was alone in an unfamiliar town at 1 AM with no way home.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I drove around looking for him for half an hour and considered calling the police. I eventually found him outside a CVS.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "On the way home, we got into a huge argument about him going out with 25% battery and never charging his phone.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "REACTION",
+      "content": "Our friends are split. Some say he should be more responsible and keep his phone charged for emergencies. Others say I'm being too dramatic and nothing happened.",
+      "valence": "neutral",
+      "importance": 2
+    }
+  ]
+}

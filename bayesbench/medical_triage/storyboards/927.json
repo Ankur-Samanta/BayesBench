@@ -1,0 +1,57 @@
+{
+  "case_id": 927,
+  "true_urgency": "Emergency",
+  "specialty": "Mental Health",
+  "self_diagnosis": "severe depression suicidal crisis",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I can't stop thinking about ending my life and I have a plan to do it with pills"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "These thoughts about ending my life have been constant for the past week, but I've been feeling really low for about six months"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a3",
+      "content": "I already wrote goodbye notes to people"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "I keep having racing thoughts and panic attacks"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a5",
+      "content": "I haven't been sleeping or eating properly in days and I've completely withdrawn from everyone around me"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a6",
+      "content": "Everything feels completely hopeless and nothing matters to me anymore"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a7",
+      "content": "I'm a 19-year-old female college student"
+    }
+  ]
+}

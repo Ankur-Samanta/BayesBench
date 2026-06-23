@@ -1,0 +1,57 @@
+{
+  "case_id": 149,
+  "true_urgency": "Routine",
+  "specialty": "Cardiology",
+  "self_diagnosis": "heart palpitations stress",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a1",
+      "content": "I keep getting a fluttering feeling in my chest that comes and goes"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "When the fluttering happens I feel lightheaded"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "My heart seems to race for a few minutes and then goes back to normal on its own"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "I get more tired than usual when I climb stairs"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a5",
+      "content": "These episodes have been coming and going for the past 3 months"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "id": "a6",
+      "content": "The symptoms are noticeable but I can still go about my day and keep working"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a7",
+      "content": "I am a 42-year-old woman and the episodes tend to happen when I am stressed at work"
+    }
+  ]
+}

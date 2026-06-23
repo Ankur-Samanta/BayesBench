@@ -1,0 +1,72 @@
+{
+  "id": "bdl9bj",
+  "title": "aita for not wanting to buy this guy a new phone screen that 'i broke'",
+  "text": "so today i was at the gym, doing legs, and i was putting weights on the squat machine (my gym doesn't have squat racks). i started my set when i heard something fall and hit the ground. i looked down and it was a phone so i put it to the side on the floor. it was on top of the machine so i didnt see it,also i have very bad vision and wasnt wearing glasses at the moment.  i mean why would someone put their phone on a machine they're not using. a bit later this guy comes to me all angry and rude saying how im gonna buy him a new one if it was broke. luckily only the screen protector was broken, not the actual screen. i didn't take him seriously. later, when i was leaving the gym he stopped me and said 'u think im joking ?' and pushed me outside. then  he threatened me saying i better dont find out whats gonna happen if i dont  bring him the new  screen protector tommorw. he also yelled at me,cursed me and called me names. he would literally beat me over 5$ screen protector. have in mind that im just a teen and he is well over 20 and also bigger than me. its to the point that i would rather go to a different gym even tho i just paid for the next month. im not sure what should i do.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I was at the gym doing legs, putting weights on the squat machine. I have very bad vision and wasn't wearing my glasses.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "I started my set on the squat machine. Something fell and hit the ground -- it was a phone that had been on top of the machine.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACCOUNT",
+      "content": "I didn't see it because it was on top of the machine and I have very bad vision and wasn't wearing glasses.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACCOUNT",
+      "content": "I don't understand why someone would put their phone on a machine they're not using.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "A guy came up to me all angry and rude, saying I was going to buy him a new phone if it was broken. Luckily only the screen protector was broken, not the actual screen.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I didn't take him seriously.",
+      "valence": "against_poster",
+      "importance": 2
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "When I was leaving the gym, he stopped me, said 'you think I'm joking?', pushed me outside, and threatened me, saying I'd better find out what's going to happen if I don't bring him a new screen protector tomorrow. He yelled at me, cursed at me, and called me names.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "ORIENTATION",
+      "content": "I am just a teenager and he is well over 20 and much bigger than me.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "I would rather go to a different gym even though I just paid for the next month. I'm not sure what to do.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

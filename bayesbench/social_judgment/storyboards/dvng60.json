@@ -1,0 +1,16 @@
+{
+  "id": "dvng60",
+  "title": "aita for not being in contact with my dad?",
+  "text": "apologies for language errors. i'm from a small european country, english being my 3rd language.  so i'm 23f and my brother is 25 now. i feel like i was taken more care of by my brother than my father my childhood.  we had a really toxic and abusive relationship with my father, he raised us up as a single father. the relationship ended up making me depressed and it destroyed my self esteem for years.  now that it's been few days since father's day, this came up on my mind again. i had two blocked messages incoming and i opened them, both from my father, begging me to speak with him. he has some mental issues himself, he is abusive, narcissistic, he was admitted to a mental hospital when i part ways with him 2 years ago. he has also problems with drinking.  so, even though he hurt me in many ways, 'he is still my father'. aita for not answering him? it bothers me that in one way i feel so guilty for that he has lost contact to both of his children, but also the relationship was so toxic. he keeps telling that he's got help now and is stable but that story is getting old.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {"id": "a1", "category": "ORIENTATION", "content": "I'm 23 years old. My father raised me and my brother as a single father.", "valence": "neutral", "importance": 2},
+    {"id": "a2", "category": "ORIENTATION", "content": "We had a really toxic and abusive relationship with my father. The relationship made me depressed and destroyed my self-esteem for years. I feel like my brother took more care of me than my father did during my childhood.", "valence": "pro_poster", "importance": 5},
+    {"id": "a3", "category": "ORIENTATION", "content": "My father has mental health issues, is abusive and narcissistic, has problems with drinking, and was admitted to a mental hospital when I cut contact with him 2 years ago.", "valence": "pro_poster", "importance": 4},
+    {"id": "a4", "category": "ACTION_POSTER", "content": "I cut off contact with my father 2 years ago and have not been speaking to him since.", "valence": "against_poster", "importance": 5},
+    {"id": "a5", "category": "ACTION_OTHER", "content": "My father sent me two messages begging me to speak with him. He keeps telling me he's gotten help now and is stable.", "valence": "against_poster", "importance": 4},
+    {"id": "a6", "category": "ACCOUNT", "content": "He keeps saying he's gotten help and is stable, but that story is getting old. The relationship was so toxic that I can't go back.", "valence": "pro_poster", "importance": 3},
+    {"id": "a7", "category": "OUTCOME", "content": "He has lost contact with both of his children. I feel guilty about that, but the relationship was too toxic.", "valence": "neutral", "importance": 3}
+  ]
+}

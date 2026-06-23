@@ -1,0 +1,57 @@
+{
+  "case_id": 825,
+  "true_urgency": "Emergency",
+  "specialty": "Pulmonology",
+  "self_diagnosis": "blood clot in lung",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I suddenly can't catch my breath even when I'm just sitting still"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "There's a sharp pain in my chest every time I try to breathe in"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a3",
+      "content": "My right leg is swollen and sore"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "My heart is racing and I feel really anxious"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a5",
+      "content": "The breathing trouble came on suddenly about 2 hours ago, and the leg swelling started during my long flight back from Europe earlier today"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a6",
+      "content": "It's so bad I can barely finish a sentence without stopping to gasp for air"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "I'm a 47-year-old woman and I just got off a very long international flight from Europe"
+    }
+  ]
+}

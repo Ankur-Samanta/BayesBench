@@ -1,0 +1,57 @@
+{
+  "case_id": 499,
+  "true_urgency": "Urgent",
+  "specialty": "Hematology",
+  "self_diagnosis": "iron deficiency anemia",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I've been feeling extremely tired and weak for the past month, more than I've ever felt before.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "My skin has been looking very pale and my friends have commented on it too.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I get short of breath doing simple activities like walking up stairs.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "I've been having headaches and feeling dizzy when I stand up.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "The fatigue has been building up progressively over the past month.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "The tiredness is significantly affecting my daily life and I can't do things I normally do.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I'm a 38-year-old woman with a history of heavy menstrual periods.",
+      "urgency_signal": "neutral",
+      "importance": 5
+    }
+  ]
+}

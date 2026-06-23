@@ -1,0 +1,16 @@
+{
+  "id": "ox0p4j",
+  "title": "aita for calling cops on kids left to run around in a carpark?",
+  "text": "i work in a retail store in a shopping complex and our entrance is 2 large sliding glass doors so we can see the car park.  i noticed a car which had 2 kids (aged 6 & 9 i would guess) left alone for quite some time.  the kids obviously got bored, so they started playing with the windows, then leaning out the windows, then climbing out the windows and getting in top of the car (large suv type) they were then running in circles around the car. i was very worried at this point, because\u2026it\u2019s a car park and cars were going past where they were running fairly often.  at this point it has been over an hour and a half, so i went out and asked the older kid where their parents were, and they said they were shopping inside.  after another 20 minutes of them getting more daring, i called the police non emergency line and let them know that i was worried about these children\u2019s safety.  the police arrived and waited next to the car until their dad finally came out to grab something from the car. the policeman talked to him for a bit (i couldn\u2019t hear what was said as i was back inside) and left. the kid i talked to then pointed at me and the dad laughed and flipped the bird at me and angrily stormed back to finish his shopping.  so, should i have just minded my own business? aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {"id": "a1", "category": "ORIENTATION", "content": "I work in a retail store in a shopping complex with large glass doors facing the car park. I noticed a car with two kids, roughly aged 6 and 9, left alone.", "valence": "neutral", "importance": 2},
+    {"id": "a2", "category": "ACTION_OTHER", "content": "The kids got bored and started playing with the windows, then leaning out, then climbing out and getting on top of the SUV. They were running in circles around the car in a car park where cars were going past fairly often.", "valence": "pro_poster", "importance": 4},
+    {"id": "a3", "category": "ACTION_POSTER", "content": "After over an hour and a half, I went out and asked the older kid where their parents were. They said their parents were shopping inside.", "valence": "pro_poster", "importance": 3},
+    {"id": "a4", "category": "ACTION_POSTER", "content": "After another 20 minutes of the kids getting more daring, I called the police non-emergency line and reported that I was worried about the children's safety.", "valence": "neutral", "importance": 5},
+    {"id": "a5", "category": "ACTION_OTHER", "content": "The father had left his young children alone in the car for nearly two hours while he went shopping inside.", "valence": "pro_poster", "importance": 5},
+    {"id": "a6", "category": "OUTCOME", "content": "The police arrived and waited next to the car until the dad came out. The officer spoke with him briefly.", "valence": "neutral", "importance": 2},
+    {"id": "a7", "category": "OUTCOME", "content": "The kid I had talked to pointed at me, and the dad laughed, flipped me the bird, and angrily stormed back inside to finish his shopping.", "valence": "pro_poster", "importance": 3}
+  ]
+}

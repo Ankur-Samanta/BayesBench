@@ -1,0 +1,64 @@
+{
+  "case_id": 333,
+  "true_urgency": "Emergency",
+  "specialty": "Neurology",
+  "self_diagnosis": "stroke",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I woke up with the worst headache of my life \u2014 it felt like an explosion going off inside my head."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "My right arm feels weak and numb."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a3",
+      "content": "I'm having trouble speaking clearly."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a4",
+      "content": "My vision has gone blurry and I'm having trouble keeping my balance."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a5",
+      "content": "My wife says one side of my face looks droopy."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a6",
+      "content": "Everything started suddenly about 2 hours ago when I woke up."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "I've also vomited twice this morning."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a8",
+      "content": "I'm a 57-year-old man."
+    }
+  ]
+}

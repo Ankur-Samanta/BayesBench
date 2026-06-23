@@ -1,0 +1,58 @@
+{
+  "id": "zdbr3v",
+  "title": "aita for considering going to my uncles funeral?",
+  "text": "i f29 am estranged from my family, due to my mum who was a single parent having mental health issues and being abusive to me as a child. i was made homeless by her at 14 for about 3months before my uncle (her brother 'uncle w') found out and took me in. i moved out by my choice at 16 although uncle w helped me with bills ect and between 16 and now i tried several times to form a relationship with my mum but it always ended with he'd being abusive again and me cutting off contact saying i won't have a relationship until she got help...her getting in contact months/year later lying saying she had got help and changed and then the cycle continued until i met my now husband at 18 and finally had the love & support i missed and i cut her off permanently. when i cut my mum off at 18 i lost the rest of my family too (apart from uncle w who was low contact with only my mum until he took me in and then no contact with any of them). i recently found out from a friend in england who lives near the rest of my family (i & half family live in scotland) that my uncle d died from a fall. uncle d and i were very close growing up, since i had no dad he and uncle w were my favourite uncles (i have 4) and they always stepped up and did the father daughter stuff at school and were the male role model in my life. i losted contact with uncle d at 16 due to lies my mum told and i don't know i'm kind of a mess. i have so many childhood memories that are happy only because of him and uncle w and i am torn wether i have a right to go say goodbye?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I am 29 and estranged from my family. My mum was a single parent with mental health issues who was abusive to me as a child. She made me homeless at 14.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My uncle W found out I was homeless and took me in. He and my uncle D were like father figures to me growing up — they stepped up for father-daughter events at school since I had no dad.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "Between ages 16 and 18, I tried several times to form a relationship with my mum, but she would lie about getting help and the cycle of abuse continued until I cut her off permanently at 18.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "OUTCOME",
+      "content": "When I cut my mum off at 18, I lost contact with the rest of my family too, except for uncle W. I lost contact with uncle D at 16 due to lies my mum told.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "I recently found out from a friend that my uncle D died from a fall. My family didn't inform me directly.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I am considering going to uncle D's funeral to say goodbye, even though I'm estranged from the rest of the family who will be there.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I have so many childhood memories that are happy only because of uncle D and uncle W. I feel torn about whether I have the right to go say goodbye.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 1098,
+  "true_urgency": "Observation",
+  "specialty": "Urology",
+  "self_diagnosis": "benign prostatic hyperplasia",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I've been needing to urinate much more frequently than I used to. It's been happening more and more over the past few months.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "My urine stream is a lot weaker than it used to be. It used to be strong and now it's just a trickle.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I feel like I can never fully empty my bladder. Even after I go, it feels like there's still something left.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "I'm waking up 2 to 3 times every night to use the bathroom. It's really affecting my sleep.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "This has been gradually getting worse over about 6 months. It's been a slow change, not sudden.",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "There's no pain at all, just discomfort and inconvenience. It's annoying but I can still manage my daily life — it mainly just disrupts my sleep.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I'm a 62-year-old man. I don't have any known urinary or prostate conditions that have been diagnosed.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": 796,
+  "true_urgency": "Routine",
+  "specialty": "Gastroenterology",
+  "self_diagnosis": "peptic ulcer disease",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I've been having a burning pain in my upper stomach \u2014 kind of in the middle, below my chest. It's been bothering me for a few months now.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I feel bloated a lot more than I used to, and sometimes food just feels like it's sitting in my stomach and not moving. It's an uncomfortable heavy feeling.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "TIMELINE",
+      "content": "The symptoms started gradually about 3 months ago and have become more consistent and predictable over the last 6 weeks.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    },
+    {
+      "id": "a4",
+      "category": "ASSOCIATED",
+      "content": "The burning is worst between meals and at night, but eating something makes it feel better for a little while. After 2 to 3 hours though, the pain comes right back.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ASSOCIATED",
+      "content": "Over-the-counter antacids give me some relief but it doesn't last \u2014 the symptoms keep coming back no matter what I try.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "The discomfort is moderate \u2014 I can still work and do most things normally, but I've changed what and how much I eat because I'm worried about triggering the pain.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    },
+    {
+      "id": "a7",
+      "category": "SYMPTOM",
+      "content": "I've been eating less than usual because I worry the pain will come back when I eat.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a8",
+      "category": "CONTEXT",
+      "content": "I'm a 42-year-old male. I haven't lost any weight.",
+      "urgency_signal": "reassuring",
+      "importance": 1
+    }
+  ]
+}

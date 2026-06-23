@@ -1,0 +1,51 @@
+{
+  "id": "ck17fh",
+  "title": "aita for stealing beer from a summer job?",
+  "text": "ok, so i am working at a local craft brewery this summer that packages around 60,000 l of beer a day. i work on the packaging team and have noticed a large amount of beer being wasted. what happens is cans fall off the line, and are deemed not fit to sell because they are dented or scratched. this beer is then dumped directly into the drain. when i asked my boss why they don\u2019t let the employees take them home or at a discount he said in the past people sold the beer giving the company a bad reputation.  i understand this is a fair reason, and i am selfishly taking some beer home only to be consumed by myself and family. i do feel guilty stealing the beer, but knowing the other option is pouring it down the drain... aita?",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I work at a local craft brewery that packages around 60,000 liters of beer a day. I'm on the packaging team.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "A large amount of beer gets wasted — cans fall off the line, get dented or scratched, and are deemed not fit to sell. This beer is dumped directly into the drain.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I asked my boss why they don't let employees take the damaged cans home or buy them at a discount.",
+      "valence": "pro_poster",
+      "importance": 2
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "My boss said that in the past, people sold the beer and it gave the company a bad reputation, so employees aren't allowed to take it.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I've been taking some beer home anyway, only for myself and my family to consume.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I understand my boss's reason is fair, and I do feel guilty about stealing the beer. But knowing the alternative is pouring it down the drain makes me feel like it's not that bad.",
+      "valence": "pro_poster",
+      "importance": 4
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "gsnwub",
+  "title": "aita for accidentally stealing someone\u2019s pizza and telling the delivery guy to fuck off?",
+  "text": "hi all long time lurker first time posting. i finally have a moment to share. so this happened just recently and i wanted to get an opinion while it\u2019s still fresh. i was sitting on my couch watching netflix after smoking a joint. i hear a knock, open then the door to find a  dominos pizza  and some brownies were  delivered on my doorstep. i thought nothing of it at first since my brother orders the same combo on a weekly basis ever since the pandemic started. i see the delivery guy about to leave, and thanked him. i give my brother the food and he immediately starts attacking the brownies. not even 10 minutes later i hear another knock at the door and it\u2019s the same delivery guy. here\u2019s how the conversation went down.  op=me ob= op\u2019s brother  dg: delivery guy dg: hey the pizza i gave you, was the order yours? op: what?...should be? hey ob did you order again? ob: no. you didn\u2019t?   op: i\u2019m sorry i thought my brother got something.  dg: you didn\u2019t check it? op: i saw that the pizza was different but.. sorry. dg: you still ate the pizza  after knowing? op: it was a mistake what can i do?! fuck off! dg: fuck this shit! after that he just walks off. i wasn\u2019t going pay for it because i didn\u2019t know. maybe me being high made me more anxious and confrontational. i asked my brother if he wanted to pay but hen just shrugged and continued eating. i don\u2019t think it\u2019s a big deal the people who ordered the pizza will likely get another with extra sides for free. so aita?",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I was sitting on my couch watching Netflix after smoking a joint. My brother regularly orders the same Domino's pizza and brownies combo on a weekly basis.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "I heard a knock at the door, found a Domino's pizza and brownies on my doorstep, and took the food inside assuming my brother had ordered it. I gave my brother the food and he immediately started eating.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I noticed the pizza was different from what my brother usually orders, but I didn't check or question it at the time.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "The delivery guy came back less than 10 minutes later and asked if the order was actually mine. He pointed out that I had still eaten the pizza even after seeing it was different.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "When the delivery guy confronted me, I said \"it was a mistake, what can I do?!\" and told him to fuck off.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I refused to pay for the pizza because I didn't know it wasn't ours. I asked my brother if he wanted to pay but he just shrugged and kept eating.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "Maybe being high made me more anxious and confrontational than I would normally be.",
+      "valence": "pro_poster",
+      "importance": 2
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I don't think it's a big deal because the people who ordered the pizza will likely get another one with extra sides for free.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

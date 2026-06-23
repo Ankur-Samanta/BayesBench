@@ -1,0 +1,64 @@
+{
+  "case_id": 1036,
+  "true_urgency": "Urgent",
+  "specialty": "Urology",
+  "self_diagnosis": "kidney infection",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I've been having severe burning pain every time I urinate — it's been going on for about a week and it's really bad.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I noticed blood in my urine. It's been there for the past week and it's really worrying me.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "Last night I developed a high fever with chills — I was shaking and just felt awful. That's never happened before with this.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "My lower back on the right side has been hurting really badly. It's a deep ache that won't go away.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "SYMPTOM",
+      "content": "I feel like I need to urinate every 30 minutes but when I go, barely anything comes out. It's really frustrating and uncomfortable.",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "TIMELINE",
+      "content": "The burning and blood in my urine started about 7 days ago. Everything got dramatically worse in the last 24 hours — that's when the fever and back pain kicked in.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "SEVERITY",
+      "content": "The pain is at an 8 out of 10. I can barely sit still and I haven't been able to do anything normal today — I'm in real distress.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "CONTEXT",
+      "content": "I'm a 42-year-old male and I don't have any major medical history. This came out of nowhere.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

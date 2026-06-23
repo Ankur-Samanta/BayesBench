@@ -1,0 +1,51 @@
+{
+  "id": "a0f9k1",
+  "title": "aita for offending someone who i've known for 1 week?",
+  "text": "i've known this girl for a week that i met off tinder, and we went on a date and had fun. a few days later we were talking about my friend who is currently in an abusive relationship it came up and we went down that rabbit hole. one of the important facts is that my friend will use he doesn't want to be single as an excuse to not break up as i talk to him about how it's not healthy. i mentioned this to her and she said maybe he has dependent disorder or something along those lines where he is dependent on another person. all i said back was i've know the kid for 2 years he doesn't have a dependdence issue, it's not that severe with him. she flipped out at me calling me an asshole for saying he's not that severe. and that by saying severe i don't care about him and don't really give a shit about his issues. aita for simply saying i know he doesn't have a personality dependence issue and that his dependence isn't that severe?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I've known this girl for a week — we met on Tinder, went on a date, and had fun.",
+      "valence": "neutral",
+      "importance": 1
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "We were talking about my friend who is currently in an abusive relationship. He uses not wanting to be single as an excuse to not break up, even though I've told him it's not healthy.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "She suggested that my friend might have dependent personality disorder or something similar where he is dependent on another person.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I said I've known my friend for 2 years and he doesn't have a dependence issue — it's not that severe with him.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "I felt I could speak to my friend's situation because I have been actively talking to him about the relationship being unhealthy.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "She flipped out at me, calling me an asshole for saying \"it's not that severe.\" She said that by using the word \"severe\" I was showing I don't care about my friend and don't really give a shit about his issues.",
+      "valence": "pro_poster",
+      "importance": 5
+    }
+  ]
+}

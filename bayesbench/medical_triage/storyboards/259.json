@@ -1,0 +1,57 @@
+{
+  "case_id": 259,
+  "true_urgency": "Routine",
+  "specialty": "Ophthalmology",
+  "self_diagnosis": "age-related farsightedness needing reading glasses",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have been finding it harder and harder to read small print and need to hold things further away to see them."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "This has been slowly getting worse over the past year."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "I have to squint to read anything up close."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a4",
+      "content": "My distance vision is fine and I do not have any headaches or eye pain."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a5",
+      "content": "It causes mild difficulty with everyday tasks like reading but is not painful."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a6",
+      "content": "I am a 46-year-old man with no other health conditions and I have never needed glasses before."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "id": "a7",
+      "content": "The problem is only with close-up reading, not with seeing things at a distance."
+    }
+  ]
+}

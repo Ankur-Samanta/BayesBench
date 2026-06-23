@@ -1,0 +1,72 @@
+{
+  "id": "105w73f",
+  "title": "aita for starring at a women to purposefully make her uncomfortable?",
+  "text": " i know the title sounds a bit weird. my brother has autism and struggles with involuntary movement, he\u2019s mostly non-verbal but he likes to speak a lot of random gibberish/words to himself and often flinches rapidly. none of this bothers me, he\u2019s my brother, and i\u2019ll always take care of him. this happened earlier today, i(16f) was at an eye appointment for my prescription with my mom and younger brother (14m), he was doing his usual, it\u2019s mostly the little kids who stare at him and the adults who look at him and then go back to whatever they\u2019re doing, sometimes a kid will (loudly) ask their parents why he\u2019s acting like the way he is, most of the time their parents tell them to be quiet, but then you have the parents who teach their kids that some people are born with disabilities but that they\u2019re just like everyone else, and that it\u2019s rude to stare, those types of people gives me a little hope in humanity.  unfortunately today was not one of those examples. we were sitting waiting for my name to be called when a older woman entered the room, we were right next to the door so this lady immediately noticed my brother and began to stare, she had this disgusted look on her face, that made me annoyed really quick, i understand a child starring at him out of curiosity but a grown women starring at him in disgust? my mom hasn\u2019t noticed this and soon enough we\u2019re called by the doctor. we\u2019re in there for 20 minutes and when we come out the women is still there but hasn\u2019t realized that we sat back down next to her. i\u2019m still pissed off at her so i switch seats with my brother and position myself to be facing her, and i just stare, i stared for at least 5-10 minutes and didn\u2019t break contact, when the lady noticed this i could feel her start to get visibly uncomfortable, and eventually snapped and told me to stop being disrespectful and that i should \u201c respect my elders\u201d and that i was being creepy i just called her un hija de puta and told her to not stare at other people if she doesn\u2019t want people starring at her back. my mom is now watching this and asking what\u2019s going on and the lady starts saying how i\u2019m a disrespectful brat and how i\u2019m harassing her, my mom looks at me, i look at her and then look at my brother, she quickly caught on because this isn\u2019t the first time she\u2019s dealt with these types of people. my mom tells her to mind her own damn business and the lady just kept arguing until an employee came out to hand my mom some documents so we could leave. in the car, my mom said she was proud i stood up for my brother, but that i should\u2019ve told her so that she could take care of it instead of making  it my responsibility, and that i shouldn\u2019t stare at people even if they\u2019re being an jerk or not, she said i should\u2019ve kept my frustrations to myself. i know that my mom is right, however i know she would\u2019ve handled it worse then me and pick a fight with that woman so  i decided that i would\u2019ve dealt with it myself. so , am i the asshole?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My younger brother (14m) has autism and struggles with involuntary movements. He's mostly non-verbal but likes to speak random words to himself and often flinches rapidly.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "I (16f) was at an eye appointment with my mom and brother. Usually adults glance at my brother and look away, and some parents use it as a teaching moment about disabilities. Most people are respectful.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "An older woman entered the waiting room and immediately began staring at my brother with a disgusted look on her face.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "After our 20-minute appointment, I switched seats with my brother, positioned myself facing the woman, and stared at her without breaking eye contact for 5-10 minutes to make her uncomfortable.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "The woman eventually snapped and told me to stop being disrespectful, said I should \"respect my elders,\" and called me creepy.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I called her a vulgar name in Spanish and told her not to stare at other people if she doesn't want people staring at her back.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I understand a child staring out of curiosity, but a grown woman staring at my disabled brother in disgust was something I could not let go.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "REACTION",
+      "content": "My mom told the woman to mind her own damn business. In the car, she said she was proud I stood up for my brother, but that I should have told her so she could handle it and that I shouldn't stare at people even if they're being a jerk.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I know my mom is right that I should have told her, but I also know she would have handled it worse than me and picked a fight with the woman, so I decided to deal with it myself.",
+      "valence": "pro_poster",
+      "importance": 2
+    }
+  ]
+}

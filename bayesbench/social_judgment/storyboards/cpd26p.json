@@ -1,0 +1,72 @@
+{
+  "id": "cpd26p",
+  "title": "aita for telling my mom she can't decide whether i can go on a trip?",
+  "text": "a bit of background first: i'm a 22f currently in university in a mainland european country and living with my mother and my 35 year old sister. my mom is kind of a helicopter mom and wouldn't let me do most things outside of the house until late in my teenage years. now that i'm in university there are still things i'm not allowed to do (like sleeping in my boyfriend's house without a \"good reason\" or coming home after 11pm) most importantly, everytime i want to make a trip in which i would either travel alone (even inside my own country) or travel with a friend she hates and thinks is a bad influence despite never meeting her or go to certain locations; i have to argue with her for days before she lets me go. this means that i have developed a lot of anxiety at the prospect of telling her that i want to go somewhere. so when my aforementioned friend announced that she was planning a trip to london i was very hesitant. on the one hand, i really really wanted to go to london but on the other hand i was sure my mom would be extremely reticent. my boyfriend was very motivated to go and motivated me too, so after we planned everything i told my mom about it. i told her i was planning to go and with whom, she proceeded to tell me no because my \"promiscuous\" friend was the one organizing it and that she would make me go to ~bad places~ (which ofc wasn't something that she would do). at this point i snapped because of the pent up anxiety and the fact that i was tired of always having to fight and i told her that she doesn't get to decide whether i go or not because i am an adult. then it all went to shit. she said i was ungrateful and that since i claim to be an adult i can leave but she won't financially support me anymore. she then told me that i had to throw away everything i took home from the trip (including my clothes and my bag) because she heard about bed bugs infestations in youth hotels. she also said she would call a lawyer to ask how not to be responsible for me anymore and that she would kick me out if she has to. she also made nonsensical justifications for her reticence like: \"i'm going to be neck deep in debt of something happens to you\" (not true since my country's ductal security convers all medical expenses in foreign countries) and \"other people your age can go because they have two parents that work and drive cars but you can't because you only have one parent that doesn't work and doesn't have a driver's license\". she said other hurtful things to me and that i had to move out the day i graduate. i feel like she was very egoistical in her reasoning but i also feel extremely guilty for what happened and i should have just accepted the no she told me or not have brought up the subject at all because i just lost all my financial support over something so small. so i figured i would get an external opinion to at least put my mind at rest.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I'm a 22-year-old university student living with my mother in a European country. My mom is a helicopter parent who wouldn't let me do most things outside the house until late in my teenage years.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "Even now in university, I'm not allowed to sleep at my boyfriend's house without a 'good reason,' come home after 11pm, or travel alone or with certain friends without arguing for days. This has given me a lot of anxiety.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "My mom told me I couldn't go on a trip to London because my friend was organizing it. She called my friend 'promiscuous' and said she'd take me to 'bad places,' despite never having met her.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I snapped and told my mom that she doesn't get to decide whether I go or not because I am an adult.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "I was tired of the pent-up anxiety and always having to fight just to go somewhere. I had reached my breaking point.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "My mom said I was ungrateful and that since I claim to be an adult, she won't financially support me anymore. She threatened to call a lawyer to not be responsible for me and said she would kick me out.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "She told me I had to throw away everything I brought home from the trip, including my clothes and bag, because she heard about bed bug infestations in youth hotels.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_OTHER",
+      "content": "She made nonsensical justifications like claiming she'd go into debt if something happened to me, and that other people my age can travel because they have two working parents with cars but I can't because I only have one non-working parent.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "She said hurtful things and told me I have to move out the day I graduate. I lost all my financial support over this.",
+      "valence": "pro_poster",
+      "importance": 4
+    }
+  ]
+}

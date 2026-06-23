@@ -1,0 +1,16 @@
+{
+  "id": "itd1ny",
+  "title": "aita for demanding money from the person whose cat i found?",
+  "text": "for the past week and a half, a stray cat has been hanging around my house. young male (1-2 years old), not fixed, no collar. he\u2019s been getting into fights with the neighbor\u2019s cats so he\u2019s a little roughed up. i asked around the neighborhood, people have seen him but didn\u2019t know where he came from or who owns him. i posted a found poster online, received a few inquiries, but no one claimed him. so, i brought him to the veterinarian, got him sterilized and vaccinated and decided to keep him. the vet said that there was no microchip and he also had a skin condition that needed some medication. literally the day i brought him home from the vet i received a call from a woman who had previously contacted me. she said that she was mistaken before and that it *is* her cat and she wants to come by to pick him up. wibta if i asked for compensation for the vet visit for sterilization and medication before allowing her to take him back? we have a huge problem with unwanted pets in our area (there isn\u2019t even a shelter because there are too many abandoned cats and dogs) and i think it\u2019s irresponsible for a pet owner to not get their pets fixed. i think i might be the asshole because the veterinarian visit did cost a decent amount of money that the old owner didn't agree to pay.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {"id": "a1", "category": "ORIENTATION", "content": "For the past week and a half, a stray cat has been hanging around my house. He\u2019s a young male, not fixed, no collar, and has been getting into fights with the neighbor\u2019s cats.", "valence": "neutral", "importance": 2},
+    {"id": "a2", "category": "ACTION_POSTER", "content": "I asked around the neighborhood and posted a found poster online. I received a few inquiries, but no one claimed him.", "valence": "pro_poster", "importance": 3},
+    {"id": "a3", "category": "ACTION_POSTER", "content": "I brought him to the veterinarian, got him sterilized and vaccinated, and decided to keep him. The vet confirmed there was no microchip and found a skin condition that needed medication.", "valence": "pro_poster", "importance": 4},
+    {"id": "a4", "category": "ACTION_OTHER", "content": "The day I brought the cat home from the vet, a woman who had previously contacted me called back and said she was mistaken before and that it is her cat, and she wants to come pick him up.", "valence": "neutral", "importance": 4},
+    {"id": "a5", "category": "ACTION_POSTER", "content": "I want to ask her for compensation for the vet visit for sterilization and medication before allowing her to take the cat back.", "valence": "against_poster", "importance": 5},
+    {"id": "a6", "category": "ACCOUNT", "content": "We have a huge problem with unwanted pets in our area \u2014 there isn\u2019t even a shelter because there are too many abandoned cats and dogs. I think it\u2019s irresponsible for a pet owner to not get their pets fixed.", "valence": "pro_poster", "importance": 3},
+    {"id": "a7", "category": "ACCOUNT", "content": "The veterinarian visit cost a decent amount of money that the old owner didn\u2019t agree to pay.", "valence": "against_poster", "importance": 3}
+  ]
+}

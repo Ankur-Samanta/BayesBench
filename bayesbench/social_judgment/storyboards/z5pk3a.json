@@ -1,0 +1,65 @@
+{
+  "id": "z5pk3a",
+  "title": "aita for refusing to be the babysitter/entertainer for 2 kids",
+  "text": "basically the gist is my (20) mom (58) and my stepdad (63) are holding a get together with his son, his son\u2019s wife, and their 2 kids. that is lovely and i\u2019m more than happy to get to meet this new side of the family.  here\u2019s where things get complicated: i\u2019ve been having a really rough time mentally and being on the spectrum amplifies that greatly. i\u2019m busy, i\u2019m tired, and i\u2019m in no place to meet new people. being autistic, i really need to be told of plans before they happen because i need to mentally prepare and to put it plainly to prevent a meltdown from the breaking of routine y\u2019kno? my mom very kindly organized this trip so i could visit during this thanksgiving weekend and spend time with her and my stepdad. i loved that idea and was happy to visit family after being away for college for a bit. i wish i could\u2019ve helped with the payment but my visa doesn\u2019t allow me to work so i\u2019m immensely grateful for my mom\u2019s help. of course, because of that, i\u2019m absolutely willing to follow any plans she has. she\u2019s the hostess and she\u2019s paying for my flights so it\u2019s only reasonable. all i ask is for her to tell me things in advance.  today, while i\u2019m already here, i\u2019m informed that not only are there visitors coming tomorrow, but they\u2019re also people i\u2019ve never met before. they have 2 kids around 4-5 and i was asked by my mom to entertain them and give them my plushies (which by the way are a special interest and im very picky of who holds them because they truly are that special to me. i declined). i\u2019m being asked to watch over them and entertain them and such. i am not in a state to do that. i have low energy from the influx of interaction with family, overstimulation from travel, and the additional drainage that is catching a monster cold that i am moments away from simply going non-verbal. even if i wanted to, i can\u2019t bring myself to talk. it hurts to do so too from my throat pain. but my mom is telling me that i just don\u2019t want to because i don\u2019t feel like helping. and i get it. she is running around making everything perfect when guests come over. she\u2019s a sweet woman who just cares a lot. im more than willing to help with table setup, dishes, cleaning, and just overall hospitality (even then i straight up don\u2019t think that\u2019s even sanitary given my cold but i can cover up head to toe if it means mom will be a little calmer). but i\u2019m way too burnt out to focus specifically on caring for and entertaining young kids. i feel really bad for saying no though so i\u2019m asking for a third-person perspective. aita? note: please use they/them when referring to me. ",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I am 20 years old and autistic. I've been having a really rough time mentally, and being on the spectrum means I need to be told about plans in advance to mentally prepare and prevent meltdowns from breaks in routine.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My mom organized a trip for me to visit during Thanksgiving weekend and paid for my flights. My visa doesn't allow me to work, so I'm very grateful for her help and willing to follow her plans.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "Today, while I'm already here, my mom informed me that visitors I've never met are coming tomorrow -- her stepdad's son, his wife, and their two kids aged 4-5. She did not tell me about this in advance.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "My mom asked me to entertain the two kids, watch over them, and give them my plushies, which are a special interest of mine that I'm very particular about who handles.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I declined to entertain the kids and refused to give them my plushies.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I have low energy from the influx of family interaction, overstimulation from travel, and I've caught a bad cold that has me nearly non-verbal with throat pain. I'm too burnt out to focus on caring for young kids.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I offered to help with table setup, dishes, cleaning, and general hospitality instead of entertaining the children.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_OTHER",
+      "content": "My mom told me I just don't want to help because I don't feel like it. She is running around making everything perfect for the guests.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

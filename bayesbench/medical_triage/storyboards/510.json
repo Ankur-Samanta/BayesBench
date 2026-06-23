@@ -1,0 +1,57 @@
+{
+  "case_id": 510,
+  "true_urgency": "Urgent",
+  "specialty": "Gastroenterology",
+  "self_diagnosis": "bleeding stomach ulcer",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I vomited bright red blood twice this morning."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "I feel very dizzy and weak right now."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "My stomach has been more painful than usual over the past few days."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "The vomiting blood happened this morning. The stomach pain has been building over the past few days."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a5",
+      "content": "I lost a significant amount of blood. The dizziness and weakness are severe."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a6",
+      "content": "I am a 52-year-old man. I have had stomach ulcers before."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "I have been taking a lot of ibuprofen for my back pain, which may have irritated my stomach."
+    }
+  ]
+}

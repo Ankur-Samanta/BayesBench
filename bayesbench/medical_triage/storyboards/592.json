@@ -1,0 +1,57 @@
+{
+  "case_id": 592,
+  "true_urgency": "Observation",
+  "specialty": "Neurology",
+  "self_diagnosis": "benign positional vertigo",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I keep having episodes where the room spins around me suddenly.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I feel mildly nauseous during the spinning episodes.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "The spinning episodes are triggered when I turn my head or roll over in bed.",
+      "urgency_signal": "reassuring",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ASSOCIATED",
+      "content": "I have no hearing loss and no ringing in my ears.",
+      "urgency_signal": "reassuring",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "This has been happening for the past 2 weeks, with several episodes in that time.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "Each episode lasts about 30 to 60 seconds and I have not vomited. It is not affecting my daily life much.",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I am a 55-year-old man with no history of neurological problems.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

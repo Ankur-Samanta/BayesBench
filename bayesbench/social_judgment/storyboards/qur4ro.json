@@ -1,0 +1,58 @@
+{
+  "id": "qur4ro",
+  "title": "wibta for not visiting my dad in intensive care",
+  "text": "hi sorry for typos and bad grammar. english is not my first language.  so long story short, my parents are divorced and my dad was almost never in my life. we would see each other every once in a while and my mom would force me and my sister to go see dad just so we had a relationship. when i turned 18 we stopped seeing each other completely. he never reached out to me and i never reached out to him (because all my life he expected me to be the dad in the relationship and i was sick of it.) two days ago we got a call from my dads friend and he told us dad was in icu.  i don\u2019t want to go. i have no relation with him nor his side of the family. my mom said if we were feeling bad about it we could go and that it is completely normal but i don\u2019t feel bad and i don\u2019t want to go. i talked about this with my friend and he said if i didn\u2019t go i would regret it and that i should go. this might seem childish as i am 21 years old but this is a really uncomfortable situation because i feel like people expect me to go and i really just don\u2019t want to. so, wibta if i didn\u2019t go and see dad?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My parents are divorced and my dad was almost never in my life. We would see each other every once in a while, and my mom would force me and my sister to visit him just so we would have a relationship.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "All my life my dad expected me to be the one to maintain the relationship — he expected me to be the dad in the relationship.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "When I turned 18, we stopped seeing each other completely. He never reached out to me and I never reached out to him.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ORIENTATION",
+      "content": "Two days ago we got a call from my dad's friend telling us that my dad is in the ICU.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I don't want to go visit him. I have no relationship with him or his side of the family, and I don't feel bad about not going.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "REACTION",
+      "content": "My mom said if we were feeling bad about it we could go and that it's completely normal, but she didn't pressure us.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a7",
+      "category": "REACTION",
+      "content": "My friend said if I didn't go I would regret it and that I should go.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

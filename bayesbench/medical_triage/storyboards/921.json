@@ -1,0 +1,57 @@
+{
+  "case_id": 921,
+  "true_urgency": "Emergency",
+  "specialty": "Mental Health",
+  "self_diagnosis": "bipolar disorder manic episode",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I haven't slept in 4 days and my thoughts are racing so fast I can't keep up with them."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "I believe I can communicate with aliens and that I'm meant to save the world."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "I spent $12,000 on online shopping sprees and I've been working on a bunch of projects all at the same time."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "My family says I'm talking too fast and not making any sense."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a5",
+      "content": "Everything has escalated really fast over the past 7 days."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a6",
+      "content": "I feel completely invincible, like nothing can stop me, but my functioning has fallen apart."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a7",
+      "content": "I'm a 32-year-old woman."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "hpmeip",
+  "title": "aita for going back to the night shift against my wife's wishes?",
+  "text": "i (34m) have been working overnights at my job for most of the time that i've been married to my wife (33f.)  we have 5 and 4 year-old girls and a 2-year-old boy. my wife's always disliked me being on night shift but at my work shifts are awarded based on seniority  and i didn't have the seniority to be on day shift until about 7 months ago. truth be told i wasn't really that excited to go to day shift, but since my wife really wanted me to i agreed to give it a try at least. so i did, but i didn't really like it. i'm a night owl by nature for one thing and hate waking up to an early alarm. night shift is more laid-back where i work, at least most of the time, and it's the shift most of my coworkers who i consider  my friends work. bottom line i was just happier on overnights. i also get a shift premium being on nights. it's only 55 cents more an hour but we have three kids and every bit helps. recently a spot opened back up on nights. i talked to my wife and told her i was going to take it. she wasn't happy about it and said that if i took it i'd be putting my wants ahead of my family's. i don't really see how as it doesn't change the logistics of much with her and the kids. i'm pretty much just swapping the time i'd be sleeping with the time i'm working. the only real disadvantage is that i'm not home to help get the kids to bed on nights that i work, but working 12 hour shifts means that i have a lot of days off. working nights i'm able to help them up and fed before i go to bed and will be able to get them off to school when that starts. i thinks it's really a wash as far as my family goes. when i pressed her my wife said that her main objection is that she just doesn't like to be alone at night. she also thinks that being on nights screws up my schedule even on my days off. i feel bad about leaving her alone at night knowing she doesn't like it but i'm just way happier on night shift, so i made the unilateral choice to take the opening, but my wife is not happy with me. aita? tldr: i made the unilateral decision to go back to overnight shift despite my wife telling me that she doesn't like me being gone at night. aita?",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My wife and I have been married for several years. We have three young kids — 5 and 4 year-old girls and a 2-year-old boy.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "I've been working overnight shifts for most of our marriage. My wife has always disliked it, but shifts are awarded by seniority and I didn't have enough seniority for day shift until about 7 months ago.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "When I finally got seniority, I agreed to try day shift because my wife really wanted me to. I tried it but didn't really like it.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACCOUNT",
+      "content": "I'm a night owl by nature. Night shift is more laid-back, most of my friends work it, and I'm just happier on overnights. I also get a 55-cent-per-hour shift premium.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "When a spot opened back up on nights, I told my wife I was going to take it. I made the decision unilaterally.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "My wife said that if I took the night shift I'd be putting my wants ahead of my family's.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I don't see how it changes logistics much. I'm just swapping sleep time with work time. The only real disadvantage is not helping put the kids to bed on work nights, but my 12-hour shifts mean I have a lot of days off.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_OTHER",
+      "content": "When I pressed her, my wife said her main objection is that she doesn't like being alone at night. She also thinks nights screw up my schedule even on days off.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I feel bad about leaving her alone at night knowing she doesn't like it, but I'm just way happier on night shift.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

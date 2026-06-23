@@ -1,0 +1,15 @@
+{
+  "id": "ben9kh",
+  "title": "aitah for calling out a texting driver who was stopped?",
+  "text": "gif if the situation, sorry for poor quality: https://media.giphy.com/media/5bd0lj12fpnmakb2kx/giphy.gif i was riding my electric skateboard home after work and came across a driver stopped at a stop sign for an unusually long time. i noticed them messing around on their phone through the back window and tapped on the glass to get their attention since they were in my way and on their phone in the middle of the road obviously distracted enough with her phone to not notice me or the car behind me. looks like i spooked her and she dropped her phone and took off. i'm sick of bad drivers (but know everyone has their days) am i the asshole for calling her out on distracted driving or should have i patiently waited and minded my own business like everyone in r/electricskateboarding told me? it felt right in the moment but now i'm doubting myself. thanks.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {"id": "a1", "category": "ORIENTATION", "content": "I was riding my electric skateboard home after work.", "valence": "neutral", "importance": 1},
+    {"id": "a2", "category": "ACTION_OTHER", "content": "A driver was stopped at a stop sign for an unusually long time, messing around on their phone, distracted enough not to notice me or the car behind her.", "valence": "pro_poster", "importance": 4},
+    {"id": "a3", "category": "ACTION_POSTER", "content": "I tapped on the back window glass to get her attention since she was in my way and on her phone in the middle of the road.", "valence": "against_poster", "importance": 5},
+    {"id": "a4", "category": "OUTCOME", "content": "I spooked her, she dropped her phone, and took off.", "valence": "against_poster", "importance": 3},
+    {"id": "a5", "category": "ACCOUNT", "content": "I\u2019m sick of bad drivers, but I know everyone has their days.", "valence": "pro_poster", "importance": 2},
+    {"id": "a6", "category": "REACTION", "content": "People on the electric skateboarding community told me I should have patiently waited and minded my own business.", "valence": "against_poster", "importance": 3}
+  ]
+}

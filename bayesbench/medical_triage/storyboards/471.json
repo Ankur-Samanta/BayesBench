@@ -1,0 +1,57 @@
+{
+  "case_id": 471,
+  "true_urgency": "Observation",
+  "specialty": "Neurology",
+  "self_diagnosis": "peripheral neuropathy",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have been getting strange pins and needles sensations in my hands and feet, especially in the mornings, and they do not go away quickly like normal"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "My grip strength feels weaker and I have been dropping things without meaning to"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "The sensation is worse in my right hand compared to my left"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "This has been gradually getting worse over the past 3 months"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a5",
+      "content": "It is noticeable but not severely limiting my daily life, though I am worried about tasks at work that require fine motor skills"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a6",
+      "content": "I am a 42-year-old woman"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "The tingling is particularly bad in the mornings and does not clear up the way a normal foot falling asleep does"
+    }
+  ]
+}

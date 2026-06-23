@@ -1,0 +1,57 @@
+{
+  "case_id": 1022,
+  "true_urgency": "Emergency",
+  "specialty": "Cardiology",
+  "self_diagnosis": "heart attack",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I'm having severe crushing chest pain that started suddenly 90 minutes ago while I was sitting at my desk.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "The pain radiates to my left arm and jaw.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I'm sweating heavily and feel very short of breath.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "I feel nauseated and dizzy and my heart is racing.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "The pain started suddenly 90 minutes ago and has not improved at all since then.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "The chest pain is about a 9 out of 10 and I feel like something terrible is happening.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I'm a 52-year-old man who is overweight, smokes, and has a family history of heart disease.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 473,
+  "true_urgency": "Observation",
+  "specialty": "Neurology",
+  "self_diagnosis": "carpal tunnel syndrome",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I keep getting tingling and slight numbness in my fingers and toes, especially when I wake up in the morning."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "My hands feel clumsy when I try to type or button up my shirts."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "I have been dropping things more often than usual lately."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "This has been building up gradually over the past four months."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a5",
+      "content": "The tingling comes and goes throughout the day and gets in the way of everyday tasks, but I don't have bad pain and I can still get things done."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a6",
+      "content": "I am a 42-year-old woman."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a7",
+      "content": "The tingling is worst in the morning and eases a bit as the day goes on."
+    }
+  ]
+}

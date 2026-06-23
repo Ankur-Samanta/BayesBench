@@ -1,0 +1,72 @@
+{
+  "id": "lfak3k",
+  "title": "aita for letting my friend swear at me?",
+  "text": "english isn't my first language, sorry. last year, at school, i (15, soon 16f) met a guy (17m). he didn't have many friends, and was alone pretty much always. we quickly became good friends. we messaged every single day, and he called me to talk so many times it was annoying. then, after our school closed and we began online classes, we only talked via messages. \u200b problem: even with his kind, sweet ways, he would always swear at me. he would call me a bitch, a slut, etc. he would never do it seriously, but i hated it. when i asked him to stop, he would say \"oh so you're angry\" or \"i just swear at who i love\" and keep going. i started ignoring it or calling him somethig when this happened. except this, he was a good friend. always complimenting me, saying i was one of the few friends he had, and that he loved me. \u200b one night, i was at the kitchen table talking to him, and my mom saw a message of him calling me a bitch. before that, she even liked him, though she thought he was kind of annoying for messaging me so many times a day. then, she told me to give her the phone. she started sending him audios saying, like, how did he dare to say those things to a woman, asking if he talked to his mother like that. soon, his mother got in the discussion too, saying he has always been like that, and they fought for a while. \u200b after they stopped fighting, my mom gave me the phone and told me to send him an audio telling him what i thought. i said that i really liked his friendship and that i wanted to keep talking to him, but that i didn't like when he swore at me. \u200b after that, mom and dad came talk to me. they said they couldn't believe that was happening and that they had raised me well, that they didn't know why i was acting like that. my dad even asked me if he should confiscate my phone. i asked what they were talking about, and they said a woman should never let a man treat her like he treated me. i was confused and told them that i had tried asking him to stop and treating him the same way, but he never stopped, but they were still disappointed with me.  \u200b after that,my friend told me we would keep talking. we didn't. i messaged him for three days, and he answered indifferent and uninterested. so i gave up. we talked every day, so maybe he was just upset with me and would message me later. one day went by, one week, one month, and he never messaged me again. he changed his phone number and didn't even told me. i was heartbroken, because he was going to be alone again. we didn't exchange a word since all of this happened. maybe my parents were right, because if i had insisted more on asking him to stop, maybe he really would have stopped and this fight wouldn't have happened, and my friend would still have me to talk to.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "Last year at school I (15F) met a guy (17M) who didn't have many friends and was alone pretty much always. We quickly became good friends and messaged every single day.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "Even with his kind, sweet ways, he would always swear at me -- calling me a bitch, a slut, etc. He would never do it seriously, but I hated it.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "When I asked him to stop, he wouldn't listen. I started ignoring it or calling him something back.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "He would say 'oh so you're angry' or 'I just swear at who I love' and keep going.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "REACTION",
+      "content": "My mom saw a message of him calling me a bitch. She took my phone and started sending him audios about how he dared say those things to a woman.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "After the fight, my mom told me to send him an audio telling him what I thought. I said I really liked his friendship and wanted to keep talking, but I didn't like when he swore at me.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "REACTION",
+      "content": "My mom and dad told me they couldn't believe this was happening and that they had raised me well. They said a woman should never let a man treat her like that. My dad asked if he should confiscate my phone. They were still disappointed in me even after I explained I had tried to get him to stop.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "My friend told me we would keep talking, but we didn't. I messaged him for three days and he answered indifferently. Then he changed his phone number without telling me. He never messaged me again.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I was heartbroken because he was going to be alone again. Maybe if I had insisted more on asking him to stop, the fight wouldn't have happened and my friend would still have me to talk to.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

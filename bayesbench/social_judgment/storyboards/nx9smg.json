@@ -1,0 +1,72 @@
+{
+  "id": "nx9smg",
+  "title": "aita for recommending my coworker be fired?",
+  "text": "i work in a small group (~12 people) at a larger organization. one of the members of my small group has been saying and doing really hostile things to our new boss.  he\u2019s openly contradicted her in a way i never saw him do with the previous guy. he\u2019s indiscreetly worked on other projects or even just fucked off and watched videos or messaged friends during our meetings.  but only when she\u2019s running them, not when any of our other project leaders come in to run a meeting.  he\u2019s also said some blatantly disrespectful things about her behind her back and kind of encouraged everyone to turn on her, which made it uncomfortable to work around them together.  at first i thought maybe there was just something i was missing about our new boss that he saw and i didn\u2019t. he was dead set that she was terrible, and this and that.  the thing is, this new boss is *nice.* quite nice. and excellent at the job. in fact, i\u2019d been considering leaving before for personal reasons, but working for her has convinced me to stay.  long story short a case was opened with hr. i was brought in and informed that they were considering firing him, and asked if i felt that was the right call.  i rank above him (but below the boss, of course) in the hierarchy so i can make recommendations but not decisions. i said absolutely they should fire him. he\u2019s had his chances.  what i\u2019m now hearing is that he had no idea his \u201cpersonal affect\u201d was coming off the wrong way and feels that he was not given proper notice to shape up before being fired.  the thing is \u2014 my boss is so nice \u2014 that he might have an argument to be made there. where our old boss might\u2019ve said something along the lines of, \u201cnever talk to me like that again or you\u2019re done on this project and at this business,\u201d this new boss said things like \u201cso, that\u2019s really not the culture we\u2019re trying to set here, let\u2019s considering communicating with each other differently going forward.\u201d  she\u2019d spoken to him more than once about what she expected of him, but didn\u2019t specifically say, \u201cor you\u2019re fired.\u201d so now some people, even some who didn\u2019t like him, are saying though they thought what he was doing was abominable, he should not have been let go without more explicit warnings.  i was the only high level personnel in the room with them both so my recommendation factored heavily into the final decision. am i the asshole for making the recommendation even though he hadn\u2019t had more explicit warnings?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I work in a small group of about 12 people at a larger organization. I rank above the coworker in question but below our new boss in the hierarchy.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "One of the members of my group has been openly hostile to our new boss. He\u2019s contradicted her in ways I never saw him do with the previous male boss, and he only watches videos or messages friends during her meetings, not anyone else\u2019s.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "He\u2019s said blatantly disrespectful things about her behind her back and encouraged everyone to turn on her, making it uncomfortable to work around them.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACCOUNT",
+      "content": "Our new boss is genuinely nice and excellent at the job. I had been considering leaving before, but working for her convinced me to stay.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "HR opened a case and brought me in. They informed me they were considering firing him and asked if I felt that was the right call. I said absolutely they should fire him.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "The boss had spoken to him more than once about what she expected of him, but she never explicitly said \u201cor you\u2019re fired.\u201d She used gentle language like \u201cthat\u2019s not the culture we\u2019re trying to set here.\u201d",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "OUTCOME",
+      "content": "He was fired, and he now claims he had no idea his behavior was coming off the wrong way and feels he wasn\u2019t given proper notice to shape up.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "REACTION",
+      "content": "Some coworkers, even ones who didn\u2019t like him, are saying he should not have been let go without more explicit warnings.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "My recommendation factored heavily into the final decision since I was the only high-level person who witnessed the interactions firsthand.",
+      "valence": "neutral",
+      "importance": 3
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 476,
+  "true_urgency": "Observation",
+  "specialty": "Orthopedics",
+  "self_diagnosis": "herniated disc",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I've been having lower back pain that started when I moved heavy furniture last month.",
+      "urgency_signal": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "The pain sometimes shoots down my right leg.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "TIMELINE",
+      "content": "It's been going on for about 4 weeks now and hasn't really gotten better.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "SEVERITY",
+      "content": "The pain is around a 5 out of 10. I can still go to work but it's uncomfortable a lot of the time.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "SYMPTOM",
+      "content": "Sitting for a long time makes the pain a lot worse.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ASSOCIATED",
+      "content": "Over-the-counter pain relievers help a little but the pain always comes back once they wear off.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I'm a 38-year-old man who sits at a desk most of the day for work.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "bkjtqk",
+  "title": "aita (21m) for asking my sister (23f) for my money back?",
+  "text": "i come from an assyrian family who really contradict themselves without even noticing it. i have an older sister who is two years my senior.  last year, she was unemployed, and wanted to fly to canada to see some of our family members (keep in mind, she already went the year before).  she paid for her own tickets before, but this time, had no money and as i said, was unemployed. i happily paid for her flights. it cost me $1500 and she told me \u201ccanada wasn\u2019t as good this time\u201d. i paid for her flight because my sister and i have been best friends since we\u2019ve known each other.  fast forward more than a year later, i ask her for money since she\u2019s working and saving up money. she\u2019s engaged and will be married in january 2020, and while i know that it can be stressful to ask for money while she\u2019s got things to organise, i had to ask for my money. i told my parents to ask her because i had this weird feeling of asking for my money back. i guess it\u2019s just who i am? i feel bad asking for money even though i rightly deserve to get it back. my parents absolutely blast me and tell me that i \u201cshould not be asking for my money back\u201d, and \u201cfamily don\u2019t take from family\u201d.  while i understand that family means everything to me, is it not contradicting of them?  btw, i have a holiday (japan + hong kong) coming up in june and i desperately need the $1500 to help cover expenses.  please help me guys.",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I (21M) come from an Assyrian family. My older sister (23F) and I have been best friends since we\u2019ve known each other.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "Last year, my sister was unemployed and wanted to fly to Canada to see family members. She had already gone the year before and paid for her own tickets that time, but this time she had no money.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I happily paid for her flights to Canada. It cost me $1,500.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "After the trip, she told me \u201cCanada wasn\u2019t as good this time.\u201d",
+      "valence": "pro_poster",
+      "importance": 2
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "More than a year later, I asked for the money back since she\u2019s now working and saving up money.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "Instead of asking my sister directly, I told my parents to ask her because I felt weird about asking for my money back.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ORIENTATION",
+      "content": "My sister is engaged and will be married in January, so she has wedding expenses to organize.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I have a holiday to Japan and Hong Kong coming up in June and I desperately need the $1,500 to help cover expenses.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I feel I rightly deserve to get the money back, even though I know it can be stressful to ask while she has things to organize.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a10",
+      "category": "REACTION",
+      "content": "My parents absolutely blasted me and told me I \u201cshould not be asking for my money back\u201d and that \u201cfamily don\u2019t take from family.\u201d",
+      "valence": "against_poster",
+      "importance": 4
+    }
+  ]
+}

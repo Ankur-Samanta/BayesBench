@@ -1,0 +1,65 @@
+{
+  "id": "k2tcso",
+  "title": "aita for telling a friend that he's wrong about calling someone awkward?",
+  "text": "sorry for weird title , i didn't really know how to word it. my friend( ill call him k) my bf (z) me, and my bf's friend (t) started playing video games together and just calling on discord in general. my bf, me, and k are close and used to k's quirks. he's high energy and talks about a lot of stuff hes obsessed with. t is a real nice guy and we all agree. t is slightly quieter than the rest of us but i've never felt awkward. k is really obsessed with this show and this couple in there. me and z act super interested because we know k hyperfixates on it. i don't think t realizes that so he doesn't know how to quite respond but he's supportive. today, k was going nuts over this pairing he likes and he was talking about it. t's normal response to that stuff was like \"oh that sounds interesting!\" \"that sounds cool, i'll check out the show sometime!\" stuff like that. but k keeps pressing on the topic even if he didn't really get that t doesn't know what he's talking about and t just recycles those sayings as nicely as possible. today k was complaining that t was awkward in chat. i asked what happened. k said that t doesn't have his energy when he talks about a show and that he just says the same thing over and over. i told k that i don't think t is being awkward, he just does not understand what you're talking about but is too polite to say he doesn't get it. k got mad and said that we will match his energy and i tried to explain to k that not everyone's high energy and t being a little quieter doesn't mean he's awkward. k scoffed at that and kept complaining about t not matching his energy. i got a bit annoyed so i told k that he makes situations awkward when he doesn't let other people talk about their interests and its just about his and no one else thinks t is awkward. k got offended at this and called me and t assholes.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My friend K, my boyfriend Z, me, and my boyfriend's friend T started playing video games together and calling on Discord. K is high energy and hyperfixates on things. T is a nice guy but slightly quieter than the rest of us.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My boyfriend and I are close with K and used to his quirks, so we act super interested when he talks about his obsessions. T doesn't realize we do this, so he doesn't know quite how to respond but tries to be supportive.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "K was going nuts over a pairing in a show he likes and kept pressing on the topic. T responded politely with things like 'oh that sounds interesting!' and 'I'll check out the show sometime!' but K didn't pick up that T didn't know what he was talking about.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "K complained to me that T was awkward in chat because T doesn't match his energy when he talks about his show and just repeats the same polite responses.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I told K that I don't think T is being awkward -- he just doesn't understand what K is talking about but is too polite to say so. I explained that not everyone is high energy and being quieter doesn't mean someone is awkward.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "K got mad, scoffed at my explanation, and kept insisting that we should all match his energy.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I got annoyed and told K that he's the one who makes situations awkward by not letting other people talk about their interests, and that no one else thinks T is awkward.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "K got offended and called both me and T assholes.",
+      "valence": "neutral",
+      "importance": 3
+    }
+  ]
+}

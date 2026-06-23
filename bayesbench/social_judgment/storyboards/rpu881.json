@@ -1,0 +1,79 @@
+{
+  "id": "rpu881",
+  "title": "aita for not joining my sister's downline for her mlm?",
+  "text": "i'd like to start by first saying that i have always been very publicly anti-mlm. i watch videos about them and i am very familiar with their tactics. i'm also aware that they're mostly pyramid schemes. anyone who knows me knows that i would never join a multi level marketing scheme. my sister started with an mlm recently (i won't name which one, however i'm sure those of you who are familiar with anti-mlm content will likely know exactly which one it is) and she has not been able to make any money with it. she can't sell the product and she continues to put money into the company in order to keep her status. recently she has discovered that the only way to make money doing what she does is to recruit unsuspecting victims into her downline so that she can reap the benefits of their buy-ins and sales. i have tried time and time again to educate her on the dangers of pyramid schemes and help her to get out of it, but the boss-babe mindset has her hooked.  let me take a second to backtrack to when i first met my sister. she is my half-sister, and i didn't even know of her until about 3 years ago. i am an atheist, but i am extremely accepting of all religious as long as you don't try to cram yours down my throat. she is the exact opposite- she is a born-again christian who won't rest until i am converted. this will be important later. she approached me recently to \"go into business with her\" (join her downline) and i politely declined. she was immediately furious. she said that since i am family i am obligated to support her \"business endeavor\". i even offered to buy one of the stupid shakes in an attempt to support said \"business endeavor\". she said that wasn't good enough. she basically implied that i am the reason she has to cold-message everyone on her facebook friends list and is losing friends. she then highlighted the fact that, since i am an \"atheist\", she shouldn't be surprised that i don't have faith in the company. i don't need faith- i literally pulled up their income disclosure which proves nobody makes any money! i wasn't surprised that she made this about religion since she pretty much does this with everything else, but she went on a full-on tirade about it and now she is convinced basically that i am going to hell because i won't join her mlm. then she messaged my husband. she copy-and-pasted her whole vague pitch about joining her \"business\". that was the last straw- no meant no. so we both stopped replying to her about anything regarding her business. well now my whole family is mad at me and my husband. my parents and other siblings think it's \"incredibly insensitive\" that i won't at least consider the \"business offer\". in their defense, they're just happy she appears to be doing something with her life, but they don't understand the dangers of mlm and they don't know that it is a pyramid scheme. they think we are just being hateful. i just don't want to put money into a pyramid scheme dude. please tell me i'm not wrong here?? my family has me questioning myself.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I have always been very publicly anti-MLM. I watch videos about them, I\u2019m familiar with their tactics, and I know they\u2019re mostly pyramid schemes. Anyone who knows me knows I would never join one.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My half-sister and I only met about 3 years ago. She is a born-again Christian who won\u2019t rest until I\u2019m converted, while I\u2019m an atheist who is accepting of all religions as long as they aren\u2019t forced on me.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "My sister started with an MLM recently and hasn\u2019t been able to make any money. She keeps putting money into the company to maintain her status and has realized the only way to make money is to recruit people into her downline.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "She approached me to \u201cgo into business with her\u201d \u2014 meaning join her downline. When I politely declined, she was immediately furious and said that as family I\u2019m obligated to support her \u201cbusiness endeavor.\u201d",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I politely declined her offer to join the MLM. I even offered to buy one of the shakes to support her, but she said that wasn\u2019t good enough.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "She implied I\u2019m the reason she has to cold-message everyone on her Facebook friends list and is losing friends. She then attacked my atheism, saying she shouldn\u2019t be surprised I don\u2019t have \u201cfaith\u201d in the company, and went on a tirade saying I\u2019m going to hell for not joining her MLM.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "After I said no, she messaged my husband with a copy-and-pasted pitch to join her \u201cbusiness.\u201d",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "After she messaged my husband, we both stopped replying to her about anything regarding her business.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I literally pulled up their income disclosure which proves nobody makes any money. I don\u2019t want to put money into a pyramid scheme.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a10",
+      "category": "REACTION",
+      "content": "My parents and other siblings are mad at me and my husband. They think it\u2019s \u201cincredibly insensitive\u201d that I won\u2019t consider the offer. They\u2019re just happy she appears to be doing something with her life, but they don\u2019t understand that it\u2019s a pyramid scheme.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

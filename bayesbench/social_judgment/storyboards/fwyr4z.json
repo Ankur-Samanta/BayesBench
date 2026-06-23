@@ -1,0 +1,72 @@
+{
+  "id": "fwyr4z",
+  "title": "aita for asking my boyfriend who is over every day to pay rent?",
+  "text": "so me [27m] and my boyfriend [25m] have been together for nearly 2 years. we\u2019re both relatively easygoing guys and get along pretty well. i currently have my own place with 2 other room mates (30m who is chill af, mostly stays in his room or is out and about, 26f who has been staying most days at her boyfriends place).  i\u2019ve lived out of home since i was 19 and have been to many different places with a lot of different house mates. suffice to say i\u2019ve learnt a lot about being independent and living with others. originally i brought up him moving in some time ago, which he wasn\u2019t too keen on. his argument was that he saves money at home not paying board and is closer to work. the only reason i have a share house is to save money, so his reasons behind this i thought were justified. another reason of his is that he doesn\u2019t like the house we\u2019re at, but would be open to something more modern and would love an apartment. i was strongly against this as i\u2019ve lived in an apartment and hated it, and don\u2019t want anything modern and \u2018nice\u2019 as we would not be able to save money, which is both of our goals. i tried to explain to him that the house we\u2019re at now is very ideal in my eyes as it\u2019s reasonable rent in a quiet court, with a decent backyard and big shed (man cave). it\u2019s not the nicest place, but its not trashy. trust me i\u2019ve lived in a lotttt worse... our discussions didn\u2019t really come to anything, everything stayed the same. in the past he would come over frequently and normally cook dinner, he said that was his contribution to the house. again, don\u2019t have an issue with that, it\u2019s all about give and take. now things are starting to change a bit, he\u2019s moved stores so is working not too far from me and has stayed over consistently for the last month. which i do enjoy because i love him dearly. last night i asked him if he thought he should chip in for rent as he is over a lot. he said no, as he doesn\u2019t like this house. i said thats having your cake and eating it too, and that i do majority of the housework for everyone, pay the bills, do his laundry, and he only cooks dinner now every other night and i will stay pay for groceries/take out.  now he said that it\u2019s unfair to ask someone this and that he would pay for the time he was here and then go stay at his mums place. this really annoyed me as it seems like he is never open to discussion and always on the defensive (\u201cno.\u201d) when i bring up serious topics. i would also rather him just stay and we keep the peace but in my heart i don\u2019t deem this fair, which is a big thing for me. tl;dr: my bf who is over every day doesn\u2019t want to pay rent because he doesn\u2019t like my house aita for asking him to pay rent?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My boyfriend and I have been together for nearly 2 years. I live in a share house with 2 other roommates to save money, which is a goal for both of us.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "I brought up my boyfriend moving in some time ago, but he wasn't keen on it. He said he saves money living at home, is closer to work, and doesn't like my house — he'd prefer a modern apartment.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "In the past, my boyfriend would come over frequently and cook dinner as his contribution to the house. I was fine with that arrangement since it was about give and take.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a4",
+      "category": "ORIENTATION",
+      "content": "Recently my boyfriend moved stores and is now working near me. He has stayed over consistently for the last month.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I asked my boyfriend if he thought he should chip in for rent since he's been staying over every day for the past month.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I do the majority of the housework for everyone, pay the bills, and do his laundry. He only cooks dinner every other night now, and I still pay for groceries and takeout.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "My boyfriend said no, he wouldn't chip in for rent because he doesn't like this house.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_OTHER",
+      "content": "He said it was unfair to ask him this and that he would just pay for the time he was here and then go stay at his mum's place instead.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "I'm really annoyed because he seems never open to discussion and always gets defensive when I bring up serious topics. I'd rather he just stay, but in my heart I don't think the current arrangement is fair.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "a20wb0",
+  "title": "wibta if i tell a woman i don't know that her husband is cheating in her?",
+  "text": "i know it sounds like an obvious answer but here me out. my husband has a coworker (scott) who is having a serious affair behind his wife's back. he and his wife (brooke) have two young children together. she thinks they are deeply in love. she did find evidence on his phone that he was having an emotional affair but he swore he'd end it. he hasn't.  he spends hours on the phone with this other woman (mandy). she is also married and married her husband believing she is in love with scott. she even told scott she thought about him while having sex with her husband on their honeymoon. i know all this because scott told my husband, who told me. he says scott told him in confidence and that it's none of our business. but as someone whose been cheated on, i feel desperately sorry for brooke. she birthed this man's children. she loves him desperately. and she's being humiliated. it's infuriating. i really want to tell her. my husband says if i do, he'll never be able to trust or confide in me again. but i can't stand that this woman is being hurt and want to tell her in solidarity. am i the asshole for considering stepping in? ",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My husband has a coworker, Scott, who is married to Brooke. They have two young children together.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "Scott is having a serious affair with another woman, Mandy. He spends hours on the phone with her. She is also married and married her husband while believing she is in love with Scott -- she even told Scott she thought about him while having sex with her husband on their honeymoon.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "Brooke found evidence on Scott's phone that he was having an emotional affair. He swore he'd end it, but he hasn't.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ORIENTATION",
+      "content": "I know all this because Scott told my husband in confidence, and my husband told me.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I want to tell Brooke about the affair.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I feel desperately sorry for her -- she loves Scott, she birthed his children, and she's being humiliated.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "As someone who has been cheated on myself, I can't stand that this woman is being hurt and want to tell her in solidarity.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_OTHER",
+      "content": "My husband says Scott told him in confidence, that it's none of our business, and that if I tell Brooke, he will never be able to trust or confide in me again.",
+      "valence": "against_poster",
+      "importance": 5
+    }
+  ]
+}

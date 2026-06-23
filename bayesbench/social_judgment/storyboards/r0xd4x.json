@@ -1,0 +1,51 @@
+{
+  "id": "r0xd4x",
+  "title": "aita for being mad at the laundromat worker for taking my clothes out of the dryer without my permission",
+  "text": "i was doing laundry today and i was 3 minutes (i had a timer) late to get my clothes that were drying. i found them outside on a hamper. she said she took them out because they needed dryers.  however i had some problems with this: 1.)it was only 3 minutes 2.) i come here all the time, they know me and know i always get my stuff on time 3.) i feel that she was compensating for the fact that they have not done a good job in fixing 3 dryers that are out of service  4.) don\u2019t like having others touch my stuff i try my best to get my clothes out of washing machine/dryer as fast as possible but i believe their failure to fix their equipment is putting their loyal customers in uncomfortable positions i\u2019ll still keep going to them it wasn\u2019t a bad argument just a tone change i\u2019ll keep going and supporting the business but just didn\u2019t like this happening",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I was doing laundry at a laundromat I go to all the time. They know me and know I always get my stuff on time. Three of their dryers are currently out of service.",
+      "valence": "pro_poster",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "I was 3 minutes late to get my clothes out of the dryer. I had a timer set.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "The laundromat worker took my clothes out of the dryer and placed them on a hamper. She said she did it because other customers needed dryers.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I got upset with the worker and had a tone change with her about it, though it wasn't a bad argument.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "I feel she was compensating for the fact that they haven't done a good job fixing the 3 out-of-service dryers, and their failure to maintain equipment is putting loyal customers in uncomfortable positions.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I don't like having others touch my stuff, and it was only 3 minutes.",
+      "valence": "neutral",
+      "importance": 2
+    }
+  ]
+}

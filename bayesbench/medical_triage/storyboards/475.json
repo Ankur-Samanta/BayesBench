@@ -1,0 +1,57 @@
+{
+  "case_id": 475,
+  "true_urgency": "Observation",
+  "specialty": "Neurology",
+  "self_diagnosis": "carpal tunnel syndrome",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have tingling and numbness in my fingers, mainly in my right hand"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "I sometimes wake up with my hand feeling completely asleep and I have to shake it out to get feeling back"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "I have started dropping small things like pens or my keys without meaning to"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "The symptoms have been gradually building up over the past 3 months"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a5",
+      "content": "It is mild to moderate discomfort - mainly getting in the way of my work tasks and some everyday activities"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a6",
+      "content": "I am a 34-year-old woman who works in an office and spends a lot of time typing"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a7",
+      "content": "The tingling and numbness get worse when I am typing at work or using my phone for long stretches"
+    }
+  ]
+}

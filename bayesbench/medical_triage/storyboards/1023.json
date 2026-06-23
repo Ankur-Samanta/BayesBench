@@ -1,0 +1,64 @@
+{
+  "case_id": 1023,
+  "true_urgency": "Emergency",
+  "specialty": "Urology",
+  "self_diagnosis": "kidney stones",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have severe pain in my right side and back that came on suddenly about 6 hours ago. It's the worst pain I've ever felt and it comes in waves.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I've noticed my urine is pink or red — it's clearly got blood in it. That really scared me.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I've been vomiting multiple times and I feel extremely nauseous. I can't keep anything down.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "I feel an intense urge to urinate very frequently but when I try, almost nothing comes out. It's really frustrating on top of everything else.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "Everything started suddenly about 6 hours ago with no warning. There was nothing gradual about it — it just hit me all at once.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "The pain is a 9 out of 10 — I literally cannot find a comfortable position. I've been pacing, sitting, lying down, nothing helps. I'm completely incapacitated.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "content": "I'm sweating a lot even though I'm not hot, and the nausea is constant. The pain waves are so intense that I feel like I might pass out.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "CONTEXT",
+      "content": "I'm a 43-year-old male with no major health conditions that I know of. This came out of nowhere with no prior episodes like this.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

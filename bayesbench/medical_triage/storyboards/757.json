@@ -1,0 +1,64 @@
+{
+  "case_id": 757,
+  "true_urgency": "Urgent",
+  "specialty": "Gastroenterology",
+  "self_diagnosis": "gallstones",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have severe pain in my upper abdomen that comes in waves. It's been really intense and I can't get comfortable.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I've been nauseated and vomiting along with the abdominal pain. It makes eating feel impossible.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "My skin looks yellowish and I noticed it recently. My eyes might be a little yellow too.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "My urine has been much darker than normal — it's almost tea-colored. That started around the same time as everything else.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ASSOCIATED",
+      "content": "The pain shoots into my back and it gets much worse right after I eat anything. I've basically stopped eating because of it.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "TIMELINE",
+      "content": "This has been going on for about 5 days and each day feels worse than the last. It hasn't let up at all.",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "SEVERITY",
+      "content": "The pain is an 8 out of 10. I can't work, I can barely sleep, and I can hardly eat anything at all.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "CONTEXT",
+      "content": "I'm a 42-year-old woman. I don't have any diagnosed digestive conditions that I know of.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

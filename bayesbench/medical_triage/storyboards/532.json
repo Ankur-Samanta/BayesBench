@@ -1,0 +1,57 @@
+{
+  "case_id": 532,
+  "true_urgency": "Routine",
+  "specialty": "Dermatology",
+  "self_diagnosis": "ringworm fungal skin infection",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "content": "I have round, scaly, itchy patches on my trunk and arms that started small and are slowly spreading."
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "content": "The patches are slightly raised with a reddish border and clearer skin in the middle."
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "The itching gets worse when I sweat and after showering."
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "content": "The patches have been slowly spreading over the past 2 months."
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "content": "The itching is moderate and disrupts my sleep and exercise routine, but there is no pain. It is also bothering me cosmetically."
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "content": "I am a 34-year-old man."
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 3,
+      "content": "I tried an over-the-counter antifungal cream but it has not helped much."
+    }
+  ]
+}

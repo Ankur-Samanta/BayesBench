@@ -1,0 +1,65 @@
+{
+  "id": "ahh4q8",
+  "title": "aita for refusing to sleep in the same room as my fianc\u00e9?",
+  "text": "we have been together for around 5 years. the past 3 years he has gained a little weight which is no big deal other than the fact he snores incredibly loud. his father has sleep apnea and i believe he does to. it sounds like a chainsaw cutting down trees that stops only for a few seconds and continues with vengeance. he refuses to see a doctor about it and he says i\u2019m over exaggerating even when i show him a video of how loud it is. we tend to sleep separate because i have a habit of waking up in the middle of the night and it\u2019s impossible to go back to sleep when he is snoring. i feel like the asshole because he\u2019s upset i won\u2019t sleep in the same room but i have told him countless of times to see a doctor as it sounds like he could die in his sleep, but he refuses. i believe it is putting a damper on our sex life because i can\u2019t even cuddle and fall asleep with him without the thought of waking up and getting annoyed from his deafening snoring. i have tried earplugs, listening to music with headphones, etc but i don\u2019t think that\u2019s fair to me i should suffer. it is also extremely embarrassing to deal with considering we went on a cruise with my family and i had to share a room with my sister and her husband because you could hear him in the cabin hallway...am i the asshole? if i\u2019m not how do i get him to see how frustrating it is for me :( i feel bad because i can\u2019t imagine he feels rested by the way he sounds and tosses and turns.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My fianc\u00e9 and I have been together for around 5 years. Over the past 3 years he has gained some weight, and his father has sleep apnea. I believe my fianc\u00e9 does too.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "His snoring is incredibly loud \u2014 it sounds like a chainsaw cutting down trees that stops for only a few seconds and continues with a vengeance. You could hear him from the cabin hallway on a cruise.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "He refuses to see a doctor about his snoring and says I\u2019m overexaggerating, even when I show him a video of how loud it is.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I refuse to sleep in the same room as him. I have a habit of waking up in the middle of the night, and it\u2019s impossible to go back to sleep when he is snoring.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I have told him countless times to see a doctor, as it sounds like he could die in his sleep, but he still refuses.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I have tried earplugs, listening to music with headphones, and other solutions, but I don\u2019t think it\u2019s fair that I should have to suffer.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "OUTCOME",
+      "content": "It is putting a damper on our sex life because I can\u2019t even cuddle and fall asleep with him without dreading being woken up by his snoring.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "On a cruise with my family, I had to share a room with my sister and her husband because you could hear his snoring in the hallway. It was extremely embarrassing.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

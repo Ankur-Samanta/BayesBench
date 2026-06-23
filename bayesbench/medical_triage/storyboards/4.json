@@ -1,0 +1,57 @@
+{
+  "case_id": 4,
+  "true_urgency": "Emergency",
+  "specialty": "Cardiology",
+  "self_diagnosis": "heart attack",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have severe crushing chest pain that has been going on for the past 30 minutes and it started while I was just sitting at rest.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "The pain is radiating down my left arm and up into my jaw.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I am very short of breath.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "I am breaking out in a cold sweat.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "content": "The chest pain is a 9 out of 10. I took aspirin but it has not helped at all. I feel like something is seriously wrong.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "TIMELINE",
+      "content": "The pain came on suddenly while I was at rest 30 minutes ago and has not let up.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I am a 55-year-old man. I have high blood pressure and high cholesterol, and I am a smoker.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 1094,
+  "true_urgency": "Routine",
+  "specialty": "Dermatology",
+  "self_diagnosis": "psoriasis",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "neutral",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have an itchy, scaly rash on both my elbows and knees."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "The skin in those areas is thickened and has a silvery scale on top."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "The rash flares up when I am stressed."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a4",
+      "content": "The rash has been going on for about 2 months and has stayed the same \u2014 not getting better or worse."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "reassuring",
+      "importance": 2,
+      "id": "a5",
+      "content": "The itching is annoying but manageable and is not stopping me from doing my daily activities."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "reassuring",
+      "importance": 3,
+      "id": "a6",
+      "content": "I am a 35-year-old man. I had a very similar rash years ago that went away on its own."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "Stress seems to make it worse. Both elbows and both knees are affected at the same time."
+    }
+  ]
+}

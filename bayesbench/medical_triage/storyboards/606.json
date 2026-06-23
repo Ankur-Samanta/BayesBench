@@ -1,0 +1,64 @@
+{
+  "case_id": 606,
+  "true_urgency": "Emergency",
+  "specialty": "Cardiology",
+  "self_diagnosis": "heart attack",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have severe crushing chest pain"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "The pain shoots down my left arm"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a3",
+      "content": "I am sweating heavily and feel short of breath"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "I feel sick to my stomach and dizzy"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a5",
+      "content": "The pain came on suddenly about 45 minutes ago while I was sitting at rest"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a6",
+      "content": "The pain is 9 out of 10 and I can barely breathe"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "I am a 64-year-old man with known heart disease and a history of angina"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a8",
+      "content": "I tried my nitroglycerin like I do for angina but it did nothing for this pain"
+    }
+  ]
+}

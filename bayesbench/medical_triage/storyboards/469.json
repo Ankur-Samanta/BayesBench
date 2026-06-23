@@ -1,0 +1,57 @@
+{
+  "case_id": 469,
+  "true_urgency": "Observation",
+  "specialty": "Orthopedics",
+  "self_diagnosis": "knee osteoarthritis",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have been having pain in my right knee for about 3 months.",
+      "urgency_signal": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I have mild swelling around my knee, especially after I have been physically active.",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "The pain is worse when I climb stairs or after I have been sitting for a long time.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "SEVERITY",
+      "content": "The pain is about a 4 out of 10. It limits some of my activities but I can still function. Over-the-counter pain relievers help but the pain keeps coming back.",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "This started gradually about 3 months ago. It has been stable and not really improving on its own.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "content": "I am a 52-year-old woman and I am slightly overweight.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "content": "The pain and swelling are consistently worse after physical activity and better with rest and pain medication.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    }
+  ]
+}

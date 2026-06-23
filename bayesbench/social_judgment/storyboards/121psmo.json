@@ -1,0 +1,65 @@
+{
+  "id": "121psmo",
+  "title": "aita because i don\u2019t want to walk my roommate dogs while he\u2019s out?",
+  "text": "now i wouldn\u2019t mind if this wasn\u2019t like the 10th this week where he\u2019s asked me to walk his big husky and this big hyperactive puppy (idk the breed) that isn\u2019t properly pee trained and is way too energetic. i don\u2019t want to deal with him.  i live in a off campus house with my 2 cats and his dogs. we have 3 total roommates including me. i\u2019m the one that does 90% of the cleaning and trash. the bathroom and kitchen are horrendous. unclean dishes, trash piling up, the bathroom (omfg) is full of piss stains and hair. i\u2019m 100% the only one who\u2019s cleans it.  (we have 2 toilets so me and the one roommate that i see like once every 2 weeks uses. and the 3rd roommate with the dogs has his own bathroom. ) now recently for the pass week or 2. he\u2019s been increasingly asking me to take care of his dogs that he leaves in a small crate for their sizes while he goes to class and does whatever the fuck he does all day. making me feed them and walk them at least 2-3 times every few days or so. so far he\u2019s only given me $30 last week for the troubles. only cause he doesn\u2019t want to hire a sitter.  today i\u2019m slightly sick with a head cold, cough, and runny nose with sinus pressure and i\u2019m not in the mood to dog sit especially with the hyper puppy.  am i the asshole for not wanting to? i have nothing to do right now but i don\u2019t want to deal with dogs right now. he already left and isn\u2019t coming back til 8-9 tn. pretty much just throwing it onto me without asking. (i think he said something about him being busy a weekend but i don\u2019t remember which week he was talking about.  ** they\u2019ve also been making hella noise since 10am because they want to get out. **edit i walked them and holy shit that was hell. both of them pulling me and running around. wet asf outside full of mud and no one picks up the dog poop at all. this is why i\u2019m a cat person now lmaoo",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I live in an off-campus house with two other roommates. I have two cats and one roommate has a big husky and a hyperactive puppy that isn't properly pee-trained.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "I already do 90% of the cleaning and trash in the house. The bathroom and kitchen are horrendous with unclean dishes, trash piling up, and piss stains, and I'm the only one who cleans it.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "For the past week or two, my roommate has been increasingly asking me to take care of his dogs while he goes to class and does whatever he does all day. He leaves them in a crate that's small for their sizes and has me feed and walk them 2-3 times every few days.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "He has only given me $30 total last week for all the dog care, because he doesn't want to hire a proper sitter.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "Today he left for the day and isn't coming back until 8-9pm, pretty much just throwing the dog-sitting responsibility onto me without properly asking.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I considered refusing to walk his dogs today, even though he'd already left and thrown the responsibility on me.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I'm slightly sick today with a head cold, cough, runny nose, and sinus pressure, and I'm not in the mood to dog-sit, especially the hyper puppy.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "The dogs have been making a lot of noise since 10am because they want to get out of their crate. I ended up walking them anyway and it was hell -- both pulling me and running around in the mud.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

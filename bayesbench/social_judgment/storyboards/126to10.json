@@ -1,0 +1,37 @@
+{
+  "id": "126to10",
+  "title": "aita for not wanting to stop vaping when my (18m) boyfriend wants me to",
+  "text": "so i (17f) have seizures, and nicotine helps them a lot. i usally have 10 a day but after i\u2019ve started vaping it\u2019s gone down 70%. i have rules for myself about vaping. and i make sure i\u2019m not doing it to much. my boyfriend doesn\u2019t like it and wants me to stop. i feel like i\u2019m the a-hole for not wanting to stop.",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I'm 17F and I have seizures. I usually have 10 seizures a day, but since I started vaping, that number has gone down by 70%.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "ACCOUNT",
+      "content": "I have rules for myself about vaping and I make sure I'm not doing it too much.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "My boyfriend doesn't like that I vape and wants me to stop.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I don't want to stop vaping despite my boyfriend's objections.",
+      "valence": "against_poster",
+      "importance": 5
+    }
+  ]
+}

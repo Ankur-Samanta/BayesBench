@@ -1,0 +1,57 @@
+{
+  "case_id": 641,
+  "true_urgency": "Urgent",
+  "specialty": "Orthopedics",
+  "self_diagnosis": "torn ACL",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "My right knee suddenly gave out while I was playing basketball and I heard a loud pop"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "My knee is very swollen and has started to bruise"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "My knee feels unstable and wobbly when I try to walk on it"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "I can't fully straighten or bend my knee at all"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a5",
+      "content": "This happened yesterday during a basketball game, so it has been about 24 hours"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a6",
+      "content": "The pain is severe, about an 8 out of 10, and I cannot put any weight on my leg at all"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a7",
+      "content": "I am a 28-year-old man and I play recreational basketball regularly"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "j81bl6",
+  "title": "aita for \"snitching\"?",
+  "text": "tl:dr i a (13)m was bullied by a classmate, am i a asshole for telling the teacher about his behaviour? so yesterday i was just at school for the last 40 minutes and a kid named steve (fake name) came up to me and the conversation went like this me: what do you want steve: your a fat ass pig me: dude go fuck off steve: you and your family can go die and get fucked to death by me me: ...... steve: you live in a shitty house with hobos (uh no i don't) me: hey at least i'm not a dumpster (trying my best not to cry) steve's friend: hey you fucking fatass leave steve alone, at least he isn't retarded like you me: *starts to cry a bit* steve and his friend: oh look at cry baby over here wah wah wah so then after class i talked to my teacher about what happened with steve and he said after the long weekend he will talk to him, so i told some of my friends and some of them agreed with me telling the teacher, some others said that since i am a snitch i will get stiches so reddit am i the asshole?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I'm a 13-year-old boy at school. I was just going about the last 40 minutes of my school day.",
+      "valence": "neutral",
+      "importance": 1
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "A classmate named Steve came up to me unprovoked and called me a 'fat ass pig.' He then told me that me and my family can 'go die' and made violent threats.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "Steve continued insulting me, saying I live in a 'shitty house with hobos.' His friend also joined in, calling me a 'fucking fatass' and 'retarded.'",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "OUTCOME",
+      "content": "I started to cry. Steve and his friend mocked me for crying, saying 'oh look at cry baby over here, wah wah wah.'",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "After class, I talked to my teacher about what happened with Steve. The teacher said he would talk to Steve after the long weekend.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "REACTION",
+      "content": "I told some friends. Some agreed I was right to tell the teacher, but others said since I'm a snitch, I'll 'get stitches.'",
+      "valence": "neutral",
+      "importance": 3
+    }
+  ]
+}

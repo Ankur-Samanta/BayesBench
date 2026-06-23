@@ -1,0 +1,72 @@
+{
+  "id": "dj7nms",
+  "title": "aita for 'ignoring' my colleague?",
+  "text": "throwaway in case i'm wrong and my main account gets [destroyed.so](https://destroyed.so) i work for a tech startup in london. cool, dog friendly office, relaxed dress code, young and energetic team and we all get along really well. i have fantastic relationships with pretty much everyone and am known around the office. a lot of the time i have coworkers over weekends for poker night for the lads, trips out etc. a few weeks ago i was walking to a station and i saw a colleague. we don't speak much usually as she is fairly new and in the exact opposite department as me but i'm outgoing so i thought i'd say hi. i walk over and  say 'hi'. she looks at me then just turns and ignores me. i think maybe she didn't recognise me so i said 'hey \\*her name\\* its me, \\*my name\\* from \\*our office\\*!'. at this point, a few people on the platform are looking at me as if there may be an issue or maybe i was bothering her. she turns around and looks right at me again, and i can tell she notices me and knows who i am but she just frowns, rolls her eyes, stick in her headphones and moves away from me. i found this hugely embarrassing. i thought i may have offended her at work somehow or maybe she just didn't want to be friendly outside the office which i though was weird, but her choice. the next monday, i was having lunch with someone from her department and she joins. i thought this was odd but i didn't leave, just directed my conversation to the other colleague until i finished eating and left. since this incident i've been treating her with complete and utter professionalism at work and respect but i don't talk to/interact with her unless i absolutely have to for work (super rare) or she asks me a direct question etc. (she says 'hi' and of course i'll reply but i don't instigate) over the last weekend had a small gathering at my place where i invited about half the office. this monday, my manager pulled me aside and said that she had complained to hr that i was being 'hostile' and whilst she (my manager) hadn't noticed anything, the two of us and our managers still had to sit down with hr to 'mediate'. during the session, she said: i was chatty with everyone but her, i don't start non-work conversations with her, and i didn't invite her to my 'party' despite the fact others from her department had attended. i was shocked and said i didn't think she wanted to be friends after what happened on the tube. she apparently hadn't mentioned this, i gave my explanation. afterwards, my manager asked if it was true and the colleague said it was unfair for em to 'punish her for being a little moody one time'. that is not what i'm doing. i just have no interest in a friendship with her. my manager would love it if we 'buried the hatchet'. to me there's nothing to bury, i don't want to be friends with her but i will continue to be polite. her manager thinks i'm ta because: she's new and i am a social hub at work and being 'shunned' by me will make it harder for her to gain acceptance.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I work for a tech startup in London. I have fantastic relationships with pretty much everyone and am known around the office as a social hub. I regularly have coworkers over for poker nights and trips out.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "This colleague is fairly new and works in the exact opposite department from me, so we don\u2019t usually speak much.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "A few weeks ago I saw her at a tube station and tried to say hi. She looked right at me, frowned, rolled her eyes, stuck in her headphones, and moved away from me. Bystanders on the platform were looking at me as if I was bothering her.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "Since the tube incident, I\u2019ve been treating her with complete professionalism and respect at work, but I don\u2019t talk to or interact with her unless it\u2019s necessary for work or she asks me a direct question.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I had a small gathering at my place and invited about half the office, including some people from her department, but I did not invite her.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "She complained to HR that I was being \u201chostile\u201d \u2014 saying I was chatty with everyone but her, didn\u2019t start non-work conversations with her, and didn\u2019t invite her to my gathering.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "When I explained the tube incident during the mediation, she admitted it happened but said it was unfair for me to \u201cpunish her for being a little moody one time.\u201d",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I\u2019m not punishing her. I just have no interest in a friendship with her after how she treated me. I will continue to be polite and professional.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "REACTION",
+      "content": "Her manager thinks I\u2019m in the wrong because she\u2019s new and I\u2019m a social hub at work, so being \u201cshunned\u201d by me will make it harder for her to gain acceptance.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

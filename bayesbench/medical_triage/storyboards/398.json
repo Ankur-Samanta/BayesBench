@@ -1,0 +1,57 @@
+{
+  "case_id": 398,
+  "true_urgency": "Routine",
+  "specialty": "Neurology",
+  "self_diagnosis": "carpal tunnel syndrome",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a1",
+      "content": "I keep getting weird tingling and pins-and-needles feelings in both my hands and feet, especially at night"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a2",
+      "content": "My fingers often feel numb when I wake up in the morning"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "I have become clumsier than usual and I drop things more often"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "I am having trouble doing up buttons and my handwriting has gotten harder"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a5",
+      "content": "These symptoms have been slowly developing over the past 4 months"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a6",
+      "content": "It is manageable but getting in the way of my work and daily life more and more"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a7",
+      "content": "I am a 42-year-old woman and I work as an administrative assistant, which means I type a lot every day"
+    }
+  ]
+}

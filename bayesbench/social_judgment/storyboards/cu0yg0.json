@@ -1,0 +1,65 @@
+{
+  "id": "cu0yg0",
+  "title": "aita for being passive aggressive with upstairs neighbors?",
+  "text": "i moved into my condo around this time last year.  after a month or two, my nightmare began. first incident was the bathtub overflowing and flooding my bathroom ceiling. when i knocked upstairs to inform that there was water pouring through my ceiling and fan, i was met with \"well, my girlfriend is taking a bath. when we overfill the tub, it flows down and leaks into your unit, so i'll go and ask her to drain the water\". i looked at the guy with a \"what?!\" look on my face. i was too stunned to even say much other than \"great, thanks\", and proceeded back down to my place to continue cleaning up the mess and to contact my condo association for repairs. repair guy comes, cuts half of my ceiling out, and sets me up with a fan because you can't repair the ceiling until its dry. also notes that this is clearly not the first time this has happened. after placing multiple calls to my association and making myself available, lovely upstairs folks make no effort whatsoever to fix the issue. i'll add at this point that they're realtors themselves, and at least one of them is essentially always home. it ended up taking over 2 months to complete the work. come to find out they have a large dog. they also have a condo that is entirely wood floored. and they hardly ever take this dog out. their solution is to simply let it onto their back deck where it poops and pees. and then they sweep this poop off the deck, which has landed on my deck a few times.  awesome. but wait - it gets better! these people have no schedule whatsoever. all hours of the day and night, i hear them. i hear him yelling on the phone or to her, the dog all over the damned place, them doing laundry at 3am. they have zero regard or respect for the fact that their schedule/day to day is considerably different than the average person. i've had to call the cops on three separate occasions where i've been startled awake between 3am and 5am (on weeknights) by what sounds like bodies hitting the floor above me - and for a sustained period of time.  i'm talking 30 mins+.  point:  i've admittedly taken to simply yelling out in frustration when these things happen now or simply cranking the volume up on my tv. not to a level that they can call the cops on me, but loud enough that i know they can hear it. i will concede that i have not actually gone up there, knocked on the door, and tried to address this directly with them. i may be wrong for feeling this way, but i'm of the opinion that at this point, it wont do any good. should i have done it sooner? yes, as much as i hate to admit it. i did fuck up on that. but there's no way these people can not know that their noise is disruptive. i also have it on good authority from the woman i bought the unit from that the folks upstairs had been an issue for her in the past. tldr; aita for being passive aggressive with my obnoxious neighbors?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I moved into my condo about a year ago. After a month or two, problems with my upstairs neighbors began.",
+      "valence": "neutral",
+      "importance": 1
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "My upstairs neighbors let their bathtub overflow, flooding my bathroom ceiling. When I knocked to tell them, the guy casually said that when they overfill the tub it leaks into my unit. The repair guy noted this was clearly not the first time it had happened.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "After placing multiple calls to the condo association and making myself available, the upstairs neighbors made no effort whatsoever to fix the issue. It took over two months to complete the ceiling repairs.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "They have a large dog that they hardly ever take out. They let it poop and pee on their back deck and sweep the poop off, which has landed on my deck a few times.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "They have no schedule whatsoever. All hours of the day and night I hear yelling, the dog running around, and them doing laundry at 3am. I've had to call the cops on three separate occasions when I was startled awake between 3am and 5am by what sounded like bodies hitting the floor for 30 minutes or more.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I have taken to yelling out in frustration when these disturbances happen and cranking the volume up on my TV -- loud enough that they can hear it, but not loud enough for them to call the cops on me.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I have not actually gone up there, knocked on their door, and tried to address this directly with them. I feel that at this point it won't do any good, though I concede I should have done it sooner.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "There's no way these people can not know that their noise is disruptive. The woman I bought the unit from also told me the upstairs neighbors had been an issue for her in the past.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

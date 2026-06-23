@@ -1,0 +1,72 @@
+{
+  "id": "b8nlgu",
+  "title": "aita for not letting a friend smoke in my car?",
+  "text": "last weekend i spent a few days in the mountains with my friends. we arranged to meet in a certain place and leave all with the same car to spare money and i offered to drive. a friend of mine, let\u2019s call her emily, was really upset because her dad\u2019s car (she still lives with her parents and hasn\u2019t got her own car, so even if it belongs to her dad, she drives it as well) was damaged just a few minutes before we met. as we met we went to buy some things we needed for the trip and for a bit it seemed as she was calm.  later while i was driving emily asked me to stop along the way because she said she was nervous and she really needed to have a smoke, my two other friends who were with us answered that she could smoke once we arrived (it\u2019s a 20 minutes drive) and she just didn\u2019t answer. a few minutes later emily asked me if she could smoke in my car promising she would keep the cigarette out the window, i said no since i\u2019m trying to quit smoking (one week smoking free today btw) and i didn\u2019t want my car to smell bad. she answered that i used to smoke in my car and it wasn\u2019t fair forbidding her to do the same, i just sighed loudly to let her now she was annoying me and she stopped talking for the rest of the trip.  later that day more friends arrived and i don\u2019t remember how, we began talking about what happened in the car, one of them (margaret) told me i was being a hypocrite for not letting my friend smoke in my car since i used to do the same (it happened like three times because i really needed it), and the thing that i was trying to quit smoking is not a valid excuse because not much later i would have seen them smoking, and it would have been the same as letting emily smoke in my car.  i was sure i hadn\u2019t done anything wrong since i had that conversation with margaret, but she made me feel like i failed in helping a friend in need, so aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I spent a few days in the mountains with my friends. I offered to drive everyone in my car to save money.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My friend Emily was really upset before the trip because her dad's car had been damaged just minutes before we met up.",
+      "valence": "pro_poster",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "While I was driving, Emily asked if she could smoke in my car, promising she would keep the cigarette out the window.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I told Emily no, she could not smoke in my car.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "I'm trying to quit smoking — I've been one week smoke-free — and I didn't want my car to smell bad.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "Emily argued that I used to smoke in my car and it wasn't fair for me to forbid her from doing the same.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I sighed loudly to let her know she was annoying me.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "Emily stopped talking for the rest of the trip.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a9",
+      "category": "REACTION",
+      "content": "Margaret told me I was being a hypocrite for not letting Emily smoke in my car since I used to do the same, and that trying to quit smoking wasn't a valid excuse since I would see them smoking later anyway.",
+      "valence": "against_poster",
+      "importance": 4
+    }
+  ]
+}

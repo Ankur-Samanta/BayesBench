@@ -1,0 +1,86 @@
+{
+  "id": "kgxdou",
+  "title": "aita for going to work?",
+  "text": "my first post and i\u2019m on mobile. some background: i\u2019m (20f) a college student home for winter break. over the summer, i got a second job to save more money (saving for my first car!) i\u2019ve wanted a summer job ever since i started high school, but was never allowed to get one until summer before senior year of high school. the reason: my parents believed that my real job was training in my sport, as i had plans to play in college and was being recruited for scholarship. i now play said sport for my university, and my scholarship is large although not full, covering about 50-60% of all costs.  i had plans to return to my second job over winter break ever since i left to go back to school in august. in the last week of october, i received a text from my manager confirming if i was still planning on returning. i texted my mom to make sure it was still alright with her, and she said yes.  when i returned home for winter break, my parents decided to set some ground rules, mostly my dad. these are for myself and my sister(18f): 1. no sleeping in until noon everyday, 2. we are required to do some training towards our respective sports (sister is also on scholarship for her sport) and 3. we are required to do some academic work towards our respective majors. my dad said if i want to work in my free time outside of doing what\u2019s in these rules, i could. if we don\u2019t follow these rules? we are to be kicked out of the house.  a little  after this conversation, my manager texts me my schedule for the week. later, i let my mom know i have my work schedule. and she was.... upset. she raised her voice and kept saying things like \u201ci can\u2019t believe you\u2019re actually going!\u201d  in the 1.5 weeks between then and the convo about rules with the family, i had gotten a few passive aggressive remarks about returning to work from my mom. they never wanted me to get said job over the summer because doing anything other than part time was \u201ctaking away from my real job,\u201d which is what they call training for my sport. because of that, and the background above, i knew they didn\u2019t want me to return, but had been under the assumption that if they were no longer okay with me returning, (for whatever reason, covid, etc) they needed to have told me. they specifically said on two separate occasions that i could return, and then after i was on the schedule told me they expected i wouldn\u2019t because it was the right thing to do?! i\u2019m being treated like the biggest asshole ever in my house for my decision, and getting the silent treatment from my father, which isn\u2019t a new thing but still.  my decision was to return for the one week i was on the schedule. my parents wanted me to call out, but i had issues with that, mostly being that i had promised to return twice and was on the freaking schedule. so aita for returning for the one week as promised to my manager? i told her to not put me on the schedule for any more shifts, and isolated for 10 days after i started working.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I am a 20-year-old female college student home for winter break. I play a sport for my university on a scholarship that covers about 50-60% of my costs, and I got a second job over the summer to save money for my first car.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My parents have always believed that my real job is training for my sport. They never allowed me to get a summer job until senior year of high school because they thought it would take away from training.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I texted my mom before winter break to confirm it was still alright for me to return to my second job, and she said yes. My manager also confirmed I was returning.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "My dad set ground rules and said I could work in my free time outside of doing what was required.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "My dad threatened that if I didn't follow his rules, we would be kicked out of the house.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "When I told my mom I had my work schedule, she got upset, raised her voice, and kept saying things like \"I can't believe you're actually going!\" She had also been making passive-aggressive remarks about my returning to work for the prior 1.5 weeks.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "My parents told me on two separate occasions that I could return to work, but then after I was already on the schedule, they told me they expected I wouldn't go because it was \"the right thing to do.\"",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "I decided to return to work for the one week I was already on the schedule, despite my parents wanting me to call out.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I had promised my manager twice that I would return and was already on the schedule. I felt I couldn't just call out after making that commitment.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a10",
+      "category": "OUTCOME",
+      "content": "I am being treated like the biggest asshole in my house for my decision. My father is giving me the silent treatment, which he has done before.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a11",
+      "category": "ACTION_POSTER",
+      "content": "I told my manager not to put me on the schedule for any more shifts after that week, and I isolated for 10 days after I started working.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

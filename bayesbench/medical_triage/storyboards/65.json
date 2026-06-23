@@ -1,0 +1,57 @@
+{
+  "case_id": 65,
+  "true_urgency": "Urgent",
+  "specialty": "Cardiology",
+  "self_diagnosis": "angina pectoris",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I've been having this crushing chest pain that starts right in the center of my chest and spreads down my left arm. It's really scary and keeps happening when I'm active.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "When the chest pain comes on, I get really short of breath — like I can't catch my breath no matter what I do.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "Along with the pain, I start sweating and feel sick to my stomach. Both happen at the same time as the chest pain.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "content": "This has been going on for about 3 months, but the last 2 weeks it's gotten a lot worse and is happening more often. The most recent episode was really bad and lasted around 15 minutes.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "content": "The pain hits about a 7 out of 10. It's bad enough that I've had to cut back on a lot of my normal daily activities because I'm afraid to trigger it.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ASSOCIATED",
+      "content": "The pain comes on when I'm doing things like climbing stairs or doing yard work. When I stop and rest, it does go away — but it's now happening with less and less effort.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I'm a 58-year-old man, I'm overweight, and I've been a smoker for years. I know that's not great for my heart.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 780,
+  "true_urgency": "Routine",
+  "specialty": "Dermatology",
+  "self_diagnosis": "contact dermatitis",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have a small red itchy rash on my forearm that I noticed about 2 weeks ago.",
+      "urgency_signal": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "The rash is slightly raised above the skin.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "TIMELINE",
+      "content": "It showed up about 2 weeks ago and hasn't really changed or spread since then.",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "It itches mildly but it isn't stopping me from doing anything in my day.",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ASSOCIATED",
+      "content": "I tried a new lotion about 3 weeks ago, right before the rash appeared.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ASSOCIATED",
+      "content": "I haven't switched any soaps or detergents, so I can't think of anything else that changed.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I'm a 28-year-old woman and I don't have any health conditions or take any medications.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    }
+  ]
+}

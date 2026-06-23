@@ -1,0 +1,57 @@
+{
+  "case_id": 605,
+  "true_urgency": "Emergency",
+  "specialty": "Pulmonology",
+  "self_diagnosis": "severe asthma attack",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "I am having severe trouble breathing and feel like I'm suffocating right now"
+    },
+    {
+      "id": "a2",
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "This started suddenly about 20 minutes ago after I went outside in the cold air"
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "I have severe tightness in my chest and I am wheezing loudly"
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "My lips feel tingly and I feel like I might pass out"
+    },
+    {
+      "id": "a5",
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "I've used my inhaler several times but it is not helping at all"
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "This is the worst breathing has ever felt. I am in severe distress and can barely speak"
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "I'm a 25-year-old woman with severe asthma"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 1019,
+  "true_urgency": "Observation",
+  "specialty": "Endocrinology",
+  "self_diagnosis": "type 2 diabetes",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I've been feeling much more thirsty than usual and drinking a lot more water.",
+      "urgency_signal": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I'm urinating much more frequently, sometimes waking up 3 to 4 times at night to use the bathroom.",
+      "urgency_signal": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I've been hungrier than usual but I'm actually losing weight without trying.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "My vision has been a bit blurry lately.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "All of these symptoms have been coming on gradually over the past 2 to 3 months.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "The frequent urination is disrupting my sleep and the fatigue affects my daily routine, but I'm still able to function.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I'm a 52-year-old man who is overweight and has a family history of diabetes.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    }
+  ]
+}

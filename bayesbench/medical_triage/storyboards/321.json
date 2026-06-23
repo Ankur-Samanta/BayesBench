@@ -1,0 +1,57 @@
+{
+  "case_id": 321,
+  "true_urgency": "Observation",
+  "specialty": "Pulmonology",
+  "self_diagnosis": "chronic cough from blood pressure pill",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have a dry cough that just won't go away.",
+      "urgency_signal": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "TIMELINE",
+      "content": "The cough has been going on for about 6 weeks and hasn't really gotten worse.",
+      "urgency_signal": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "It gets worse when I lie down at night and when I go outside in cold air.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "I have no fever and haven't felt sick otherwise.",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "content": "The cough is bothersome but hasn't stopped me from doing my daily activities.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "content": "I am a 44-year-old woman and I take a blood pressure medication called an ACE inhibitor. I do not smoke.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "content": "I tried cough suppressants but they only help a little.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

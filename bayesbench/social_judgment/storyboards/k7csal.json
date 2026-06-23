@@ -1,0 +1,72 @@
+{
+  "id": "k7csal",
+  "title": "aita for getting jealous of a two year old?",
+  "text": ">i know it sounds stupid, but i am admitting that i am jealous of a two year old. my girlfriend (18) and i (19) have been dating for about a year and a half now. her family has been babysitting this two year old and four year old since she was about 6 months old and the other one was 2. they dont really like the four year old because they think she's annoying, but they love the two year old even though she is literally the worst child i have ever seen. maybe i just think she's terrible because i'm \"jealous\" of her, but she is genuinely really disrespectful and spoiled and everyone still babies her bc they think her life is hard due to her mom working nights and her dad only being in the picture about twice a year. she gets everything she wants and the horrible things she does includes rolling her eyes, telling people to shut up, scratching her sister's eyes, blatantly ignoring you when you talk to her, and crying any time she doesn't get her way or even if you do something as small as asking her if she needs to go to the bathroom. people are constantly walking on eggshells around her because she is a literal monster of a child. if you put her in time out or try to tell her no about something she just stands there and glares at you, it's really creepy. anyways to get to the point, i am a really lovey touchy-feely type of person when it comes to my relationships, and my girlfriend understands this completely. she is lovey when she wants to be, but often times i find myself being too overwhelming for her and she is more of the type of person to want to receive love than give it out, which we have talked about because it sometimes bothers me whenever i just want her to love on me back. one of my favorite things is getting my back scratched or rubbed or my hair played with, and i especially like being lovey in the morning. unfortunately, every time i beg my girlfriend to scratch my back or play with my hair she throws a fit about it and says she's tired, but then she will go and do it to the two year old. i wouldn't be getting so upset about it if i didn't literally beg her to do this and get turned down every time, and one time she even asked me, \"does it really bother you that much? does it mean that much to you?\" and i told her yes, so i got a couple of times out of her but they stopped pretty shortly after. i ignored it until i saw her doing it with the two year old, which kind of upset me. then, there have been a couple mornings where i have wanted to be lovey but she turns me down and i respect that because i know she wants her space sometimes, but as soon as she heard the two year old was up, she went and cuddled her and kissed her and laid in the bed with her. she has noticed me getting upset sometimes and she just says that i\u2019m jealous, and she also gets upset that i don\u2019t like the two year old and that i\u2019m being ridiculous bc she\u2019s two, so aita? i hope everyone saw some of the things i wanted to clear up in the comments, but i would like to make another big thing clear: a lot of people in the comments are saying that i have unrealistic expectations for a two/three year old and its normal for her to be a little shit, but i'm not asking if i'm the asshole for not liking the kid; i know that i have high expectations for her especially because i'm not used to being around children. i still wouldn't like her even if my gf didn't do all of this all the time. i'm asking if i am the asshole for getting upset that my girlfriend takes the time to love on her after turning me down when i ask for love. if i'm still the asshole that's totally okay, i just wanted to clear that up.",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My girlfriend and I (18 and 19) have been dating for about a year and a half. Her family has been babysitting a two-year-old and a four-year-old since they were babies.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "I am a really lovey, touchy-feely type of person in relationships. My girlfriend is more the type to want to receive love than give it out, which we have talked about because it sometimes bothers me.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I repeatedly beg my girlfriend to scratch my back or play with my hair, and I get turned down every time.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "She throws a fit about it and says she's tired.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "After turning me down saying she's tired, my girlfriend will go and scratch the two-year-old's back and play with her hair. On mornings when she refuses to be lovey with me, she goes and cuddles and kisses the two-year-old as soon as she hears the child is up.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I got visibly upset when I saw my girlfriend giving the two-year-old the same physical affection she refuses to give me. I admit that I am jealous of a two-year-old.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "When my girlfriend noticed me getting upset, she told me I was just jealous and got upset that I don't like the two-year-old, saying I'm being ridiculous because she's two.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I wouldn't be upset about it if I hadn't literally begged her and been turned down every time. She once asked me \"does it really bother you that much?\" and I told her yes, but the effort stopped shortly after.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I think the two-year-old is genuinely disrespectful and spoiled -- she rolls her eyes, tells people to shut up, scratches her sister, and cries whenever she doesn't get her way. Everyone walks on eggshells around her.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

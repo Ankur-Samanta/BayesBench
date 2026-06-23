@@ -1,0 +1,57 @@
+{
+  "case_id": 1024,
+  "true_urgency": "Emergency",
+  "specialty": "Urology",
+  "self_diagnosis": "kidney stone",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "I have severe, excruciating pain in my right side and lower back that comes in waves"
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "I noticed blood in my urine this morning"
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "I have been vomiting multiple times"
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "The pain started yesterday and has gotten much worse in the last 6 hours"
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "The pain is about 9 out of 10, I can barely stand up straight, I cannot sleep, and nothing is making it better"
+    },
+    {
+      "id": "a6",
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "content": "I am a 42-year-old man"
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 3,
+      "content": "The pain makes me sweat and I cannot find any position that gives me relief"
+    }
+  ]
+}

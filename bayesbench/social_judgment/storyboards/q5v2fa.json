@@ -1,0 +1,65 @@
+{
+  "id": "q5v2fa",
+  "title": "wibta if i refuse to move back in with my current roommate?",
+  "text": "ok. so. (on a throwaway) i have a roommate, let\u2019s call them f. f is moving back in with their mom, so i\u2019m moving into a new place. i\u2019m currently taking a break from post-secondary, but i\u2019m going back next fall. f also wants to start going to post-secondary, though the window has passed for them to start the same year i go back. however, when they do inevitably start post-secondary, they want to move back in with me because they, quote, \u201ccan\u2019t live on their own\u201d. when they first suggested this, i was fine with it, and so i agreed. besides, it\u2019s over a year away\u2014 it\u2019ll be fine, right? not so much. ever since we\u2019ve been living together, due to their mental illnesses, i\u2019ve basically been their caretaker, and over the past few months it\u2019s been getting so much worse so fast. they will sometimes have episodes so bad that they can\u2019t feed themselves, take their medication, borderline can\u2019t even dress themselves. i have been in multiple situations where i\u2019ve had to consider whether or not i needed to physically restrain them so they didn\u2019t hurt me or themselves. i know i have no obligation to do this for them, but if i don\u2019t then no one else will and then they will go hungry and unmedicated. they literally cannot take care of themselves.  so therein lies the crux of my problem: i cannot do this anymore. i cannot be their caretaker anymore. i don\u2019t want to and i just can\u2019t. i\u2019m so unbelievably happy that they\u2019re moving back into their mom\u2019s house. i know i shouldn\u2019t feel this way, it\u2019s not their fault that they\u2019re like this, but it\u2019s so exhausting for me to deal with day in and day out. i know that if it feels this way for me it must be exponentially more for them, but i just. don\u2019t really care anymore. i\u2019m numbs to it from having to turn my emotions off all the time, so i can help them. it\u2019s just exhausting. tl;dr: my roommate cannot take care of themselves, and so i feel obligated to while we\u2019re living together. wibta if i refuse to move back in with them when they start post-secondary so i don\u2019t have to be their quote-unquote caretaker?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I have a roommate, F, who is moving back in with their mom. I'm moving into a new place and going back to post-secondary next fall.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "F wants to move back in with me when they start post-secondary because they say they \"can't live on their own.\" This would be over a year from now.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "When F first suggested moving back in together, I agreed to it.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ORIENTATION",
+      "content": "Due to F's mental illnesses, I have basically been their caretaker ever since we've been living together. Over the past few months it has been getting much worse very fast.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "F sometimes has episodes so bad they can't feed themselves, take their medication, or borderline even dress themselves. I have been in situations where I had to consider physically restraining them so they didn't hurt me or themselves.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I know I have no obligation to do this for them, but if I don't, no one else will and they will go hungry and unmedicated.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I cannot be their caretaker anymore. It is so exhausting to deal with day in and day out, and I've become numb from having to turn my emotions off to help them.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "I am considering refusing to move back in with F when they start post-secondary, going back on my earlier agreement.",
+      "valence": "against_poster",
+      "importance": 5
+    }
+  ]
+}

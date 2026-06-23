@@ -1,0 +1,65 @@
+{
+  "id": "hdicy5",
+  "title": "aita owner of dogs accused us of stealing them",
+  "text": "my family got together for father\u2019s day and while we had our picnic (easier to keep distance) two dogs ran into our yard from the forest.  they were well-groomed dogs and had collars but no tags.  they just joined the party and started playing with the kid\u2019s toys. while the host didn\u2019t have dogs, my brother\u2019s husband does and when no owner appeared, he grabbed his spare leash and his own dog\u2019s leash and decided to walk the dogs in the neighborhood to see if the owners were out looking for them.  the house we were at is in an isolated part of the neighborhood with no neighboring houses so we didn\u2019t think the owners would find them here even if they were looking.  he made it out of our section to the main road when a woman in an suv stops suddenly and starts yelling at him \u201cwhat do you think you are doing with my dogs!!!\u201d accused him of trying to take them and even after he explained that his family lived in the neighborhood and had only leashed them so he could look for the owners was extremely rude and she snapped at him to never touch her dogs again before driving off. we were really taken aback because we thought we were helping - the forest is huge and cars drive fast on the main road so we didn\u2019t want to risk them running off or else we wouldn\u2019t have put the leashes on them. the hoa president sent the host an email afterwards saying that they\u2019d received a complaint about them inappropriately handling a neighbor\u2019s dogs.  the host was really upset about what happened and was glad at first to have the chance to get some resolution but apparently even after explaining the hoa president told her we shouldn\u2019t have done anything with the dogs and just call animal control if it happens in the future.  were we really the assholes here?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My family got together for a Father's Day picnic. The house we were at is in an isolated part of the neighborhood with no neighboring houses.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "Two dogs ran into our yard from the forest. They were well-groomed and had collars but no tags, and no owner appeared to claim them.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "My brother's husband grabbed his spare leash and his own dog's leash and decided to walk the stray dogs around the neighborhood to see if the owners were out looking for them.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACCOUNT",
+      "content": "We didn't think the owners would find the dogs at our isolated location even if they were looking. The forest is huge and cars drive fast on the main road, so we didn't want to risk the dogs running off.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "A woman in an SUV stopped suddenly and started yelling, accusing my brother's husband of trying to steal her dogs. Even after he explained the situation, she was extremely rude and snapped at him to never touch her dogs again before driving off.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "REACTION",
+      "content": "The HOA president sent the host an email saying they'd received a complaint about us inappropriately handling a neighbor's dogs.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "REACTION",
+      "content": "Even after the host explained the situation, the HOA president told her we shouldn't have done anything with the dogs and should have just called animal control.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "OUTCOME",
+      "content": "The host was really upset about the whole situation. She was initially glad to have the chance to explain to the HOA president, but the response left her feeling worse.",
+      "valence": "pro_poster",
+      "importance": 2
+    }
+  ]
+}

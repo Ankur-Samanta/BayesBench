@@ -1,0 +1,72 @@
+{
+  "id": "yldgrc",
+  "title": "aita for standing up for my aunt?",
+  "text": "i(17f) live with my aunt (49f) and cousin (27f). my aunt was very sick by the start of the year and her sickness lasted for like 7 months and shes still sick now but her state is getting better. me and cousin never had good relationship because of her being very entitled. during aunts sickness she did a lot of good things and took care of me and aunt. i cant say she didn't do anything i would be bad if i did. our relationship got better too during that time. when auntie started getting better we moved to apartment. when we moved cousin told my aunt to not use oven because of gas, to never cook for herself and wait for me or occasionally her to do it. she told her to never leave apartment without her and if really needed she has to go on bus with me. mind that we live in small town where my aunt is well known thanks to her job and everyone knows she would never move anywhere without her car. she took all her money and credit cards. it obviously hurt my aunts feelings but she didn't complain because she was thankful to her daughter. in span of 3 weeks my aunt was on sick leave only because of taking a lot of strong medication. her state was as if she was healthy already but needed to stay home and go to regular check ups at least till end of the year. my cousin working and every day she has free shes always out never stays at home and for a short while shes home shes always rude to aunt and me. aunt got mad and decided to not listen, she cooked for herself and me knowing my cousin is going overboard because even doctors said my aunt needs to go out and move to get her strength back i take her to local shop or to the city so she could go to her office and work. because even though shes sick shes paying for everything and my cousin keeps all the money. my cousin was completely okay with it and said its good and now she doesn't have to bother with cooking anymore. she spend even less time home. one night she came home and started going through aunts phone. my aunt obviously got mad and asked her how dare she. i couldn't take it anymore too and jumped into their argument telling my cousin to fcking calm down and stop treating her mother like a child and become more responsible because even i am more responsible than her. and i also told her to spend more time with us and take care of her dog because we had a deal she will take care when she's not working and take her out before work since im in school but she never keeps it and dog is only on me and she often pees or poops in apartment while im still in school. she called me stupid kid and told me to go to my room and control my behavior and be thankful that i can be at least her maid because if she wanted she would put me into mental hospital or orphanage the next morning. she took my phone, notebook and ps4 (all bought from money).",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I (17F) live with my aunt (49F) and my cousin (27F). My aunt was very sick for about 7 months and is still recovering but getting better. My cousin and I never had a good relationship because of her entitled behavior.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "During my aunt's sickness, my cousin did a lot of good things and took care of both me and my aunt. Our relationship improved during that time.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "When we moved to an apartment, my cousin imposed strict rules on my aunt: no using the oven, no cooking for herself, no leaving the apartment without my cousin or me on the bus. She also took all of my aunt's money and credit cards.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ORIENTATION",
+      "content": "My aunt's doctors said she needed to go out and move to get her strength back. Within 3 weeks, her state was essentially healthy \u2014 she was only on sick leave because of medication. She's also the one paying for everything despite my cousin keeping all the money.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "My cousin spends every free day out of the house, never stays home, and is always rude to my aunt and me during the short time she is home. When my aunt started cooking for herself again, my cousin just said 'good, now I don't have to bother with cooking.'",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "One night my cousin came home and started going through my aunt's phone. My aunt got mad and asked her how dare she.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I jumped into the argument and told my cousin to calm down and stop treating her mother like a child. I told her to become more responsible, spend more time with us, and take care of her dog since she never keeps to our agreement and the dog is always left to me.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_OTHER",
+      "content": "My cousin called me a 'stupid kid,' told me to go to my room, and said I should be thankful I can be her maid because she could put me in a mental hospital or orphanage if she wanted.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "She took my phone, notebook, and PS4, all of which were bought with my aunt's money.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

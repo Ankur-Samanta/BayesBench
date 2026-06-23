@@ -1,0 +1,57 @@
+{
+  "case_id": 917,
+  "true_urgency": "Observation",
+  "specialty": "Gastroenterology",
+  "self_diagnosis": "lactose intolerance",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have mild abdominal discomfort and bloating, especially after I eat",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "My stools have been looser than normal and I am going more often than usual",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "The symptoms get noticeably worse after I eat dairy products",
+      "urgency_signal": "reassuring",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "TIMELINE",
+      "content": "This has been going on for about six weeks and has stayed about the same",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "SEVERITY",
+      "content": "The discomfort is mild and is not seriously getting in the way of my daily life",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ASSOCIATED",
+      "content": "I have not seen any blood in my stool and I have no fever or vomiting",
+      "urgency_signal": "reassuring",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I am a 29-year-old woman with no significant medical history",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    }
+  ]
+}

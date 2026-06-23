@@ -1,0 +1,64 @@
+{
+  "case_id": 1052,
+  "true_urgency": "Urgent",
+  "specialty": "Urology",
+  "self_diagnosis": "urinary tract infection",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have really severe burning pain every time I urinate. It's been going on for several days and it's getting worse.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I noticed blood in my urine. It's been there for the past few days and it's really scaring me.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I have pain in my lower back on the right side. It's a dull aching pain that's been there along with everything else.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "I've been having chills and I feel feverish. My temperature is 101.5 degrees Fahrenheit.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "SYMPTOM",
+      "content": "I have to go to the bathroom every 30 minutes, even through the night. I can't get any rest because I keep waking up to go.",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "TIMELINE",
+      "content": "This started about 5 days ago and has been getting steadily worse. In the last 24 hours things have gone downhill really fast.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "SEVERITY",
+      "content": "The pain is about an 8 out of 10. It's disrupting my sleep and making it hard to get through the day.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "CONTEXT",
+      "content": "I'm a 42-year-old man. I don't have any known urinary or kidney problems that I'm aware of.",
+      "urgency_signal": "neutral",
+      "importance": 2
+    }
+  ]
+}

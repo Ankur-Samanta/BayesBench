@@ -1,0 +1,65 @@
+{
+  "id": "ep9wbx",
+  "title": "wibtah if i told my neighbor his kids couldn\u2019t play on our land anymore?",
+  "text": "in our neighborhood everyone has a few acres of forest land. my neighbors decided to use the flat land in front of their house for an addition and garage, building right to our property line. they have plenty of their own land behind their house though. we had a survey done recently which made us realize how much of our land they had been using, driving on, parking, keeping a trampoline and swings. it\u2019s so close to the front of their house that we probably won\u2019t do much with that land.  the problem is, they are the biggest bullies i\u2019ve ever lived near. we are unincorporated and have no hoa, and they hate basically everything we do on our property, and of course pay attention to it all. recently my neighbor mentioned that he checked the county records for construction permits and thought we hadn\u2019t pulled all the necessary permits for our basement remodel (we had).  now i feel like i have to read the fine print on all the zoning rules, and am just frustrated with their passive aggressive text messages about anything we do. i\u2019m really thinking we should send a certified letter telling them to stop using our land and to remove the kids toys, etc. wibtah?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "In our neighborhood everyone has a few acres of forest land. We are unincorporated with no HOA.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "My neighbors built an addition and garage right up to our property line, using the flat land in front of their house, even though they have plenty of their own land behind their house.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "We had a survey done and realized how much of our land the neighbors had been using — driving on it, parking on it, and keeping a trampoline and swings there.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACCOUNT",
+      "content": "The land they're using is so close to the front of their house that we probably won't do much with it ourselves.",
+      "valence": "against_poster",
+      "importance": 2
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "They are the biggest bullies I've ever lived near. They hate basically everything we do on our own property and pay attention to it all. They send passive-aggressive text messages about anything we do.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "My neighbor recently mentioned he checked the county records for construction permits and thought we hadn't pulled all the necessary permits for our basement remodel. We actually had.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I'm thinking about sending a certified letter telling them to stop using our land and to remove the kids' toys and other items.",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I feel like I have to read the fine print on all the zoning rules now, and I'm just frustrated with how they treat us while freely using our property.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

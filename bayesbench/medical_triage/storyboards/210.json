@@ -1,0 +1,57 @@
+{
+  "case_id": 210,
+  "true_urgency": "Urgent",
+  "specialty": "Emergency Medicine",
+  "self_diagnosis": "appendicitis",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have severe, sharp pain in my lower right abdomen that has been there since early this morning and is not going away."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "I feel really nauseous and I have already thrown up twice today."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "I think I have a fever."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a4",
+      "content": "The pain started around my belly button this morning and then moved to the lower right side over about twelve hours, and it keeps getting worse."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a5",
+      "content": "The pain is about an eight out of ten \u2014 it is sharp and constant, and it is hard to walk or move because of it."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a6",
+      "content": "I am a 23-year-old man."
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a7",
+      "content": "The pain gets noticeably worse when I try to walk or move around. I have had no appetite at all today."
+    }
+  ]
+}

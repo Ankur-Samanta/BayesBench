@@ -1,0 +1,57 @@
+{
+  "case_id": 1104,
+  "true_urgency": "Emergency",
+  "specialty": "Endocrinology",
+  "self_diagnosis": "diabetic ketoacidosis",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I'm extremely thirsty and having to urinate every 30 to 60 minutes, even through the night"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "Today I started feeling confused and I have severe stomach pain"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a3",
+      "content": "My breath has a fruity smell and I feel like I might pass out"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "My vision has gone blurry"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a5",
+      "content": "The thirst, tiredness, and frequent urination have been getting worse over 7 days, but today everything got dramatically worse"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a6",
+      "content": "I've lost 15 pounds in just one week even though I've been eating normally, and I'm in acute distress"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a7",
+      "content": "I'm a 19-year-old woman with no prior diabetes diagnosis that I know of"
+    }
+  ]
+}

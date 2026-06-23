@@ -1,0 +1,79 @@
+{
+  "id": "iusid7",
+  "title": "aita for not watching my grandson as much as i promised i would?",
+  "text": "i (f 55) have two daughters, gisele (26) and hazel (29). i am a full time grandma and babysitter. i promised my girls i would be 100% committed to helping them raise their families. gisele has a daughter who is almost 2 and hazel has two sons, 7 and 4. gisele has a full time job and i watch my granddaughter in the day and she is picked up once her mom is off. there are no issues there. hazel\u2019s oldest son is from her first marriage and his other grandma and i took turns watching him. there are no issue there either. the issue is with my 4 year old grandson. when hazel got pregnant, we found out her son would be disabled. we were told he would need full time care for the rest of his life. we talked about it as a family and i promised hazel that i would always help. hazel quit her job and gets money from the government to care for her disabled son. i have been helping a lot since he was born. however, with hazel not working, i didn\u2019t expect to have him with me almost every day. i am always exhausted because i watch my two year old granddaughter for most of the day as well. i told hazel i can only watch my youngest grandson 4 days a week. her response to that was to stop brining my 7 year old grandson (who is no trouble at all and actually very helpful). she said that now i have less work and can still watch my grandson. i didn\u2019t speak up for about a month but her dad didn\u2019t like seeing me this exhausted so he spoke to her and she told him i promised i would help. this is true but she\u2019s a stay at home mom and i watch her son anywhere from 6 to 10 hours everyday. i have to watch my granddaughter only 5 days a week while gisele works and this all seems very unfair. his other grandma can\u2019t help because she is in a wheelchair. am i wrong for going back on my promise to be always available to help? i feel like she kept the child with the expectation of me helping and i fully agreed to that. but since she is a housewife now, i feel that she should help more. she says she is up all night watching him and i believe her so i don\u2019t know who is in the wrong.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I am 55 with two daughters, Gisele (26) and Hazel (29). I am a full-time grandma and babysitter. I already watch Gisele's almost-2-year-old daughter five days a week while Gisele works full time.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "When Hazel got pregnant, we found out her son would be disabled and would need full-time care for the rest of his life. Hazel quit her job and receives government money to care for him.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACCOUNT",
+      "content": "We talked about it as a family and I promised Hazel I would always help. I feel like she kept the child with the expectation of me helping, and I fully agreed to that.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I told Hazel I can only watch my youngest grandson four days a week instead of almost every day.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "I am always exhausted because I watch my two-year-old granddaughter for most of the day as well, and I was watching Hazel's disabled son anywhere from 6 to 10 hours every day.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "Since Hazel is a stay-at-home mom and not working, I feel she should help more with her own son's care.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "Hazel's response to my request was to stop bringing my 7-year-old grandson, who is no trouble at all and actually very helpful. She said that now I have less work and can still watch her disabled son.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "REACTION",
+      "content": "My ex-husband didn't like seeing me this exhausted, so he spoke to Hazel about it. She told him I had promised to help.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "ORIENTATION",
+      "content": "His other grandma can't help because she is in a wheelchair.",
+      "valence": "against_poster",
+      "importance": 2
+    },
+    {
+      "id": "a10",
+      "category": "ACCOUNT",
+      "content": "Hazel says she is up all night watching him, and I believe her.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

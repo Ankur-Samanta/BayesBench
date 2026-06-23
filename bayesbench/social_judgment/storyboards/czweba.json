@@ -1,0 +1,44 @@
+{
+  "id": "czweba",
+  "title": "wibta if i asked my boss why the new hires getting paid more than me?",
+  "text": "title basically, about a month ago i got a new job in tech support i was upfront with them about not knowing much about the computer systems they were using but i was proficient in all the stuff they needed me. and i have about three years of customer service experience already so i had no confidence issues there. the issue is that a couple of days ago i helped a friend of mine get hired for the same job i have because they're understaffed. i recently found out that my friend is making more than me. not much more but i know exactly how much experience she has and it's a lot less than mine.  would i be the asshole if i asked my boss why they decided to start her off making more than me? (i love my friend in this has nothing to do with her specifically more that this is a red flag for an employer) it's honestly not a why can't i get more money question, more like why do i deserve less",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "About a month ago I got a new job in tech support. I was upfront with them about not knowing much about the computer systems they were using, but I was proficient in everything they needed and I have about three years of customer service experience.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "A couple of days ago I helped a friend of mine get hired for the same job I have because they're understaffed.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "I recently found out that my friend is making more than me, even though I know exactly how much experience she has and it's a lot less than mine.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I want to ask my boss why they decided to start my friend off making more than me.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "This has nothing to do with my friend specifically. It's more that this is a red flag for an employer. It's not a 'why can't I get more money' question, more like 'why do I deserve less.'",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

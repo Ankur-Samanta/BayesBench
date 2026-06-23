@@ -1,0 +1,58 @@
+{
+  "id": "vlxlo3",
+  "title": "aita for asking my barber to cut off more of my hair after they were 'done'?",
+  "text": "so i\u2019ve been trying to find a new barber for a while now since mine moved away. most recently i decided to try a new barber at a newer barbershop in my area.  it had been a couple months since my last cut but nothing a barber hasn\u2019t seen. i don\u2019t ask for anything crazy. just a very standard issue men\u2019s haircut without just shaving it all down.  i\u2019ll cut to the chase here, i spend about 30 minutes in the chair, back to the mirror the entire time, and then the barber says \u201call done\u201d and hands me a hand mirror to look. it\u2019s still too long so i speak up and they say \u201calright but we usually charge $15 more for two cuts\u201d to which i laughed and they made it clear they weren\u2019t joking but said because it was my first time at that shop they wouldn\u2019t charge me the $15.  i spent another 15 minutes in the chair, paid, tipped, and went on my way. my question is, aita for wanting this \u201csecond cut\u201d? every time i\u2019ve ever had my hair cut they always check to make sure it\u2019s right before declaring to be done.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I've been trying to find a new barber since mine moved away. I decided to try a new barbershop in my area. It had been a couple months since my last cut but nothing a barber hasn't seen.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "I don't ask for anything crazy, just a very standard men's haircut without just shaving it all down.",
+      "valence": "pro_poster",
+      "importance": 2
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "I spent about 30 minutes in the chair with my back to the mirror the entire time, and then the barber said 'all done' and handed me a hand mirror to look. My hair was still too long.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I spoke up and told the barber my hair was still too long.",
+      "valence": "neutral",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "The barber said 'alright but we usually charge $15 more for two cuts.' I laughed and they made it clear they weren't joking, but said because it was my first time at that shop they wouldn't charge me the extra $15.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "Every time I've ever had my hair cut, they always check to make sure it's right before declaring it done.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "OUTCOME",
+      "content": "I spent another 15 minutes in the chair, paid, tipped, and went on my way.",
+      "valence": "neutral",
+      "importance": 1
+    }
+  ]
+}

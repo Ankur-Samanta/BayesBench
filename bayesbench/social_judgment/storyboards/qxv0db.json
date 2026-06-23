@@ -1,0 +1,72 @@
+{
+  "id": "qxv0db",
+  "title": "aita for keeping my kids first?",
+  "text": "my mil died 4 days after i gave birth to my second son. my husband was really attached to her and i know he\u2019s been hurting. for the first 3 months i made sure that all of his needs were taken care my parents were with us supporting taking care of kids, of us. it\u2019s been 6 months now. we have had a bit of scare with the baby possibly having seizures which means we have scheduled eeg past 3 weeks my fil has been with us and he\u2019s the type of person who expects his food on time and everything to be neat and that we don\u2019t order outside. he makes a lot of remarks for everything. i told my husband that i\u2019m worried for my kid and that with a 3 year old and 6 month old it\u2019s not practical that i cook 3 times a day and keep the kids on schedule. each time i even get an iced coffee he makes a remark saying how we need to save instead. i have made it clear that those type of remarks are not welcome to my husband in hopes that he will say something. but he says i shouldn\u2019t be affected and that he doesn\u2019t have his mother anymore and that he\u2019s hurt and that he cannot literally thinks about my kids or me at the moment. while i know he\u2019s hurting his attitude is effecting me. so i told him to send my fil to my sil place so that i can cope with my feelings and concentrate on kids he thinks i\u2019m being an asshole for not accommodating his father and being sensitive to his needs.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My mother-in-law died 4 days after I gave birth to my second son. My husband was very attached to her and has been grieving deeply.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "We have a 3-year-old and a 6-month-old, and the baby has had a scare with possible seizures, which means we have a scheduled EEG.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "For the first 3 months after my MIL's death, I made sure all of my husband's needs were taken care of. My parents stayed with us to help support the family.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "My father-in-law has been staying with us for the past 3 weeks. He expects his food on time, everything to be neat, and that we don't order takeout. He makes remarks about everything, including commenting that we need to save money each time I get an iced coffee.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I told my husband that I'm worried about our baby and that with two young kids it's not practical for me to cook three times a day and keep the kids on schedule while hosting his father.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I made it clear to my husband that his father's critical remarks are not welcome, hoping my husband would say something to him.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "My husband says I shouldn't be affected by the remarks, that he doesn't have his mother anymore, and that he's too hurt to think about the kids or me right now.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "I told my husband to send my father-in-law to my sister-in-law's place so I can cope with my feelings and concentrate on the kids.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a9",
+      "category": "ACTION_OTHER",
+      "content": "My husband thinks I'm being an asshole for not accommodating his father and not being sensitive to his needs while he's grieving.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

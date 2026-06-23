@@ -1,0 +1,16 @@
+{
+  "id": "fqeyo4",
+  "title": "aita calling cops on new neighbors",
+  "text": "so i just met my new neighbors side 2 of the duplex. they dont have a car, just moved in tonight and dont have the power turned on yet. that side has been broken into several times and in the middle of the night i get up, pee, and i hear noise from the wall behind me. i panic because i am worried about the place being broken into, and try to contact the landlord. his phones off. i go outside and the lock box is still on the door but the upstairs window is wide open. so i pretended to brush off the idea like its just an animal, go back inside, and call the cops.  they claim to be our new neighbors and they had just moved in. the door frame is still a little busted up from the last break in and someone has just walked into our house when they thought we were gone, only to find me home sick from work and they bolted. the place behind us was empty and broken into multiple times. i apologized explained why i had called the cops and the cops sent me back inside. i feel awful if they really are my new neighbors. it's like 1am right now. they didnt seem too upset but it was so dark i couldn't tell. also no moving truck has been by that i had seen. aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {"id": "a1", "category": "ORIENTATION", "content": "I live in a duplex. The other side has been broken into several times, and the place behind us was also empty and broken into multiple times.", "valence": "pro_poster", "importance": 4},
+    {"id": "a2", "category": "ORIENTATION", "content": "Someone recently walked into our house when they thought we were gone, only to find me home sick from work, and they bolted.", "valence": "pro_poster", "importance": 3},
+    {"id": "a3", "category": "ACTION_OTHER", "content": "In the middle of the night around 1 AM, I heard noise coming from the wall of the other side of the duplex. People had apparently just moved in tonight with no car, no power turned on yet, and no moving truck that I had seen.", "valence": "neutral", "importance": 3},
+    {"id": "a4", "category": "ACTION_POSTER", "content": "I panicked and tried to contact the landlord, but his phone was off. I went outside and saw the lock box was still on the door but the upstairs window was wide open.", "valence": "pro_poster", "importance": 3},
+    {"id": "a5", "category": "ACTION_POSTER", "content": "I went back inside and called the cops.", "valence": "against_poster", "importance": 5},
+    {"id": "a6", "category": "OUTCOME", "content": "The people turned out to be my new neighbors who had just moved in. I apologized and explained why I had called the cops. They didn\u2019t seem too upset, but it was dark and I couldn\u2019t tell.", "valence": "against_poster", "importance": 4},
+    {"id": "a7", "category": "ACCOUNT", "content": "I feel awful if they really are my new neighbors. Given the history of break-ins and the suspicious circumstances, I felt I had reason to be worried.", "valence": "pro_poster", "importance": 3}
+  ]
+}

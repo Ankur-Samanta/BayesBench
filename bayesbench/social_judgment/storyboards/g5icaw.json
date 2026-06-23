@@ -1,0 +1,44 @@
+{
+  "id": "g5icaw",
+  "title": "aita for honking my horn at someone blocking the drive-thru?",
+  "text": "this happened a while ago and is pretty small and petty, but i just stumbled back on this sub now and remembered that i wanted to ask it here when this happened. so i was in line for the drive thru one morning, and the car ahead of me looked like he was told the whole \"it'll be a few minutes, pull up and we will bring it out to you\" thing. so, he did, but i noticed he only barely pulled around the corner and the back half of the car was blocking the exit to the drive thru. he didn't move the whole time i waited for and got my order. so, as i pulled forward, i honked my horn because, i couldn't leave where he was sitting. i didnt lay on it or anything either, just a single beep. because our windows were down, i heard him swearing up a storm at me as he pulled forward. so, iata because i was too quick to honk and didn't wait to see if he would move when i got to his car, or was he just in a bad mood and what i did was fine?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I was in line for the drive-thru one morning. The car ahead of me was told to pull forward and wait for his order.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "The car ahead only barely pulled around the corner, and the back half of his car was blocking the exit to the drive-thru. He didn't move the entire time I waited for and received my order.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "As I pulled forward, I honked my horn -- just a single beep -- because I couldn't leave where he was sitting.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "Because our windows were down, I heard him swearing up a storm at me as he pulled forward.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "I wonder if I was too quick to honk and should have waited to see if he would move when I got to his car.",
+      "valence": "against_poster",
+      "importance": 2
+    }
+  ]
+}

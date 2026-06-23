@@ -1,0 +1,72 @@
+{
+  "id": "m2zogs",
+  "title": "aita for telling my coworker our boss doesn't trust her and walking out of my job?",
+  "text": "i'm going to oversimplify this because it's a long story and character limit.   my boss, we'll call her harley (f21), who is also one of the owners of the liquor store i worked at, doesn't trust my coworker, let's say jess (32f) and openly bad mouths her to everybody else that works there and at the gas station next door.  at one point jess and her boyfriend were in the store behind harley and harley mouthed at me and my other coworker, \"i don't trust them, thieves.\" i just feel like that's rude idk. but i kept my mouth shut for the most part.  on my last day jess and i were talking about how the drawers are always off and it's weird because they'll be off anywhere between $100 and $10 and it could be over or under. this is nearly every shift. jess said she hadn't closed a drawer or worked a drawer since tuesday (it was the following wednesday that day) so i said casually \"well, that's good cause now harley knows it's not you.\" meaning her name was cleared, now they'll probably be looking at us now. i knew harley made it so jess wouldn't touch a drawer on purpose because she doesn't trust her. i did not say that though. jess called harley after she got off and ellgedly cussed her out. j later told me she didn't even raise her voice or use any bad language with harley, she just gave her a two weeks notice and that was it.  harley came out of her office and yelled at me (while there was a customer and my other coworker right there) \"you told jess i thought she was stealing???\" i said no, i did not say that, those were not my words. harley said she pulled the video/audio from the security cam outside and knows what i said. i told her no again, and i know what i said, and it was not that, i have no control over how jess takes the information i give her. harley continued to yell and she said \"i saved your asses, luke (other owner) was going to come in here and close with y'all and then we'd really see, because all of your guys' drawers are short.\" then she left with my other coworker to go on a run.  once the customer left the store i started crying, i just don't handle being yelled at well, i was an abused kid, it is what it is. i texted her, took a pic of the text, and walked out right there, forcing harley to call in the now one other employee since jess and i left. they fired jess for \"abusive language towards the management.\" however, luke fired her after only hearing harley's side and they are a couple so, do with that what you will.  anyway, my question is am i an asshole for walking out over being yelled at and drama? i know this leaves a.lot out, and i'm happy to answer questions.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My boss Harley (F21) is one of the owners of the liquor store I worked at. She doesn't trust my coworker Jess (32F) and openly badmouths her to everybody else that works there and at the gas station next door.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_OTHER",
+      "content": "At one point Jess and her boyfriend were in the store behind Harley, and Harley mouthed at me and my other coworker, 'I don't trust them, thieves.'",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "The cash drawers are always off, anywhere between $100 and $10, over or under, nearly every shift. Harley made it so Jess wouldn't touch a drawer on purpose because she doesn't trust her.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "Jess and I were talking about the drawers being off and she said she hadn't worked a drawer since Tuesday. I said casually, 'Well, that's good cause now Harley knows it's not you.'",
+      "valence": "neutral",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "Jess called Harley after she got off. Jess later told me she didn't raise her voice or use bad language, she just gave her a two weeks notice.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "Harley came out of her office and yelled at me in front of a customer and my other coworker, accusing me of telling Jess she thought Jess was stealing. I told her that was not what I said.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "Once the customer left, I started crying. I texted Harley, took a picture of the text, and walked out right there.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "I don't handle being yelled at well. I was an abused kid, it is what it is.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "They fired Jess for 'abusive language towards management.' However, Luke fired her after only hearing Harley's side, and Luke and Harley are a couple.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

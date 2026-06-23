@@ -1,0 +1,72 @@
+{
+  "id": "bvkybz",
+  "title": "aita of thinking of taking legal action against the people that raised me? (need to vent)",
+  "text": "  quick back story. my parents died before i turned 11. left 3 kids behind, myself, younger brother and older sister. my dad\u2019s brother\u2019s looked after us, though my aunt (dad\u2019s sister) was officially our guardian. they were well off financially. they put us through school and uni for myself. we went everywhere with them and for the most part felt loved. when i left uni i asked about seeing my father\u2019s will. long story short i never got to see it and i didn\u2019t even get the name of the lawyers that handled the paperwork. i forgot about the issue after about a year of being stonewalled. two years ago we found out that his estate has not being wound up and has death duties and lawyer related fees to the estate amounting to about us$10k. family would not not give us a straight answer as to why. three weeks ago our aunt passed away. a week ago, our sister was sorting through her stuff and came upon a box of paperwork. it contained our father\u2019s will and life insurance policy. today i got to read it, finally. our childhood home was rented for nearly 17years. we never saw any of the proceeds. the will stated that the money go into a trust account for my brother, sister and i, managed by our uncle. he was to set it up as well. as appointed executors they never once told us anything about that. my dad\u2019s company\u2019s machines were sold a year after he passed. i recall my aunt saying they will put the money away for my sister as she was 16 and will need it when she leaves school. she never saw a cent. my father\u2019s life insurance policy was sufficient to cover any debts he had and pay for the finalisation of his estate. i know my father\u2019s estate was mismanaged and i want to get my uncles to admit to that and pay for what they did. at the same time, they raised us and cared for us and maybe they used to money as payment for our upbringing. i\u2019m feeling like shit, because for years i felt that maybe my dad owed them and they didn\u2019t want to burden us with that knowledge and were protecting us from that, so i let them get away with not yielding to my requests. now i see that\u2019s not the case. i tried talking on the phone but i got the you\u2019re being ungrateful and that\u2019s in the past shit and it's made me angry. my brother and i are handling the matter of the estate and don\u2019t need assistance, but in principle, it was never our our issue to deal with. what to do and would i be an asshole for going after them legally?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My parents died before I turned 11, leaving three kids behind -- myself, my younger brother, and my older sister. My dad's brothers looked after us, and my aunt was officially our guardian. They were well off financially and put us through school.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "When I left university, I asked about seeing my father's will. I was stonewalled for about a year -- I never got to see it and wasn't even given the name of the lawyers who handled the paperwork.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "The will stated that our childhood home's rental income was to go into a trust account for the three of us, managed by our uncle. As appointed executors, they never told us about this, and we never saw any of the proceeds from nearly 17 years of renting that home.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "My dad's company machines were sold a year after he passed. My aunt said they would put the money away for my sister since she was 16 and would need it when she left school. My sister never saw a cent.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ORIENTATION",
+      "content": "My father's life insurance policy was sufficient to cover any debts he had and pay for the finalisation of his estate. Two years ago we found out the estate had never been wound up and had about $10,000 in outstanding death duties and legal fees.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I tried talking to my uncles on the phone about the estate mismanagement, and I want to take legal action to get them to admit what they did and pay for it.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "When I tried to discuss the estate on the phone, they told me I was being ungrateful and that it's all in the past.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACCOUNT",
+      "content": "They raised us and cared for us, and maybe they used the money as payment for our upbringing. For years I gave them the benefit of the doubt, thinking maybe my dad owed them, but now I see that's not the case.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "In principle, managing the estate was never our issue to deal with -- that responsibility belonged to the executors, and they failed to carry it out.",
+      "valence": "pro_poster",
+      "importance": 4
+    }
+  ]
+}

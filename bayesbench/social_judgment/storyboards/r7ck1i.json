@@ -1,0 +1,72 @@
+{
+  "id": "r7ck1i",
+  "title": "aita for making my fianc\u00e9 sleep on the couch?",
+  "text": "i (f25) have been engaged to joey (m33) for almost half a year now  and we've been living together for about 7 months! i'm currently attending university and he has a full time job as a programmer. usually he would leave for work a few hours before noon and come home in the afternoon or evening and we would spend some time together until we went to bed, but lately he's been working longer more often and would only come home at about 9 or 10pm sometimes. last week i was sick (stomachache, vomiting, nausea, probably the flu). i was having a hard time sleeping (even though i was sleepy all the time) and asked him to be quiet and not wake me up when he comes home. he must have come home at about 9 or half past 9 and i woke up to him sitting on the bed with a very bright laptop screen and typing loudly. i told him that he was making it difficult to sleep and he said he would keep it down, but he didn't turn down the screen brightness and continued to type loudly after a few minutes, so i told him to sleep on the couch or come back when he was ready to sleep. he got angry with me saying that it was also his bed and he was typing quietly and i was just too sensitive. he did leave and sleep on the couch and i managed to fall asleep again. aita?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I am 25 and have been engaged to Joey, who is 33, for almost half a year. We have been living together for about 7 months. I attend university and he works full time as a programmer.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "Last week I was sick with stomachache, vomiting, and nausea, probably the flu. I was having a hard time sleeping even though I was sleepy all the time.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I asked Joey to be quiet and not wake me up when he comes home.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "He came home around 9 or 9:30pm and sat on the bed with a very bright laptop screen, typing loudly.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I told him he was making it difficult for me to sleep.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "He said he would keep it down, but he didn't turn down the screen brightness and continued typing loudly after a few minutes.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_POSTER",
+      "content": "I told him to sleep on the couch or come back when he was ready to sleep.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_OTHER",
+      "content": "He got angry with me, saying it was also his bed, that he was typing quietly, and that I was just too sensitive.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "He did leave and sleep on the couch, and I managed to fall asleep again.",
+      "valence": "neutral",
+      "importance": 2
+    }
+  ]
+}

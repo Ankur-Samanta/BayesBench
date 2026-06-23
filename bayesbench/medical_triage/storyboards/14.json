@@ -1,0 +1,57 @@
+{
+  "case_id": 14,
+  "true_urgency": "Emergency",
+  "specialty": "Cardiology",
+  "self_diagnosis": "heart attack",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I've been having intense chest pain that feels like an elephant sitting on my chest for the last hour.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "The pain is spreading to my left arm and jaw.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I'm very short of breath and sweating a lot.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "content": "I feel nauseated on top of the chest pain.",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "This came on suddenly about an hour ago and is not getting better even after sitting down.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "The pain is about an 8 out of 10 and I can't do anything normally. I've never felt anything like this before.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I'm a 58-year-old man and I am overweight.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "f3p43n",
+  "title": "wibta if i didn't tell my dad about my engagement or invite him to my wedding?",
+  "text": "this is my first time posting so please bear with me in case it's not the right way/it's a long story. i (24f) have a complicated family history. i was adopted as a baby, had my adoptive mother pass when i was 4, and my adoptive dad (ad) remarry my stepmother (sm) when i was about 8 or 9. throughout my childhood my sm would always try and parent/discipline me and my other adoptive siblings. though she would never let ad discipline or parent her daughter (my stepsister). throughout my teen years sm was controlling, emotionally abusive, sometimes physically abusive and just a typical evil stepmother. it was a typical cinderella situation growing up - i cleaned everything (- the house, the bathrooms, their bedroom!) did all the washing of clothes and dishes, looked after all our pets (dogs and chickens), whilst she was a \"lady of leisure\" aka did nothing all day. though she didn't lock me in the attic, she still sent me to boarding school for my final year of schooling. when i was 19 i met my now fiance. we started dating. the usual. during the first 6ish months both parents were happy and didnt seem to have any issues with my then-boyfriend. i was allowed to see him often, though i had to ask permission to see him. when i was 20, about a year and a half into my relationship, my sm tried to put restrictions on me spending time with my bf. she had said that i was only allowed to see him on weekends, that i wasn't allowed to stay the night, and if i stayed over that i would have to be home by 7am (even though her and ad would still be in bed). one night i stayed over and didn't come home till after work that day because i started work early and it wouldnt have made sense travelling home (approx 40 mins) to be there for about 30 mins to then travel 20 mins to work. when i got home after work sm blew up about me not coming home said that \"it's her way or the highway and if i don't like her rules then i can pack my things and leave\". so i did. my bf and his family were very supportive and took me in.  since then i didn't really talk to them. i heard from other family that they were told  that i had no friends, gone off the rails and that i was just in a bad place. i talked to them briefly when the family dog died and we would send the obligatory birthday and christmas wishes. except last year, ad didn't message me for my birthday and only responded to my xmas text at the end of xmas day.  recently my bf proposed and we are so happy. he asked my grandparents (my adoptive moms parents) for their blessing to propose. we have told all family bar ad and sm. due to our long history, i don't want to tell them/dont think that they deserve to know about it or be invited to the wedding. one of my adoptive brothers think that i should tell them and invite them to our wedding, and be grateful for them adopting me.  would i be the asshole though if i don't contact them and let them know/invite them to the wedding one day?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I (24F) was adopted as a baby. My adoptive mother passed away when I was 4, and my adoptive dad remarried my stepmother when I was about 8 or 9.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "Throughout my teen years, my stepmother was controlling, emotionally abusive, and sometimes physically abusive. I did all the housework -- cleaning the house, bathrooms, their bedroom, all the washing and dishes, and cared for all our pets -- while she did nothing. She would discipline me but never let my adoptive dad discipline her own daughter.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "When I was 20 and about a year and a half into my relationship, my stepmother put restrictions on me seeing my boyfriend: only weekends, no staying the night, and if I did stay over I had to be home by 7am even though she and my dad would still be in bed.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "One night I stayed over at my boyfriend's and didn't come home until after work the next day, because I started work early and it didn't make sense to travel 40 minutes home just to be there 30 minutes before travelling 20 minutes to work.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "When I got home after work, my stepmother blew up at me and said it's her way or the highway -- if I don't like her rules, I can pack my things and leave.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "So I did pack my things and leave. My boyfriend and his family took me in.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "Since I left, I heard from other family members that my dad and stepmother told people I had no friends, gone off the rails, and was in a bad place. Last year, my dad didn't message me for my birthday and only responded to my Christmas text at the end of Christmas Day.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "My boyfriend recently proposed and I am considering not telling my adoptive dad and stepmother about the engagement or inviting them to the wedding.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a9",
+      "category": "REACTION",
+      "content": "One of my adoptive brothers thinks I should tell them and invite them to the wedding, and be grateful to them for adopting me.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

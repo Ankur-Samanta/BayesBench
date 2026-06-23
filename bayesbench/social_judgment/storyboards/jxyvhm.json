@@ -1,0 +1,51 @@
+{
+  "id": "jxyvhm",
+  "title": "aita for telling my uber driver i didn't want to talk to him?",
+  "text": "i was taking a uber to work and this dude wouldn't stop talking. he was too friendly. and he has a really thick accent so i can't even understand him that well. at a certain point i just start using my phone and start not really paying attention to what he is saying. i just say \"yeah\"\"wow\"\"really?\" when he says stuff. guy gets annoyed at this and starts asking me if something is wrong. i say no and he says i seem to be uninterested in our conversation. i tell him the truth and that i'm just not interested in talking right now. he gives a little angry huff and stops talking. i get to my stop and get out. i tell him thanks. he says i got to work on my attitude problems and drives away. i'm left there dumbfounded and wondering if i was the asshole here. was i?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I was taking an Uber to work. The driver wouldn't stop talking and was very friendly. He also had a thick accent, making it hard for me to understand him.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "I started using my phone and stopped paying real attention to what he was saying, just giving minimal responses like 'yeah,' 'wow,' and 'really?'",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "He got annoyed and started asking me if something was wrong, saying I seemed uninterested in our conversation.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I told him the truth \u2014 that I'm just not interested in talking right now.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "He gave an angry huff and stopped talking. When I got out and thanked him, he told me I need to work on my attitude problems and drove away.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACCOUNT",
+      "content": "I was just trying to get to work and wasn't looking for a conversation.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 521,
+  "true_urgency": "Urgent",
+  "specialty": "Infectious Disease",
+  "self_diagnosis": "influenza",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have a high fever of 103 degrees that will not come down"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 4,
+      "id": "a2",
+      "content": "My whole body aches badly"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a3",
+      "content": "I have a pounding headache"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a4",
+      "content": "I have a dry cough and a sore throat"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a5",
+      "content": "All of this started 3 days ago and has not improved"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a6",
+      "content": "I am so exhausted I can barely get out of bed and the fever is not coming down even with medicine"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a7",
+      "content": "I am a 35-year-old man and was healthy before this, and it is currently flu season"
+    }
+  ]
+}

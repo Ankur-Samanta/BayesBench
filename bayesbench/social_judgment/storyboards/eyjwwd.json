@@ -1,0 +1,51 @@
+{
+  "id": "eyjwwd",
+  "title": "aita for gifting my boyfriend a couples cooking class for his birthday when he doesn\u2019t cook?",
+  "text": "keepin it short. so my bf recently celebrated his 30th bday. i got him 2 hour long cooking classes that we will both attend together. they\u2019re like \u201cromantic cooking classes\u201d where each lesson you learn to make something romantic and tasty, like chocolate cake or macarons. my bf doesn\u2019t cook much (beyond fried rice or tacos) and isn\u2019t normally bothered by fancy foods but i\u2019m a huge baker enthusiast so thought this would be a nice way to share my hobby with him. honestly i thought this would be a neat gift but he wasn\u2019t that excited by it. he was just like \u201coh thanks\u201d and after i pressed him he admitted that my present seemed more like a gift to me than one for him.  granted for my last birthday he bought me gorgeous jewelry that i had my eye on forever and this present isn\u2019t really something like that for him. still, i thought he\u2019d be excited to share this hobby with me. aita for this gift?",
+  "verdict": "YTA",
+  "is_yta": true,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My boyfriend recently celebrated his 30th birthday. He doesn't cook much beyond basic things like fried rice or tacos and isn't normally interested in fancy foods.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "I'm a huge baking enthusiast. Baking and cooking are my hobby, not his.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "For his birthday, I got him two-hour-long romantic cooking classes that we would both attend together, where you learn to make things like chocolate cake or macarons.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a4",
+      "category": "ACCOUNT",
+      "content": "I thought this would be a nice way to share my hobby with him and that he'd be excited about it.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "He wasn't excited by the gift. He just said 'oh thanks,' and when I pressed him, he admitted that my present seemed more like a gift to me than one for him.",
+      "valence": "against_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ORIENTATION",
+      "content": "For my last birthday, he bought me gorgeous jewelry that I had my eye on forever \u2014 a gift specifically tailored to what I wanted.",
+      "valence": "against_poster",
+      "importance": 4
+    }
+  ]
+}

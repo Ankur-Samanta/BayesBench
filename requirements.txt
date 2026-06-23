@@ -1,0 +1,29 @@
+# BayesBench dependencies — pinned to the versions used in development
+# (the `siera` conda environment) for reproducibility.
+#
+# This base set covers the analysis layer (metrics.py / aggregate.py, the
+# recommender-system EM/PCA type-model sweeps), the storyboard generator,
+# and plotting the saved experiment JSONs (pandas/matplotlib/seaborn). The
+# benchmark's analysis runs on the saved JSONs with just these.
+#
+# Re-running model INFERENCE additionally needs the serving stack (torch + vLLM);
+# install with: pip install '.[inference]'. See README "Install".
+
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.8.0       # recommender-system EM/PCA type-model sweeps
+datasets==3.6.0           # HuggingFace source data (medical triage, social judgment, MovieLens)
+openai==1.86.0            # storyboard generation
+pandas==2.3.3             # tabular handling for analysis / plotting saved JSONs
+matplotlib==3.10.3        # plotting the saved experiment JSONs
+seaborn==0.13.2           # plotting the saved experiment JSONs
+
+# --- Inference / serving stack (only to re-run extraction, not for analysis) ---
+# Installed via the [inference] extra; listed here pinned for reference.
+# torch==2.7.0
+# vllm==0.9.1
+# transformers==4.52.4
+# tokenizers==0.21.4
+# accelerate==1.7.0
+# psutil==7.1.3
+# PyYAML==6.0.3

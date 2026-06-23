@@ -1,0 +1,57 @@
+{
+  "case_id": 786,
+  "true_urgency": "Routine",
+  "specialty": "Dermatology",
+  "self_diagnosis": "oral herpes cold sore",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I have a painful cold sore on my lower lip that started 4 days ago.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "It started as a tingling feeling, then turned into a blister, and now it's crusting over.",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "TIMELINE",
+      "content": "The sore is 4 days in and appears to be crusting over, which is the normal healing stage for me.",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "SEVERITY",
+      "content": "It's mildly uncomfortable and embarrassing but it's not stopping me from doing anything.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    },
+    {
+      "id": "a5",
+      "category": "CONTEXT",
+      "content": "I'm a 30-year-old man with no significant medical history. I get these cold sores every few months.",
+      "urgency_signal": "reassuring",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "SYMPTOM",
+      "content": "These outbreaks usually happen when I'm stressed or tired. Over-the-counter cream helps a little.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    },
+    {
+      "id": "a7",
+      "category": "ASSOCIATED",
+      "content": "They always take about 10 days to fully heal, so this one seems to be on its normal course.",
+      "urgency_signal": "reassuring",
+      "importance": 2
+    }
+  ]
+}

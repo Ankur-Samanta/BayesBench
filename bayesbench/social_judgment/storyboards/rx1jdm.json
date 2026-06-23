@@ -1,0 +1,58 @@
+{
+  "id": "rx1jdm",
+  "title": "aita for not flushing",
+  "text": "last night i (25f) got a bloody nose for the first time. i went to the bathroom and grabbed a small amount of toilet paper to clean up my nose. my boyfriend (22m) has had several nosebleeds in the three years we've been together and i've always seen him hold his nose for about ten seconds and it stops. i held mine for about thirty seconds while throwing the bloodied tp in the toilet. i released my nose and more blood poured out so i grabbed more tp while looking up on my phone how long to plug my nose. as i waited a little more than five minutes i threw the second bit of tp in the toilet and went to grab paper towel from the living area in our small apartment. my boyfriend asked what was wrong and i told him. he laughed and said \"welcome to the club.\" i finally went back to the bathroom and made sure my nose was no longer bleeding. i cleaned up my face and wiped up the drops of blood on the sink, floor, and toilet lid. i threw out the paper towel in the living area and had completely forgotten about the tp in the toilet. about an hour later my boyfriend goes in the bathroom and i hear him start yelling about being disgusting. i tried remembering if the last time i went to the bathroom had i had a bowel movement and not all of it flushed? it's happened many times and he always gets upset about it. when he comes out i asked what was wrong and he tells me i didn't flush my bloody paper. i don't see the big deal. i'm human, i make mistakes and it was just some blood from my nose. mind you last nosebleed he had he left bloody paper towels on the night stand and blood all over the sink and bathroom floor that i had to clean up. when i mentioned this he ignored what i said and continued to tell me what i did was disgusting and inconsiderate to him. so am i the asshole?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I (25F) got a bloody nose for the first time last night. My boyfriend (22M) has had several nosebleeds in the three years we've been together.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "I dealt with the nosebleed in the bathroom, throwing bloodied toilet paper into the toilet while I managed it over several minutes. I cleaned up the blood on the sink, floor, and toilet lid.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_POSTER",
+      "content": "I completely forgot to flush the bloody toilet paper out of the toilet.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "About an hour later, my boyfriend went into the bathroom and started yelling about it being disgusting. He told me I was disgusting and inconsiderate for not flushing my bloody paper.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACCOUNT",
+      "content": "I don't see the big deal. I'm human, I make mistakes, and it was just some blood from my nose.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "I pointed out that during his last nosebleed, he left bloody paper towels on the nightstand and blood all over the sink and bathroom floor that I had to clean up.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "When I mentioned his own bloody mess, he ignored what I said and continued to tell me I was disgusting and inconsiderate.",
+      "valence": "pro_poster",
+      "importance": 4
+    }
+  ]
+}

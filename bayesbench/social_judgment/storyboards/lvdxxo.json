@@ -1,0 +1,72 @@
+{
+  "id": "lvdxxo",
+  "title": "aita for getting mad at my mom for trying to help with my medical problems?",
+  "text": "throwaway & i'm on mobile, sorry for formatting.  let me preface this by saying that my aunt and i (25) have a complicated relationship. this becomes relevant. when i was 16, she convinced my mom that i had been lying about a severe mental health condition and the 2 of them proceeded to relentlessly interrogate me about it for hours, which ended in neither of them believing me, even though i had been telling the truth. some awful things were said. i was really unwell after this experience and in a dark place for a long time. my mom apologized a few weeks later after getting confirmation from the hospital that i had been truthful, my aunt has never apologized. it's been almost 10 years and i still consider this to be an extremely traumatizing event and i don't want my aunt knowing anything personal about me, but especially not anything related to mental/medical health. i was recently diagnosed with a chronic pain issue and have been seeking treatment. i shared this journey with my mom and told her what my doctors had prescribed for me. she came back with other suggestions that i knew could only have come from my aunt, as my mom has 0 medical knowledge and my aunt is a physicians assistant. i was going to let it go, but the entire thing really bothered me, as she did not get my permission about asking my aunt for advice that i didn't need or want. i told her, very kindly but firmly, that i did not want my aunt knowing anything about my medical history or situation without my consent, and that i was uncomfortable with the situation. my mom became very upset about this and it turned into an argument. her position is that she's only trying to help and that she didn't \"specifically say\" she was asking for me, although my aunt isn't stupid and i'm sure she inferred it was about me, as there are a lot of indicitave factors that were shared. my mom also doesn't agree with my doctors decisions as she had a bad experience with her mother undergoing a similar treatment, and it backfired. she thinks it's totally normal for a parent to exhaust every ressource to help a child, and make suggestions for their care. my position is that i'm 25 and didn't ask for advice, that her mother's issues have nothing to do with me because our problems are different, and that she didn't ask me if she could go to my aunt and had she asked, i would have said no. i got pretty heated and said under no circumstances was she to do this again, or i would simply stop sharing with her. i'm wondering if my past trauma with my aunt has made me paranoid and reactive. i know my mom was only trying to help, but we've spoken at length about how awful that experience was and it really shocked me that she would continue to give my aunt any authority on my medical status. aita here for putting a stop to this?",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "When I was 16, my aunt convinced my mom that I had been lying about a severe mental health condition. The two of them interrogated me for hours, said awful things, and neither believed me, even though I had been telling the truth.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "My mom apologized a few weeks later after the hospital confirmed I was truthful, but my aunt has never apologized. It\u2019s been almost 10 years and I still consider it extremely traumatizing. I don\u2019t want my aunt knowing anything personal about me, especially regarding medical health.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ORIENTATION",
+      "content": "I (25) was recently diagnosed with a chronic pain issue and have been seeking treatment. I shared my diagnosis and what my doctors prescribed with my mom.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_OTHER",
+      "content": "My mom came back with medical suggestions that could only have come from my aunt, who is a physician\u2019s assistant. She did not ask my permission before sharing my medical information with my aunt.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_POSTER",
+      "content": "I told my mom, very kindly but firmly, that I did not want my aunt knowing anything about my medical history or situation without my consent, and that I was uncomfortable with the situation.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "My mom became very upset and argued that she\u2019s only trying to help and that she didn\u2019t \u201cspecifically say\u201d she was asking for me, even though my aunt almost certainly inferred it was about me.",
+      "valence": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "ACTION_OTHER",
+      "content": "My mom doesn\u2019t agree with my doctors\u2019 decisions because she had a bad experience with her own mother undergoing similar treatment. She thinks it\u2019s normal for a parent to exhaust every resource to help their child.",
+      "valence": "against_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_POSTER",
+      "content": "I got pretty heated and said under no circumstances was she to do this again, or I would simply stop sharing with her.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "ACCOUNT",
+      "content": "I\u2019m 25 years old and didn\u2019t ask for advice. Her mother\u2019s medical issues have nothing to do with me because our problems are different. She didn\u2019t ask if she could go to my aunt, and had she asked, I would have said no.",
+      "valence": "pro_poster",
+      "importance": 3
+    }
+  ]
+}

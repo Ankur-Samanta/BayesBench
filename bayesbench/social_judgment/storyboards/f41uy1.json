@@ -1,0 +1,58 @@
+{
+  "id": "f41uy1",
+  "title": "aita for not driving co-worker home on a friday/valentine's day afternoon during rush hour?",
+  "text": "on a 2 day business trip, traveling with my boss and a co-worker who is 2 levels of hierarchy under me in the org chart. 2 days before we leave i make it clear to my co-worker that i can drive him to the airport, but not bring him back on the return, because it is friday afternoon valentine\u2019s day and rush hour. if i did drive him it would mean at least 30 minutes longer drive for me before i get home. told him to consider alternatives, e.g. drive himself and park at the airport, take taxi/uber, rent a limousine service. (all of the above would have been company paid). co-worker has 2 days to make a decision and chooses none of the options, telling my boss that he hopes that i would reconsider. after landing i check google for traffic and the route that my co-worker would have to take is deeply red. i decide to stay firm. my boss flips out and is angry with me, after i tell him that co-worker needs to take taxi/uber per the agreement. boss thinks i am an asshole.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "I was on a 2-day business trip, traveling with my boss and a co-worker who is 2 levels below me in the org chart.",
+      "valence": "neutral",
+      "importance": 1
+    },
+    {
+      "id": "a2",
+      "category": "ACTION_POSTER",
+      "content": "Two days before we left, I made it clear to my co-worker that I could drive him to the airport but not bring him back on the return, because it was Friday afternoon, Valentine's Day, and rush hour.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "ACCOUNT",
+      "content": "If I drove him back it would mean at least 30 minutes longer for me before I got home, and it was Valentine's Day.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I told him to consider alternatives: drive himself and park at the airport, take a taxi or Uber, or rent a limousine service. All options would have been company paid.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "My co-worker had 2 days to make a decision and chose none of the options, instead telling my boss that he hoped I would reconsider.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_POSTER",
+      "content": "After landing, I checked Google Maps and the route was deeply red with traffic. I decided to stay firm and told my boss the co-worker needed to take a taxi or Uber per our agreement.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "REACTION",
+      "content": "My boss flipped out and was angry with me. He thinks I am an asshole.",
+      "valence": "against_poster",
+      "importance": 3
+    }
+  ]
+}

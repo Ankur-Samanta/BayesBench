@@ -1,0 +1,57 @@
+{
+  "case_id": 926,
+  "true_urgency": "Emergency",
+  "specialty": "Mental Health",
+  "self_diagnosis": "manic episode bipolar disorder",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I haven't slept at all in 4 days and my thoughts won't stop racing"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "I've been spending all my savings on things I don't need and I can't stop"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "My family says I'm talking way too fast and not making sense"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a4",
+      "content": "I feel completely invincible and believe I've been chosen for a special mission to save the world"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a5",
+      "content": "Everything escalated really fast over the past 7 days"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a6",
+      "content": "I'm so wound up and excited that I can barely sit still long enough to eat"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "id": "a7",
+      "content": "I'm a 27-year-old man"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "ui8chd",
+  "title": "aita for asking my husband to see a movie on a different day than he wants to?",
+  "text": "this might be a long post, i apologize in advance. last night, my (28f) husband (29m) said he wants to go to the movies next wednesday. he works 12 hours and a 3/2/2 schedule, so next week his days off are wednesday and thursday. the week after, he\u2019ll only work those days and have off m, t, and the weekend starting friday. i work from home doing customer service on the phone all day, monday - friday and every other saturday. we have three kids (9m, 7f, and a 12 week old baby girl). the 9 and 7 year old of course are at school during the day, but on the days that my husband works i\u2019m taking care of baby girl while working. she\u2019s quietest when she\u2019s being held (and i need her to be quiet of course because i\u2019m on the phone), so i wear her my entire 8 hour work day. i\u2019ve explained to my husband how it\u2019s stressful to work and take care of her because she\u2019s still obviously not going to be quiet the entire day, and i\u2019m having to calm her/feed her/change diapers all while on the phone, and use my breaks to either feed her or try to keep up with the house.  so back to last night. he said he wants to go to the movies next wednesday. i work next wednesday, so i said i would rather i didn\u2019t have to work and take care of a baby more than is absolutely necessary. i asked him to go on one of his sundays off because i\u2019m guaranteed to be off so i would only have to worry about taking care of the house and the baby instead of trying to work too. he said sundays would be too busy for his preference so he would rather go during the week, and that it\u2019s \u201conly a couple hours, you act like it\u2019s a big deal.\u201d i explained that it is a big deal to me because that\u2019s one of the days i consider a \u201cbreak\u201d because i only have to worry about work, and i didn\u2019t understand the big deal about just going on a different day. he told me i\u2019m selfish because i won\u2019t let him take 2 hours to himself. i said he could, that i just want him to do it on a day that\u2019s easier for me. not to mention, i don\u2019t even sit down to breathe for the day until 10pm, and then i\u2019m so exhausted that i just end up falling asleep. on my days off, i\u2019m cleaning the house all day. i don\u2019t get time at all, while he plays video games on his days off and does nothing in the house. so hearing him call me selfish was so hurtful. am i wrong for just asking him to go on a different day? we discussed it this morning and he still doesn\u2019t understand where i\u2019m coming from, so maybe i am making it a bigger deal than it is.",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "ORIENTATION",
+      "content": "My husband (29M) and I (28F) have three kids \u2014 ages 9, 7, and a 12-week-old baby girl. He works 12-hour shifts on a 3/2/2 schedule, and I work from home doing customer service on the phone, Monday through Friday and every other Saturday.",
+      "valence": "neutral",
+      "importance": 2
+    },
+    {
+      "id": "a2",
+      "category": "ORIENTATION",
+      "content": "On the days my husband works, I\u2019m taking care of the baby while working. She\u2019s quietest when being held, so I wear her for my entire 8-hour work day, calming her, feeding her, and changing diapers all while on the phone.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "ACTION_OTHER",
+      "content": "My husband said he wants to go to the movies next Wednesday, which is one of his days off but a day I have to work.",
+      "valence": "against_poster",
+      "importance": 4
+    },
+    {
+      "id": "a4",
+      "category": "ACTION_POSTER",
+      "content": "I asked him to go on one of his Sundays off instead, since I\u2019m guaranteed to be off that day and would only have to worry about the house and the baby rather than working too.",
+      "valence": "pro_poster",
+      "importance": 5
+    },
+    {
+      "id": "a5",
+      "category": "ACTION_OTHER",
+      "content": "He said Sundays would be too busy for his preference and dismissed my concern, saying it\u2019s \u201conly a couple hours, you act like it\u2019s a big deal.\u201d",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a6",
+      "category": "ACTION_OTHER",
+      "content": "He told me I\u2019m selfish because I won\u2019t let him take 2 hours to himself.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a7",
+      "category": "ACCOUNT",
+      "content": "I don\u2019t even sit down to breathe until 10pm, and on my days off I\u2019m cleaning the house all day. I don\u2019t get any time to myself at all.",
+      "valence": "pro_poster",
+      "importance": 3
+    },
+    {
+      "id": "a8",
+      "category": "ACTION_OTHER",
+      "content": "On his days off, he plays video games and does nothing in the house.",
+      "valence": "pro_poster",
+      "importance": 4
+    },
+    {
+      "id": "a9",
+      "category": "OUTCOME",
+      "content": "We discussed it again this morning and he still doesn\u2019t understand where I\u2019m coming from.",
+      "valence": "neutral",
+      "importance": 2
+    }
+  ]
+}

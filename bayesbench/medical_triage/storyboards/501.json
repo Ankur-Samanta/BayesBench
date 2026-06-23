@@ -1,0 +1,57 @@
+{
+  "case_id": 501,
+  "true_urgency": "Urgent",
+  "specialty": "Dermatology",
+  "self_diagnosis": "infected chickenpox shingles",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "I have painful, fluid-filled blisters all over my chest and back that appeared suddenly."
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "The blisters burn and itch intensely."
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "Some blisters have broken open and left raw, sensitive spots that are now developing yellowish crusting."
+    },
+    {
+      "id": "a4",
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "I have a fever and feel generally unwell."
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "content": "The blisters started 2 days ago and have been spreading rapidly across my torso."
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "content": "The pain and discomfort are severe enough to affect my sleep and daily activities."
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 2,
+      "content": "I am a 37-year-old man."
+    }
+  ]
+}

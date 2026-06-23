@@ -1,0 +1,64 @@
+{
+  "case_id": 858,
+  "true_urgency": "Urgent",
+  "specialty": "Pulmonology",
+  "self_diagnosis": "acute asthma attack",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "I'm having really bad shortness of breath that keeps getting worse. I can barely do anything without feeling like I can't catch my breath.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "I've been coughing up thick yellow mucus. It's not clear \u2014 it's definitely yellow and there's a lot of it. I've started wheezing on top of everything else. It's a new thing that started as things got worse.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "My chest feels really tight. It's this constant pressure that doesn't go away.",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ASSOCIATED",
+      "content": "The breathlessness is especially bad when I lie down at night. I've been struggling to sleep because of it.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "ASSOCIATED",
+      "content": "I've used my rescue inhaler six times in the last 24 hours and it's barely helping anymore. It used to give me relief but now it's not doing much.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "TIMELINE",
+      "content": "This has been getting progressively worse over the past week. It started mild but has steadily gone downhill.",
+      "urgency_signal": "alarming",
+      "importance": 3
+    },
+    {
+      "id": "a7",
+      "category": "SEVERITY",
+      "content": "I can barely climb one flight of stairs without having to stop. Basic tasks are becoming really difficult to manage.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a8",
+      "category": "CONTEXT",
+      "content": "I'm a 42-year-old woman with a history of mild asthma. I have a rescue inhaler that I use when I need it.",
+      "urgency_signal": "alarming",
+      "importance": 3
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": 212,
+  "true_urgency": "Urgent",
+  "specialty": "Emergency Medicine",
+  "self_diagnosis": "heart attack",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I'm having really bad crushing pressure right in the middle of my chest that came on suddenly"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "The pain is spreading down my left arm"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a3",
+      "content": "I'm sweating a lot and feeling nauseous"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "I'm having trouble catching my breath"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a5",
+      "content": "Everything started about an hour ago all of a sudden"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a6",
+      "content": "The pain is about an 8 out of 10 and it gets worse when I try to move around"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a7",
+      "content": "I'm a 58-year-old man"
+    }
+  ]
+}

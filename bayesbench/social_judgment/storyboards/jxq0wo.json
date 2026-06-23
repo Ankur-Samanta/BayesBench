@@ -1,0 +1,16 @@
+{
+  "id": "jxq0wo",
+  "title": "aita for telling my schools principal to fuck off",
+  "text": "before i start let me explain the main problem the whole school has with me, i (18f) am in a christian high-school, am openly gay and known for not holding any religion, and have a shy girlfriend 2 years younger then me.  so last week was a full week at school instead of doing virtual learning, during that time me and my girlfriend where called to the principals office under the grounds of discussing grades, my girlfriend is a straight a student where i am a a b student) and during the meeting it was brought up that my girlfriend has been not preforming to well in her chemistry class and mentioned how a few teachers spotted us hanging out during the \"virtual learning time\" even though me and my girlfriend do our work at night and have the work on our laptops to prove it but it did nothing to convince him.  here's where i lost my cool and might be the ah, he said that maybe this was a message from a higher power that 2 women can't truly be in love and together like a man and a women, once he said that i told him he can fuck off and that i love my girlfriend more then anyone in the world. of course i have been expelled and my parents told me that it was very rude and that he might be right as i never acted out like this before i started dating my girlfriend  so amta for lashing out like i did, also my school knows my main reddit account so had to make this one and for the teachers spotting us we live in a pretty small town and its an everyone knowns everyone town",
+  "verdict": "NTA",
+  "is_yta": false,
+  "storyboard": [
+    {"id": "a1", "category": "ORIENTATION", "content": "I'm an 18-year-old female at a Christian high school. I'm openly gay and known for not holding any religion, and I have a shy girlfriend who is 2 years younger than me.", "valence": "neutral", "importance": 3},
+    {"id": "a2", "category": "ACTION_OTHER", "content": "The principal called me and my girlfriend to his office under the grounds of discussing grades, even though my girlfriend is a straight-A student and I'm an A-B student.", "valence": "pro_poster", "importance": 3},
+    {"id": "a3", "category": "ACTION_OTHER", "content": "The principal brought up that a few teachers had spotted us hanging out during 'virtual learning time,' implying we weren't doing our work. We had the completed work on our laptops to prove it, but it didn't convince him.", "valence": "pro_poster", "importance": 3},
+    {"id": "a4", "category": "ACTION_OTHER", "content": "The principal said that maybe this was a message from a higher power that two women can't truly be in love and together like a man and a woman.", "valence": "pro_poster", "importance": 5},
+    {"id": "a5", "category": "ACTION_POSTER", "content": "I told the principal he can fuck off and that I love my girlfriend more than anyone in the world.", "valence": "against_poster", "importance": 5},
+    {"id": "a6", "category": "OUTCOME", "content": "I was expelled from the school.", "valence": "neutral", "importance": 4},
+    {"id": "a7", "category": "REACTION", "content": "My parents told me it was very rude and that the principal might be right, since I never acted out like this before I started dating my girlfriend.", "valence": "against_poster", "importance": 3}
+  ]
+}

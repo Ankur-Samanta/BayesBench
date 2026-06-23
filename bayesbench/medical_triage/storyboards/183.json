@@ -1,0 +1,64 @@
+{
+  "case_id": 183,
+  "true_urgency": "Emergency",
+  "specialty": "Emergency Medicine",
+  "self_diagnosis": "heart attack",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have a severe crushing pressure in my chest that feels like an elephant sitting on me"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a2",
+      "content": "The pain is spreading to my left arm and my jaw"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a3",
+      "content": "I'm very short of breath and struggling to speak in full sentences"
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "I'm sweating a lot and feel nauseous and lightheaded"
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a5",
+      "content": "This came on about 30 minutes ago and is still going on right now"
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a6",
+      "content": "The pain is a 9 out of 10 and I've never felt anything like this before in my life"
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "alarming",
+      "importance": 3,
+      "id": "a7",
+      "content": "I'm a 58-year-old man"
+    },
+    {
+      "category": "ASSOCIATED",
+      "urgency_signal": "alarming",
+      "importance": 3,
+      "id": "a8",
+      "content": "Taking a deep breath makes the chest pain worse"
+    }
+  ]
+}

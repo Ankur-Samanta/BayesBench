@@ -1,0 +1,57 @@
+{
+  "case_id": 726,
+  "true_urgency": "Emergency",
+  "specialty": "Neurology",
+  "self_diagnosis": "stroke or retinal artery occlusion",
+  "storyboard": [
+    {
+      "id": "a1",
+      "category": "CHIEF_COMPLAINT",
+      "content": "About an hour ago my vision in my left eye went completely dark and I still cannot see out of it.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a2",
+      "category": "SYMPTOM",
+      "content": "The left side of my face has been feeling numb for the past few days.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a3",
+      "category": "SYMPTOM",
+      "content": "I have been having headaches recently.",
+      "urgency_signal": "neutral",
+      "importance": 3
+    },
+    {
+      "id": "a4",
+      "category": "ASSOCIATED",
+      "content": "There is no pain at all with the vision loss in my eye.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    },
+    {
+      "id": "a5",
+      "category": "TIMELINE",
+      "content": "The vision loss came on suddenly one hour ago. The facial numbness has been building over the past few days.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a6",
+      "category": "SEVERITY",
+      "content": "My vision is completely gone in the left eye, not just blurry.",
+      "urgency_signal": "alarming",
+      "importance": 5
+    },
+    {
+      "id": "a7",
+      "category": "CONTEXT",
+      "content": "I am a 68-year-old man with a history of high blood pressure and high cholesterol.",
+      "urgency_signal": "alarming",
+      "importance": 4
+    }
+  ]
+}

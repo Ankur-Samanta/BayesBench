@@ -1,0 +1,57 @@
+{
+  "case_id": 622,
+  "true_urgency": "Urgent",
+  "specialty": "Gastroenterology",
+  "self_diagnosis": "gallstones blocking bile duct",
+  "storyboard": [
+    {
+      "category": "CHIEF_COMPLAINT",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a1",
+      "content": "I have severe pain in my upper right belly that has been constant for the past 12 hours."
+    },
+    {
+      "category": "TIMELINE",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a2",
+      "content": "The pain started suddenly about 12 hours ago right after I ate a fatty meal."
+    },
+    {
+      "category": "SEVERITY",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a3",
+      "content": "The pain is very intense, I would rate it 8 out of 10, and it gets worse when I breathe deeply."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 4,
+      "id": "a4",
+      "content": "I have vomited several times since it started."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a5",
+      "content": "I have a fever of 102 degrees Fahrenheit."
+    },
+    {
+      "category": "SYMPTOM",
+      "urgency_signal": "alarming",
+      "importance": 5,
+      "id": "a6",
+      "content": "My skin looks a bit yellow and my urine is very dark."
+    },
+    {
+      "category": "CONTEXT",
+      "urgency_signal": "neutral",
+      "importance": 3,
+      "id": "a7",
+      "content": "I am a 38-year-old woman and I am overweight."
+    }
+  ]
+}
