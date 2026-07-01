@@ -1,5 +1,8 @@
 # BayesBench
 
+**Paper:** [BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn
+Evidence Accumulation](https://arxiv.org/abs/2606.30850) ([PDF](https://arxiv.org/pdf/2606.30850))
+
 LLMs are typically deployed in multi-turn conversations, where evidence
 accumulates turn by turn, yet they are usually evaluated in a single turn with
 all information provided at once. **BayesBench** measures how closely an LLM's
@@ -351,3 +354,19 @@ https://huggingface.co/datasets/sweatSmile/medical-symptom-triage
 [3] F. Maxwell Harper and Joseph A. Konstan. *The MovieLens Datasets: History and
 Context.* ACM Transactions on Interactive Intelligent Systems 5(4):1–19, 2015.
 https://grouplens.org/datasets/movielens/
+
+## Citation
+
+If you find BayesBench helpful in your work, please cite:
+
+```bibtex
+@misc{samanta2026bayesbenchevaluatingllmbelief,
+      title={BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn Evidence Accumulation},
+      author={Ankur Samanta and Akshayaa Magesh and Tal Lancewicki and Ayush Jain and Youliang Yu and Paul Sajda and Kaveh Hassani and Aditya Modi and Daniel R. Jiang and Yonathan Efroni},
+      year={2026},
+      eprint={2606.30850},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2606.30850},
+}
+```
