@@ -1,4 +1,4 @@
-# BayesBench
+# BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn Evidence Accumulation
 
 [![arXiv](https://img.shields.io/badge/arXiv-2606.30850-b31b1b.svg)](https://arxiv.org/abs/2606.30850)
 
