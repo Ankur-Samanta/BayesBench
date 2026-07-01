@@ -1,7 +1,6 @@
 # BayesBench
 
-**Paper:** [BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn
-Evidence Accumulation](https://arxiv.org/abs/2606.30850) ([PDF](https://arxiv.org/pdf/2606.30850))
+[![arXiv](https://img.shields.io/badge/arXiv-2606.30850-b31b1b.svg)](https://arxiv.org/abs/2606.30850)
 
 LLMs are typically deployed in multi-turn conversations, where evidence
 accumulates turn by turn, yet they are usually evaluated in a single turn with
