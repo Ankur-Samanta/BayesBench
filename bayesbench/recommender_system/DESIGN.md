@@ -28,51 +28,29 @@ MovieLens 1M — roughly 1 million ratings from ~6,000 users on ~3,900 movies. E
 
 Each user with ≥20 ratings gets an 18-dimensional **genre preference vector** (one dimension per MovieLens genre: Action, Adventure, ..., Western). For each genre, we compute the user's average rating on movies of that genre, normalized to [0, 1], then center by subtracting the user's mean across all genres. Centering ensures we cluster on *relative* preferences ("likes crime more than comedy") rather than overall generosity.
 
-#### How we arrived at K=4 EM types (the full story)
+#### How we arrived at K=4 types
 
-**Phase 1 — K-means on genre space (initial approach, discarded):**
-We started with K-means clustering (K=5, 10 restarts, seed=42) on those centered 18-dim genre vectors. This assigns each user a hard type based on genre preferences. The result was poor: minimum pairwise Jensen-Shannon (JS) divergence between types was only 0.095 (types 1 and 3 were nearly indistinguishable), and the Bayesian oracle only reached 64.4% accuracy at t=20 (barely above the 20% chance baseline). Type 2 was the only standout; all others had similar mean expected ratings (3.41–3.49★ across types).
+**The fitting pipeline (what the code does).** Type fitting is a *hybrid* of genre-space clustering and rating-space refinement (`data.py:261` `fit_type_model`, `hybrid_type_model.py`):
 
-**Phase 2 — Switch to EM on the rating matrix:**
-The core problem with K-means on genre space is that it's a proxy — it doesn't directly optimize for what matters in the generative model: that users of the same type have similar *rating distributions* across movies. We switched to **EM (Expectation-Maximization) on the rating matrix itself**, fitting a mixture of Categorical distributions directly:
-- E-step: soft-assign users to types based on rating likelihoods under current parameters
-- M-step: re-estimate per-type per-movie rating distributions from soft assignments
+1. **Genre-preference vectors.** Each qualifying user (≥20 ratings) gets the centered 18-dim genre vector described above.
+2. **PCA → K-means.** Reduce those vectors to 4 principal components (~54% of variance) and run K-means (K=4, `n_init=10`, seed 42). This defines interpretable, taste-based clusters — a type that dislikes animated/children's films, a type that tolerates action thrillers, and so on.
+3. **EM refinement.** Estimate the per-(movie, type) rating distributions `theta` from the K-means assignments (with Dirichlet(1) smoothing), then run a small number of EM steps (**default 1**) on the rating matrix, warm-started from those assignments. The E-step soft-assigns users by rating likelihood; the M-step re-estimates `theta`. This sharpens the rating distributions for discriminability while preserving the genre-based type identity, and produces the final user assignments (argmax of the last responsibilities).
 
-This is principled because it directly optimizes the same generative model the Bayesian oracle assumes, rather than a genre-space proxy. First EM run (still K=5): min JS jumped from 0.095 → 0.197 and oracle accuracy at t=20 jumped from 64.4% → 87.0%. However, two types collapsed to very small weights (~5–8%), which would make the benchmark unbalanced.
+The two stages play complementary roles: K-means on genre space gives *interpretable* types, while the EM pass makes their *rating distributions* more separable — which is what the Bayesian posterior actually keys on. This is a deliberate middle ground: pure genre-space clustering left neighboring types' rating distributions poorly separated, but unconstrained EM on the rating matrix alone tended to collapse types onto imbalanced weights. Genre init + light EM refinement keeps the types both interpretable and balanced.
 
-**Phase 3 — Sweeping K ∈ {3, 4, 5} with EM:**
-We ran EM with multiple random restarts (seeds 42, 1042, 2042) for each K and evaluated three criteria. Here is what each metric means and why we used it:
+**Why K=4.** We compared K ∈ {3, 4, 5} on three criteria (`analyze_type_model.py` compares K-means vs. EM fitting and sweeps K; `hybrid_type_model.py` evaluates the genre-init + EM-refinement selection; `sweep_em_iterations.py` checks EM convergence; `pca_sweep.py` explores PCA preprocessing):
 
-- **LL/rating** (log-likelihood per rating): How well the fitted mixture model explains the observed ratings — higher (less negative) is better. Used to verify the EM is converging and that extra types actually fit the data better.
+- **Minimum pairwise Jensen-Shannon divergence** between the per-type rating distributions. JS measures how distinguishable two distributions are (0 = identical, log 2 = disjoint). We take the *minimum* over all pairs because the bottleneck pair — the two hardest-to-tell-apart types — caps how well any agent (oracle or LLM) can do type inference. A high *mean* JS is meaningless if one pair is confusable. Higher is better.
 
-- **BIC** (Bayesian Information Criterion): Penalizes log-likelihood by the number of free parameters (`-2·LL + params·log(N)`), rewarding parsimony. Favors the simplest model that still explains the data well. Lower is better.
+- **Oracle-minus-chance accuracy at t=20.** The Bayesian oracle's type-classification accuracy after 20 observations, minus the 1/K chance baseline. Subtracting chance makes different K comparable (K=3 has a 33% baseline, K=5 a 20% one). This measures how much *above* random the oracle gets — the actual difficulty signal. Higher is better.
 
-- **Min pairwise JS** (minimum pairwise Jensen-Shannon divergence): JS divergence between two rating distributions measures how distinguishable they are (0 = identical, 1 = completely non-overlapping). We take the *minimum* over all pairs of types because the bottleneck pair — the two hardest-to-tell-apart types — determines how well the Bayesian oracle (and any LLM) can do type inference at all. A high mean JS is meaningless if one pair is confusable. Higher is better.
+- **Balanced type weights.** No type should collapse to a near-empty fraction, or the benchmark has too few examples of it and the chance-baseline calculation degrades.
 
-- **Oracle@20** (Bayesian oracle type classification accuracy at t=20 ratings seen): After the oracle sees 20 (movie, rating) pairs from a user, it computes the exact posterior over types and predicts the argmax. This is the accuracy of that prediction. t=20 is a natural evaluation point — enough signal to make inference non-trivial, not so much that the task is already solved. Higher is better, but must be interpreted relative to the chance baseline.
-
-- **Oracle-minus-chance@20**: Oracle accuracy minus 1/K (the random guessing baseline). This normalizes across different K values — K=3 has a 33% chance baseline while K=5 has a 20% one, making raw oracle accuracy non-comparable. Oracle-minus-chance measures how much *above* random the oracle gets, which is the actual difficulty signal. Higher is better.
-
-- **Min type weight (min π)**: The mixture weight of the smallest type — the fraction of users assigned to the least-common type. If a type collapses to <5%, it's near-degenerate: the benchmark has almost no test examples for it, and the chance baseline calculation breaks down. Used as a sanity check that all types are meaningfully represented.
-
-| Model | LL/rating | BIC | Min pairwise JS | Oracle@20 | Oracle-minus-chance@20 |
-|---|---|---|---|---|---|
-| EM K=3 | -1.236 | **2,191,836** (best) | 0.201 | 87.1% | 0.538 |
-| **EM K=4** | -1.227 | 2,234,555 | **0.209** (best) | 85.4% | **0.604** (best) |
-| EM K=5 | -1.223 | 2,263,798 | 0.169 | 87.4% | 0.567 |
-
-**K=4 was chosen** because:
-- It maximizes *minimum* pairwise JS divergence (0.209), meaning every pair of types is well-separated — no confusable pair
-- It has the best oracle-minus-chance signal at t=20 (0.604), making it the most useful for measuring inference quality
-- K=3 has the best BIC but produces a 44% majority class, which weakens the oracle-minus-chance signal
-- K=5 brings back a confusable pair (min JS drops to 0.169) and has a near-empty type (~9.5% weight)
-- Type weights at K=4 are [0.36, 0.14, 0.36, 0.13] — two large and two smaller types, balanced enough to avoid degeneracy
-
-**Scripts:** `analyze_type_model.py` (K comparison), `sweep_em_iterations.py` (EM convergence), `pca_sweep.py` (explored PCA preprocessing, ultimately not used). **Results:** `type_model_analysis.json` (full metrics table), `hybrid_model_k4.json` (fitted model parameters).
+K=4 gave the best-separated types (highest minimum pairwise JS, no confusable pair) with the strongest oracle-minus-chance signal and no degenerate type — K=3 forced a large majority class that weakened the signal, and K=5 reintroduced a confusable pair and a near-empty type. The fitted mixture weights are **π = [0.122, 0.178, 0.284, 0.417]** — two larger and two smaller types, all well-represented. The fitted model is cached in `data/fitted_model.json`.
 
 *Aren't real users more continuous?* Yes — this is a deliberate simplification. We need a model where ground truth is computable in closed form. Discrete types give us that. A continuous model (like PMF) would require approximate inference, making the "ground truth" itself uncertain.
 
-**Code:** `data.py:144` — `download_movielens()`, `data.py:213` — `compute_genre_preferences()`, `data.py:260` — `fit_type_model()`
+**Code:** `data.py:145` — `download_movielens()`, `data.py:214` — `compute_genre_preferences()`, `data.py:261` — `fit_type_model()`, `hybrid_type_model.py` — hybrid K selection.
 
 ---
 
@@ -86,7 +64,7 @@ The model has two parameters, both estimated from MovieLens data:
 
 **`pi`** — mixture weights over user types:
 ```
-pi = [pi_0, pi_1, pi_2, pi_3]    e.g., [0.36, 0.14, 0.36, 0.13]
+pi = [pi_0, pi_1, pi_2, pi_3]    e.g., [0.122, 0.178, 0.284, 0.417]
 ```
 `pi_k` is the fraction of users belonging to type k. This is the **prior** — before seeing any ratings, our belief about a new user's type.
 
@@ -101,7 +79,7 @@ Estimated from data: count how many type-k users gave movie m each star rating, 
 theta[m][k] = (counts + 1) / (total + 5)
 ```
 
-Only movies where every type has ≥5 ratings survive this filter (~1,352 movies).
+Only movies where every type has ≥5 ratings survive this filter (~1,723 movies).
 
 ### The generative process
 
@@ -112,7 +90,7 @@ A user's ratings are generated as follows:
 2. For each movie m they rate:          rating ~ Categorical(theta[m][k])
 ```
 
-This is a standard mixture model. A user is one of 5 types (drawn once, fixed for all their ratings), and each rating is an independent draw from that type's distribution for that movie. Different types have different taste profiles — a "noir enthusiast" type has high P(5★) for film noir and low P(5★) for children's movies, while a "family-movie lover" type has the opposite.
+This is a standard mixture model. A user is one of 4 types (drawn once, fixed for all their ratings), and each rating is an independent draw from that type's distribution for that movie. Different types have different taste profiles — one type has low P(4–5★) for animated/children's films while another rates them highly, and so on.
 
 ### The Bayesian posterior — step by step
 
@@ -176,74 +154,68 @@ This is the ground truth prediction: a weighted average of each type's expected 
 
 ### Concrete example
 
-Suppose the target movie is L.A. Confidential, and the expected ratings per type are:
+Suppose the target movie is Dumbo (1941) — type 0's signature target — and the expected ratings per type are:
 
 ```
-E[rating | type=0, LA Conf] = 4.05    (type 0 likes it)
-E[rating | type=1, LA Conf] = 4.31    (type 1 likes it)
-E[rating | type=2, LA Conf] = 4.02    (type 2 likes it)
-E[rating | type=3, LA Conf] = 4.25    (type 3 likes it)
-E[rating | type=4, LA Conf] = 2.04    (type 4 doesn't)
+E[rating | type=0, Dumbo] = 1.92    (type 0 dislikes it)
+E[rating | type=1, Dumbo] = 3.66    (type 1 likes it)
+E[rating | type=2, Dumbo] = 3.91    (type 2 likes it)
+E[rating | type=3, Dumbo] = 3.66    (type 3 likes it)
 ```
 
-**At t=0**, the prediction is the population average:
+**At t=0**, the prediction is the population average (prior π = [0.122, 0.178, 0.284, 0.417]):
 
 ```
-E[rating] = 0.14×4.05 + 0.25×4.31 + 0.22×4.02 + 0.19×4.25 + 0.20×2.04 = 3.77
+E[rating] = 0.122×1.92 + 0.178×3.66 + 0.284×3.91 + 0.417×3.66 = 3.52
 ```
 
-**At t=1**, the user rates Home Alone 3 (a children's comedy) as 2★. We look up the likelihood of 2★ for each type:
+**At t=1**, the user rates Cinderella (Animation, Children's) as 2★. We look up the likelihood of 2★ for each type:
 
 ```
-P(2★ | type=0, HA3) = 0.12     (type 0 sometimes rates it low)
-P(2★ | type=1, HA3) = 0.08     (type 1 rarely rates it low)
-P(2★ | type=2, HA3) = 0.30     (type 2 often rates children's movies low)
-P(2★ | type=3, HA3) = 0.10     (type 3 rarely)
-P(2★ | type=4, HA3) = 0.25     (type 4 often rates it low)
+P(2★ | type=0, Cinderella) = 0.330    (type 0 often rates animated films low)
+P(2★ | type=1, Cinderella) = 0.046    (type 1 rarely)
+P(2★ | type=2, Cinderella) = 0.019    (type 2 almost never — it loves animated films)
+P(2★ | type=3, Cinderella) = 0.087    (type 3 sometimes)
 ```
 
 Unnormalized posteriors (prior × likelihood):
 
 ```
-type 0: 0.14 × 0.12 = 0.0168
-type 1: 0.25 × 0.08 = 0.0200
-type 2: 0.22 × 0.30 = 0.0660    ← biggest jump
-type 3: 0.19 × 0.10 = 0.0190
-type 4: 0.20 × 0.25 = 0.0500
+type 0: 0.122 × 0.330 = 0.0403    ← biggest jump
+type 1: 0.178 × 0.046 = 0.0082
+type 2: 0.284 × 0.019 = 0.0054
+type 3: 0.417 × 0.087 = 0.0363    (still large — it had the biggest prior)
 ```
 
-Normalize (divide by sum = 0.1718):
+Normalize (divide by sum = 0.0901):
 
 ```
-type 0: 0.098     (was 0.14)
-type 1: 0.116     (was 0.25, down a lot — type 1 rarely gives HA3 a 2)
-type 2: 0.384     (was 0.22, up a lot — type 2 often gives HA3 a 2)
-type 3: 0.111     (was 0.19)
-type 4: 0.291     (was 0.20, up — type 4 also dislikes children's movies)
+type 0: 0.447     (was 0.122, up sharply — type 0 is the animation-disliker)
+type 1: 0.091     (was 0.178)
+type 2: 0.060     (was 0.284, down a lot — type 2 loves animated films, so 2★ is unlikely)
+type 3: 0.402     (was 0.417)
 ```
 
-One observation and the posterior has already shifted substantially. Types 2 and 4 (both dislike children's movies) are now the leading hypotheses. The predicted rating for L.A. Confidential shifts:
+One observation and the posterior has already shifted substantially. Types 0 and 3 are now the leading hypotheses, and type 2 has been nearly ruled out. The predicted rating for Dumbo shifts:
 
 ```
-E[rating] = 0.098×4.05 + 0.116×4.31 + 0.384×4.02 + 0.111×4.25 + 0.291×2.04 = 3.59
+E[rating] = 0.447×1.92 + 0.091×3.66 + 0.060×3.91 + 0.402×3.66 = 2.90
 ```
 
-Down from 3.77, because the increased weight on type 4 (which dislikes L.A. Confidential at 2.04) pulls the prediction down.
+Down from 3.52, because the mass that moved onto type 0 (which dislikes Dumbo at 1.92) pulls the prediction down.
 
-**As more ratings accumulate**, each one multiplies in another likelihood term. If the user consistently rates like type 4 (low on dramas and noirs), the posterior concentrates:
+**As more ratings accumulate**, each one multiplies in another likelihood term. If the user keeps rating animated/children's films low — like type 0 — the posterior concentrates (type 3, which merely rates these moderately rather than harshly, gets ruled out):
 
 ```
-After 5 ratings:   type 4 posterior ≈ 0.65
-After 10 ratings:  type 4 posterior ≈ 0.90
-After 20 ratings:  type 4 posterior ≈ 0.99
-After 50 ratings:  type 4 posterior ≈ 1.00 (effectively certain)
+After 1 rating:   type 0 posterior ≈ 0.45
+After 5 ratings:  type 0 posterior ≈ 0.99
 ```
 
-And the predicted rating converges toward type 4's expected rating (2.04).
+And the predicted rating converges toward type 0's expected rating (≈1.92).
 
 *This trajectory — from the population average at t=0, through increasing certainty, to convergence on the true type — is the ground truth we compare the LLM against at every timestep.*
 
-**Code:** `metrics.py:14` — `mixture_posterior()`, `metrics.py:45` — `expected_rating_bayesian()`, `data.py:260` — `fit_type_model()`
+**Code:** `metrics.py:14` — `mixture_posterior()`, `metrics.py:45` — `expected_rating_bayesian()`, `data.py:261` — `fit_type_model()`
 
 ---
 
@@ -261,18 +233,18 @@ A movie with diagnosticity 1.5 means one type expects ~2.5 and another expects ~
 
 ### How do we split movies into probes and targets?
 
-**Target selection — one per type (5 targets total):** For each type k, we find the movie where type k is the biggest **outlier** — the movie where type k's expected rating is farthest from the nearest other type. We do this greedily (no duplicates), so each type gets a unique "signature" target movie.
+**Target selection — one per type (4 targets total):** For each type k, we find the movie where type k is the biggest **outlier** — the movie where type k's expected rating is farthest from the nearest other type. We do this greedily (no duplicates), so each type gets a unique "signature" target movie.
 
-For example:
-- **Type 0's target**: Tombstone (1993) — type 0 expects 2.40★, all others expect 3.68-4.26★. Only type 0 dislikes westerns.
-- **Type 2's target**: Toy Story 2 (1999) — type 2 expects 2.38★, all others expect 4.15-4.32★. Only type 2 dislikes children's animation.
-- **Type 4's target**: L.A. Confidential (1997) — type 4 expects 2.04★, all others expect 4.02-4.31★. Only type 4 dislikes film noir.
+For example (from the fitted model):
+- **Type 0's target**: Dumbo (1941) — type 0 expects 1.92★, all others expect 3.66–3.91★. Only type 0 dislikes animated children's films.
+- **Type 1's target**: Home Alone 3 (1997) — type 1 expects 3.15★, the only type that tolerates it (others expect 1.55–2.10★).
+- **Type 3's target**: The Specialist (1994) — type 3 expects 2.01★, all others expect 3.17–3.27★. Only type 3 dislikes this action thriller.
 
 *Why one per type instead of top-N globally?* Global diagnosticity selection can cluster targets on the same pair of types. If types 0 and 2 are the most different, all targets might discriminate between those two types, leaving types 1, 3, 4 without a target that's really "theirs." Per-type selection guarantees balanced coverage — every type has a target where its distinctive preferences are most visible.
 
 *Why does the target need to be an outlier?* If type k's expected rating is in the middle of the pack (e.g., 3.5 when others range from 2.0 to 4.5), observing the rating doesn't help distinguish type k from its neighbors. When type k is the unique extreme, the Bayesian posterior shifts maximally upon observing evidence consistent with type k.
 
-**Probe selection — next 50 most diagnostic (globally):** After reserving the 5 targets, we take the 50 most diagnostic remaining movies as probes. These form the user's rating history. They're highly diagnostic too — each observation carries strong evidence about the user's type.
+**Probe selection — next 50 most diagnostic (globally):** After reserving the 4 targets, we take the 50 most diagnostic remaining movies as probes. These form the user's rating history. They're highly diagnostic too — each observation carries strong evidence about the user's type.
 
 *Why separate them?* The whole point is **cross-item transfer**. The LLM observes the user's ratings on probe movies and must predict a target movie it has *never* seen a rating for. If the probe and target sets overlapped, the model could just memorize ratings rather than doing inference.
 
@@ -341,7 +313,7 @@ These control **what the model knows about the population** before seeing any ra
 
 **`zero_shot`** — The system prompt is just the task description and the MCQ rating scale. Three lines. No population info at all. The model must rely entirely on pretraining knowledge — its internalized understanding of how movie preferences correlate — to do cross-item inference. "This user dislikes children's movies, so they might like noir" is the kind of reasoning required, and it has to come from the model's own world knowledge. This tests: **can the LLM do Bayesian-like inference with an implicit prior from pretraining?**
 
-**`explicit_types`** — The system prompt includes the complete generative model: 5 profiles, each showing expected ratings on all 50 probe movies, plus the type's prevalence (e.g., "Profile 1: 14% of users"). The model can directly compare observed ratings to profiles and identify the best match. But the target movie is **intentionally omitted** from the profiles — the model must still generalize from its inferred type to predict an unseen movie. This tests: **given the full generative model, can the LLM use it for Bayesian updating and transfer?**
+**`explicit_types`** — The system prompt includes the complete generative model: 4 profiles, each showing expected ratings on all 50 probe movies, plus the type's prevalence (e.g., "Profile 1: 12% of users"). The model can directly compare observed ratings to profiles and identify the best match. But the target movie is **intentionally omitted** from the profiles — the model must still generalize from its inferred type to predict an unseen movie. This tests: **given the full generative model, can the LLM use it for Bayesian updating and transfer?**
 
 **`anonymized`** — Identical to explicit_types in numerical structure, but all movie names become abstract labels (Item_1, Item_2, ...) and all genres become abstract features (Feature_A, Feature_B, ...). The model can't use "I know L.A. Confidential is a noir film that cinephiles love." This is the **critical control for genre leakage**: if explicit_types works well but anonymized doesn't, the model was using pretraining knowledge about movies and genres rather than doing structural Bayesian inference from the numbers. This tests: **is the inference structural (from the numbers) or semantic (from world knowledge)?**
 
@@ -366,8 +338,8 @@ This gives **8 cells** (not 9) in the experimental matrix:
 
 ### Per-experiment variation
 
-- 5 true types × 5 target movies (one per type) × 5 trials = 125 experiments per cell
-- 8 cells per model → 1000 experiments per model
+- 4 true types × 4 target movies (one per type) × 5 trials = 80 experiments per cell (the outer loop is a full cross of true_type × target, `runner.py:1984`)
+- 8 cells per model → 640 experiments per model
 - 5 trials use different random seeds → different rating samples from the same type
 
 **Code:** `conditions.py:104` — `_build_system()`, `conditions.py:184` — `build_single_turn()`, `conditions.py:222` — `init_multi_turn_state()`
@@ -377,6 +349,8 @@ This gives **8 cells** (not 9) in the experimental matrix:
 All examples below use **single_turn** format (a fresh 2-message prompt at each poll). Multi-turn formats use the same content but deliver it as a growing conversation — the reader can infer the difference from the condition descriptions above.
 
 Every prompt is a `[system, user]` message pair. The **system message** contains the task instruction, rating scale, and population information (varies by pop_info). The **user message** contains the focal user's rating history so far and asks for a prediction on the target movie.
+
+*The movie names, per-profile averages, and the illustrative target below are schematic — chosen to show prompt structure, not drawn literally from the fitted model. The real probe and target movies live in `data/movie_selection.json` (the actual per-type targets are Dumbo, Home Alone 3, The Spitfire Grill, and The Specialist).*
 
 #### zero_shot — no population information
 
@@ -412,7 +386,7 @@ USER:   The user's ratings so far:
 
 #### explicit_types — full type profiles with expected ratings
 
-The system prompt includes the complete generative model: 5 profiles, each with expected ratings on all 50 probe movies. The target movie is intentionally **omitted** from the profiles.
+The system prompt includes the complete generative model: 4 profiles, each with expected ratings on all 50 probe movies. The target movie is intentionally **omitted** from the profiles.
 
 **At t=3**:
 
@@ -422,30 +396,27 @@ SYSTEM: You are predicting how a user will rate a movie based on their rating hi
         A = 1 star (terrible), B = 2 stars (bad), C = 3 stars (okay),
         D = 4 stars (good), E = 5 stars (great)
 
-        Based on data from our platform, users fall into 5 viewer profiles:
+        Based on data from our platform, users fall into 4 viewer profiles:
 
-        Profile 1 (14% of users):
+        Profile 1 (12% of users):
         - Home Alone 3 (Children's, Comedy): avg rating: 3.4
         - Angel Heart (Film-Noir, Mystery, Thriller): avg rating: 2.1
         - White Christmas (Musical): avg rating: 3.8
         - James and the Giant Peach (Animation, Children's, Musical): avg rating: 3.6
         - [... all 50 probe movies with type-1 expected ratings ...]
 
-        Profile 2 (25% of users):
+        Profile 2 (18% of users):
         - Home Alone 3 (Children's, Comedy): avg rating: 1.8
         - Angel Heart (Film-Noir, Mystery, Thriller): avg rating: 4.2
         - White Christmas (Musical): avg rating: 2.1
         - James and the Giant Peach (Animation, Children's, Musical): avg rating: 1.9
         - [... same 50 movies with type-2 expected ratings ...]
 
-        Profile 3 (22% of users):
+        Profile 3 (28% of users):
         [... same 50 movies with type-3 expected ratings ...]
 
-        Profile 4 (19% of users):
+        Profile 4 (42% of users):
         [... same 50 movies with type-4 expected ratings ...]
-
-        Profile 5 (20% of users):
-        [... same 50 movies with type-5 expected ratings ...]
 
 USER:   The user's ratings so far:
         - Home Alone 3 (Children's, Comedy): 2 stars
@@ -471,23 +442,23 @@ SYSTEM: You are predicting how a user will rate an item based on their rating hi
         A = 1 star (terrible), B = 2 stars (bad), C = 3 stars (okay),
         D = 4 stars (good), E = 5 stars (great)
 
-        Based on data from our platform, users fall into 5 profiles:
+        Based on data from our platform, users fall into 4 profiles:
 
-        Profile 1 (14% of users):
+        Profile 1 (12% of users):
         - Item_14 (Feature_D, Feature_E): avg rating: 3.4
         - Item_22 (Feature_J, Feature_M, Feature_P): avg rating: 2.1
         - Item_40 (Feature_L): avg rating: 3.8
         - Item_8 (Feature_A, Feature_D, Feature_L): avg rating: 3.6
         - [... all 50 probe items ...]
 
-        Profile 2 (25% of users):
+        Profile 2 (18% of users):
         - Item_14 (Feature_D, Feature_E): avg rating: 1.8
         - Item_22 (Feature_J, Feature_M, Feature_P): avg rating: 4.2
         - Item_40 (Feature_L): avg rating: 2.1
         - Item_8 (Feature_A, Feature_D, Feature_L): avg rating: 1.9
         - [... same 50 items with type-2 expected ratings ...]
 
-        [... Profiles 3-5 ...]
+        [... Profiles 3-4 ...]
 
 USER:   The user's ratings so far:
         - Item_14 (Feature_D, Feature_E): 2 stars
@@ -518,7 +489,7 @@ This gives E[rating] = 1×0.04 + 2×0.33 + 3×0.22 + 4×0.27 + 5×0.09 = 3.09.
 
 ### How does multi-turn differ?
 
-In **single_turn**, a fresh `[system, user]` prompt is built from scratch at every poll — stateless. In **multi_turn**, a single type-based conversation state grows over time, and all four polls (V1-rating, V1-type, CoT, V2-conditioned) are built from that state at each poll point.
+In **single_turn**, a fresh `[system, user]` prompt is built from scratch at every poll — stateless. In **multi_turn**, a single type-based conversation state grows over time, and all four polls (rating, type, type-CoT, conditioned-rating) are built from that state at each poll point.
 
 #### Architecture: type-based state for non-zero_shot multi-turn
 
@@ -529,7 +500,7 @@ For `explicit_types` and `anonymized`, **both** `multi_turn_minimal` and `multi_
 
 At each poll point, four measurements are extracted by **rebuilding the system prompt** from the conversation history — counterbalancing happens at poll time, not in the state itself. This means the state is scale-invariant (both "Noted." and "Profile 3" are independent of the A-E mapping).
 
-For `zero_shot` multi-turn (only `multi_turn_minimal`), two counterbalanced rating states are maintained as before — there are no profiles to classify into.
+For `zero_shot` multi-turn (only `multi_turn_minimal`), a single scale-invariant rating state is maintained (the assistant says "Noted.", independent of the letter mapping), and the cyclic shifts are applied at poll time — there are no profiles to classify into.
 
 #### Turn-by-turn examples
 
@@ -552,14 +523,14 @@ ASSISTANT: Noted.
 USER:      The user rated James and the Giant Peach (Animation, Children's, Musical): 1 stars
 ```
 
-**Polls at t=3:** Only V1-rating (counterbalanced). System prompt stays as-is; append `"\n\nAverage rating: 1.3 (3 movies rated).\nWhat rating will this user give L.A. Confidential (Crime, Film-Noir, Mystery, Thriller)?"` to the last user message.
+**Polls at t=3:** Only the rating poll (cyclically counterbalanced). System prompt stays as-is; append `"\n\nAverage rating: 1.3 (3 movies rated).\nWhat rating will this user give L.A. Confidential (Crime, Film-Noir, Mystery, Thriller)?"` to the last user message.
 
 ##### multi_turn_minimal × explicit_types — type-based state, "Noted." responses
 
 ```
 SYSTEM:    You are classifying which viewer profile a user belongs to...
            [profile descriptions]
-           A = Profile 1, B = Profile 2, C = Profile 3, D = Profile 4, E = Profile 5
+           A = Profile 1, B = Profile 2, C = Profile 3, D = Profile 4
 
 USER:      Which viewer profile does this user most closely match?
 ASSISTANT: Noted.
@@ -572,9 +543,9 @@ USER:      The user rated James and the Giant Peach (Animation, Children's, Musi
 
 **Four polls at t=3, all built from this state:**
 
-**V1-Type** — keep type system, append type question:
+**Type poll** — keep type system, append type question:
 ```
-SYSTEM:    [type system, A=Profile1...E=Profile5 or reversed for V2]
+SYSTEM:    [type system, A=Profile1...D=Profile4, cyclically shifted per poll]
 USER:      Which viewer profile does this user most closely match?
 ASSISTANT: Noted.
 USER:      The user rated Home Alone 3 (Children's, Comedy): 2 stars
@@ -585,9 +556,9 @@ USER:      The user rated James and the Giant Peach (Animation, Children's, Musi
            Which viewer profile does this user most closely match?
 ```
 
-**V1-Rating** — swap type system → rating system, append rating question:
+**Rating poll** — swap type system → rating system, append rating question:
 ```
-SYSTEM:    [rating system, A=1★...E=5★ or reversed for V2]
+SYSTEM:    [rating system, A=1★...E=5★, cyclically shifted per poll]
 USER:      Which viewer profile does this user most closely match?
 ASSISTANT: Noted.
 USER:      The user rated Home Alone 3 (Children's, Comedy): 2 stars
@@ -610,9 +581,9 @@ USER:      The user rated James and the Giant Peach (Animation, Children's, Musi
            Which viewer profile does this user most closely match?
 ```
 
-**V2-Conditioned** — swap to rating system, append type Q + "Profile X" + conditioned rating Q:
+**Conditioned-rating poll** — swap to rating system, append type Q + "Profile X" + conditioned rating Q:
 ```
-SYSTEM:    [rating system, A=1★...E=5★ or reversed for V2]
+SYSTEM:    [rating system, A=1★...E=5★, cyclically shifted per poll]
 USER:      Which viewer profile does this user most closely match?
 ASSISTANT: Noted.
 ... [same conversation] ...
@@ -630,7 +601,7 @@ USER:      Based on your prediction of Profile 2, what rating will this user giv
 ```
 SYSTEM:    You are classifying which viewer profile a user belongs to...
            [profile descriptions]
-           A = Profile 1, B = Profile 2, C = Profile 3, D = Profile 4, E = Profile 5
+           A = Profile 1, B = Profile 2, C = Profile 3, D = Profile 4
 
 USER:      Which viewer profile does this user most closely match?
 ASSISTANT: Profile 1                            ← last_type_prediction from t=0 poll
@@ -641,7 +612,7 @@ ASSISTANT: Profile 2                            ← last_type_prediction from t=
 USER:      The user rated James and the Giant Peach (Animation, Children's, Musical): 1 stars
 ```
 
-**Four polls at t=3:** Identical structure to multi_turn_minimal above — same four poll types (V1-Type, V1-Rating, CoT, V2-Conditioned), differing only in that the conversation history contains "Profile X" instead of "Noted." between observations.
+**Four polls at t=3:** Identical structure to multi_turn_minimal above — same four poll types (type, rating, type-CoT, conditioned-rating), differing only in that the conversation history contains "Profile X" instead of "Noted." between observations.
 
 The key test: does committing to "Profile 2" early bias the model toward that type even as new evidence accumulates? If multi_turn_actual differs from multi_turn_minimal, anchoring on the latent variable is present.
 
@@ -671,24 +642,21 @@ We check multiple token variants per letter: `{"A", " A", "a", " a"}` and sum th
 
 ### What about position bias?
 
-LLMs tend to prefer early options (A/B) in MCQ tasks — this would bias predictions toward low ratings. To control for this, we run **two versions**:
-
-- **V1** (standard): A=1★, B=2★, C=3★, D=4★, E=5★
-- **V2** (reversed): A=5★, B=4★, C=3★, D=2★, E=1★
-
-V2's distribution is remapped (reversed) before averaging with V1:
+LLMs tend to prefer certain answer positions (e.g. early options A/B) in MCQ tasks — this would bias predictions toward particular ratings. To control for this, we use **cyclic counterbalancing** rather than a simple two-way (forward/reversed) average. For the 5-way rating scale we run **5 shifts**: shift *s* places rating value *r* at letter position `(r − 1 − s) mod 5`, so across the 5 shifts every rating value occupies every answer letter A–E exactly once (including center-anchoring at C). Each shift's logprobs are normalized over A–E, remapped back to canonical rating indices, and averaged across the shifts that carry enough answer-letter mass (`assemble_cyclic`, `common/mcq.py:137`):
 
 ```
-final_distribution = (dist_v1 + reverse(dist_v2)) / 2
-E[rating] = (E_v1 + E_v2) / 2
-scale_bias = (E_v1 - E_v2) / 2    # positive = model prefers early options
+per-shift:   normalize letter probs over A–E, remap position i → rating (i + shift) mod 5
+combine:     average the remapped distributions over valid shifts (answer mass ≥ 1%)
+E[rating]:   expectation of the combined distribution
+position_bias = (max − min of the per-shift expected index) / 2   # half-spread across shifts
+rating_mass  = mean answer-letter mass across valid shifts
 ```
 
-If the model has no position bias, V1 and V2 give the same answer and `scale_bias ≈ 0`. If there's strong A-preference, V1 skews low and V2 skews high, and the average cancels it out.
+If the model has no position bias, every shift agrees and `position_bias ≈ 0`. If it favors a position, the shifts disagree and averaging over all 5 cancels the effect — a strictly stronger control than a single forward/reversed pair, because it balances *every* letter position, not just the two endpoints.
 
-*Why does multi-turn use a single state instead of two counterbalanced states?* In multi-turn, the assistant's responses go into the conversation history. Both "Noted." and "Profile 3" are scale-invariant — they mean the same thing regardless of the A-E mapping. So the conversation state doesn't need counterbalancing; only the system prompt does, which is rebuilt at poll time with forward/reversed scales.
+*Why does multi-turn use a single state instead of separate counterbalanced states?* In multi-turn, the assistant's responses go into the conversation history. Both "Noted." and "Profile 3" are scale-invariant — they mean the same thing regardless of the letter→option mapping. So the conversation state doesn't need counterbalancing; only the system prompt does, which is rebuilt with each cyclic shift at poll time.
 
-**Code:** `extraction.py:252` — `extract_rating_counterbalanced()`
+**Code:** `common/mcq.py:137` — `assemble_cyclic()`, `common/mcq.py:268` — `extract_rating_cyclic_batch()`, `extraction.py` — `extract_rating_counterbalanced_cyclic_batch`.
 
 ---
 
@@ -707,19 +675,19 @@ By asking the model *which type it thinks the user is*, we can distinguish these
 
 ### The extraction pipeline per poll point
 
-For `explicit_types` and `anonymized` conditions, each poll point involves **9 inference calls**:
+For `explicit_types` and `anonymized` conditions, each poll point involves **19 inference calls** (each MCQ poll is cyclically counterbalanced over all its answer positions, not a single forward/reversed pair):
 
-| # | Call | What | Counterbalanced? |
+| # | Call | What | Cyclic shifts |
 |---|------|------|-----------------|
-| 1-2 | **Rating logprobs** | MCQ: A=1★...E=5★ / reversed | Yes (2 calls) |
-| 3-4 | **Type logprobs** | MCQ: A=Profile1...E=Profile5 / reversed | Yes (2 calls) |
-| 5 | **Type CoT generation** | Free generation with step-by-step reasoning | No (1 call) |
-| 6-7 | **CoT follow-up MCQ** | MCQ after CoT: system(MCQ) + user(history) + assistant(CoT) + user(reminder) / reversed | Yes (2 calls) |
-| 8-9 | **Conditioned rating logprobs** | MCQ with "This user matches Profile X" hint | Yes (2 calls) |
+| 1-5 | **Rating logprobs** | MCQ: 5-way star scale, cyclically shifted | 5 |
+| 6-9 | **Type logprobs** | MCQ: 4-way profile scale, cyclically shifted | 4 |
+| 10 | **Type CoT generation** | Free generation with step-by-step reasoning | 1 (no shift) |
+| 11-14 | **CoT follow-up MCQ** | MCQ after CoT: system(MCQ) + user(history) + assistant(CoT) + user(reminder) | 4 |
+| 15-19 | **Conditioned rating logprobs** | MCQ with "This user matches Profile X" hint, 5-way | 5 |
 
-For `zero_shot`: only 2 calls (rating logprobs), since there are no profiles to classify into.
+For `zero_shot`: only 5 calls (rating logprobs, 5 cyclic shifts), since there are no profiles to classify into.
 
-### Type MCQ (logprobs) — calls 3-4
+### Type MCQ (logprobs) — calls 6-9
 
 Same profile descriptions as the rating prompt, but the task instruction changes to type classification:
 
@@ -728,18 +696,18 @@ SYSTEM: You are classifying which viewer profile a user belongs to based on thei
 
        [same profile descriptions as rating prompt]
 
-       Respond with only A, B, C, D, or E.
-       A = Profile 1, B = Profile 2, C = Profile 3, D = Profile 4, E = Profile 5
+       Respond with only A, B, C, or D.
+       A = Profile 1, B = Profile 2, C = Profile 3, D = Profile 4
 
 USER:  [rating history]
        Which viewer profile does this user most closely match?
 ```
 
-Counterbalanced V2 reverses: `A = Profile 5, ..., E = Profile 1`. The same remap-and-average procedure as rating extraction cancels position bias.
+There are 4 profiles, so the type MCQ uses a 4-way scale (A–D) and is cyclically counterbalanced over **4 shifts** — each profile occupies each of A–D exactly once across the shifts. The same `assemble_cyclic` remap-and-average procedure as rating extraction cancels position bias.
 
 **Code:** `conditions.py` — `build_type_poll_single_turn()`, `extraction.py` — `extract_type_counterbalanced()`
 
-### Type CoT (free generation) — call 5
+### Type CoT (free generation) — call 10
 
 Same profile descriptions, but with chain-of-thought instructions instead of MCQ:
 
@@ -758,28 +726,28 @@ USER:  [rating history]
 
 The model generates free text (up to 512 tokens). The CoT reasoning is then used as context for a follow-up MCQ extraction rather than being parsed directly.
 
-### CoT follow-up MCQ — calls 6-7
+### CoT follow-up MCQ — calls 11-14
 
-After CoT generation, we extract a counterbalanced 5-way type distribution by building a follow-up prompt:
+After CoT generation, we extract a cyclically counterbalanced 4-way type distribution by building a follow-up prompt:
 
 ```
-SYSTEM: [type MCQ system — A=Profile1...E=Profile5 or reversed]
+SYSTEM: [type MCQ system — 4-way profile scale, cyclically shifted]
 USER:   [rating history + type question]
-ASSISTANT: [CoT reasoning text from call 5]
-USER:   Respond with only A, B, C, D, or E.
+ASSISTANT: [CoT reasoning text from call 10]
+USER:   Respond with only A, B, C, or D.
 ```
 
 Key design decisions:
-- **MCQ system prompt (not CoT system):** The system uses the MCQ scale (A=Profile1...E=Profile5), not the CoT system prompt. This ensures the logprobs are extracted over the correct token mapping.
-- **Counterbalanced:** Like all MCQ polls, we run V1 (A=Profile1) and V2 (A=Profile5) and average. This gives us `cot_type_distribution` (5-way), `cot_type_prediction` (argmax), `cot_type_scale_bias`, and `cot_type_mass`.
+- **MCQ system prompt (not CoT system):** The system uses the MCQ scale (A=Profile1...D=Profile4), not the CoT system prompt. This ensures the logprobs are extracted over the correct token mapping.
+- **Cyclically counterbalanced:** Like all MCQ polls, we run the 4 cyclic shifts and average with `assemble_cyclic`. This gives us `cot_type_distribution` (4-way), `cot_type_prediction` (argmax), `cot_type_scale_bias` (the cyclic position bias), and `cot_type_mass`.
 - **Replaces regex parsing:** The old approach parsed `Answer: Profile N` from the CoT text for a hard 1-hot prediction. The follow-up MCQ gives a soft distribution, consistent with every other type/rating poll.
-- **Conditioned rating uses follow-up prediction:** The conditioned rating (calls 8-9) uses `cot_type_prediction` from the follow-up MCQ, falling back to the MCQ type argmax if None.
+- **Conditioned rating uses follow-up prediction:** the conditioned rating (calls 15-19) uses `cot_type_prediction` from the follow-up MCQ, falling back to the MCQ type argmax if None.
 
-*Why both MCQ and CoT+followup?* Calls 3-4 (direct MCQ) give the model's "fast" implicit judgment from a single token. Calls 5-7 (CoT + follow-up) give the model's "deliberate" judgment after step-by-step reasoning. Comparing them reveals whether explicit reasoning helps or hurts type identification. The follow-up MCQ ensures both produce comparable 5-way distributions.
+*Why both MCQ and CoT+followup?* Calls 6-9 (direct MCQ) give the model's "fast" implicit judgment from a single token. Calls 10-14 (CoT + follow-up) give the model's "deliberate" judgment after step-by-step reasoning. Comparing them reveals whether explicit reasoning helps or hurts type identification. The follow-up MCQ ensures both produce comparable 4-way distributions.
 
 **Code:** `conditions.py` — `build_type_cot_single_turn()`, `build_type_cot_followup_single_turn()`, `build_type_cot_followup_multi_turn()`, `extraction.py` — `generate_type_cot()`, `extract_type_counterbalanced()`
 
-### Conditioned rating (logprobs) — calls 8-9
+### Conditioned rating (logprobs) — calls 15-19
 
 Same as the standard rating MCQ, but the user message is prepended with a type hint:
 
@@ -790,7 +758,7 @@ USER:  Based on their rating history, this user most closely matches Profile 3.
        What rating will this user give L.A. Confidential?
 ```
 
-The type hint uses the **CoT-predicted type** (from call 5), not the MCQ type. If CoT parsing fails, falls back to MCQ argmax. This tests: does explicitly telling the model the user's type improve its rating prediction?
+The type hint uses the **CoT-predicted type** (from the CoT follow-up MCQ), not the direct MCQ type. If CoT parsing fails, falls back to MCQ argmax. This tests: does explicitly telling the model the user's type improve its rating prediction?
 
 *Why use CoT type instead of MCQ type?* CoT represents the model's best "deliberate" type judgment — the result of step-by-step reasoning. MCQ is the model's "fast" implicit judgment from a single token. Using the deliberate judgment as the conditioning signal tests the full pipeline: reason about type → commit to type → predict rating.
 
@@ -803,7 +771,7 @@ Both `multi_turn_minimal` and `multi_turn_actual` with `explicit_types` or `anon
 - `multi_turn_minimal`: `"Noted."` — empty acknowledgment, no type commitment
 - `multi_turn_actual`: `"Profile X"` — the MCQ argmax from the most recent poll, testing type anchoring
 
-At each poll point, all four measurements (V1-rating, V1-type, CoT, V2-conditioned) are built from the conversation state by **swapping the system prompt** and appending the appropriate question. Counterbalancing happens at poll time by rebuilding with forward/reversed scales — the conversation state itself is scale-invariant.
+At each poll point, all four measurements (rating, type, type-CoT, conditioned-rating) are built from the conversation state by **swapping the system prompt** and appending the appropriate question. Counterbalancing happens at poll time by rebuilding with each cyclic shift — the conversation state itself is scale-invariant.
 
 The `last_type_prediction` tracker (in `runner.py`) stores the MCQ argmax from each poll and uses it for the next between-observation injection in `multi_turn_actual`. At t=0, defaults to 0 (Profile 1) since no poll has occurred yet.
 
@@ -824,9 +792,9 @@ t=0 is the **prior** — no observations yet. This measures the model's uncondit
 ### What happens at each poll?
 
 1. Build the prompt (single-turn: fresh prompt with history up to t; multi-turn: growing conversation)
-2. Run both V1 and V2, extract logprobs, average (counterbalanced extraction)
+2. Run all cyclic shifts, extract logprobs, remap and average (`assemble_cyclic`)
 3. Compute Bayesian ground truth at this t (exact posterior + expected rating)
-4. Record everything: E[rating], full 5-way distribution, scale_bias, rating_mass, Bayesian posterior, type posterior
+4. Record everything: E[rating], full 5-way rating distribution, position_bias, rating_mass, Bayesian posterior, type posterior
 
 ### Format compliance reminders
 
@@ -836,12 +804,11 @@ The reminder is added at poll-building time (not in persistent state), so it doe
 
 ### Compute budget
 
-Per poll point (non-zero_shot): 2 (rating) + 2 (type MCQ) + 1 (CoT gen) + 2 (CoT follow-up MCQ) + 2 (conditioned rating) = 9 inference calls.
-Per poll point (zero_shot): 2 inference calls (rating only).
-Per experiment (non-zero_shot): 51 polls × 9 = 459 inference calls.
-Per experiment (zero_shot): 51 polls × 2 = 102 inference calls.
-Per model: 8 cells × 125 experiments each, with varying call counts per cell.
-Total: 1000 experiments × 7 models = 7,000 experiments.
+Per poll point (non-zero_shot): 5 (rating) + 4 (type MCQ) + 1 (CoT gen) + 4 (CoT follow-up MCQ) + 5 (conditioned rating) = 19 inference calls.
+Per poll point (zero_shot): 5 inference calls (rating only).
+Per experiment (non-zero_shot): 51 polls × 19 = 969 inference calls.
+Per experiment (zero_shot): 51 polls × 5 = 255 inference calls.
+Per model: 8 cells × 80 experiments each = 640 experiments, with varying call counts per cell.
 
 **Code:** `runner.py:35` — `get_poll_points()`, `runner.py:302` — `run_single_turn_experiment()`, `runner.py:400` — `run_multi_turn_experiment()`
 
@@ -912,7 +879,7 @@ These metrics probe the model's latent type inference directly. Only computed fo
 
 ### Diagnostic metrics
 
-**Scale bias** — `(E_v1 - E_v2) / 2`. Measures position bias in MCQ responses. Should be near 0. Large positive = model prefers early options (biased toward low ratings in V1). This is a methodological check, not a substantive finding.
+**Position bias** (recorded as `scale_bias`) — the half-spread of the per-shift expected index across the cyclic shifts, `(max − min) / 2` (`assemble_cyclic`). Measures how much the model's answer depends on where an option sits in the A–E/A–D list. Should be near 0; large values mean the model favors particular answer positions. This is a methodological check, not a substantive finding.
 
 **Rating mass** — total probability mass on the 5 answer tokens (A-E). Should be >0.8 if the model follows the MCQ format. Low mass means the model is generating non-answer tokens (explaining itself, hedging, etc.) and we're only seeing the distribution over a fraction of the output space.
 
@@ -999,9 +966,11 @@ Real users are continuously distributed in preference space, not clustered into 
 | File | Purpose | Key Entry Points |
 |---|---|---|
 | `config.py` | Dataclasses & enums | `ExperimentConfig`, `PollResult` (with type elicitation fields), `TrajectoryMetrics` (with type metrics) |
-| `data.py` | Data pipeline & generative model | `compute_genre_preferences`, `fit_type_model`, `select_movies`, `generate_synthetic_sequence` |
+| `data.py` | Data pipeline & generative model | `compute_genre_preferences`, `fit_type_model` (genre K-means + EM refinement), `select_movies`, `generate_synthetic_sequence` |
+| `hybrid_type_model.py` | K selection (genre-init + EM refinement) | evaluates JS divergence, oracle accuracy, BIC across K |
+| `common/mcq.py` | Cyclic counterbalancing primitives | `assemble_cyclic`, `extract_cyclic_batch`, `extract_rating_cyclic_batch` |
 | `conditions.py` | Prompt construction | `_build_system`, `build_single_turn`, `build_type_poll_single_turn`, `build_type_cot_single_turn`, `build_type_cot_followup_single_turn`, `build_type_cot_followup_multi_turn`, `build_conditioned_single_turn`, `init_multi_turn_type_state`, `add_observation_with_type_prediction`, `build_conditioned_rating_from_type_state` |
-| `extraction.py` | Logprob extraction | `setup_model`, `extract_rating_probs`, `extract_rating_counterbalanced`, `extract_type_counterbalanced`, `generate_type_cot` |
+| `extraction.py` | Logprob extraction (cyclic) | `setup_model`, `extract_rating_probs`, `extract_rating_counterbalanced_cyclic_batch`, `extract_type_counterbalanced`, `generate_type_cot` |
 | `metrics.py` | Ground truth & metrics | `mixture_posterior`, `expected_rating_bayesian`, `compute_trajectory_metrics` (includes type KL, type accuracy, conditioning lift) |
 | `runner.py` | Experiment orchestration | `run_single_turn_experiment`, `run_multi_turn_experiment`, `_extract_type_elicitation`, `_extract_type_elicitation_multi_turn` |
 | `analyze_results.py` | Cross-experiment analysis | `print_grouped_table` (with TypeElicAcc, CoTAcc, CondLift columns) |
