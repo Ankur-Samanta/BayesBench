@@ -4,12 +4,12 @@
   --paper: #f5f2e9;
   --paper-deep: #eae5d8;
   --white: #fffef9;
-  --night: #090f18;
-  --night-raised: #101925;
-  --night-soft: #162231;
-  --night-text: #edf2ec;
-  --night-muted: #a5afbc;
-  --night-line: rgba(237, 242, 236, .14);
+  --night: #0d0d0d;
+  --night-raised: #161616;
+  --night-soft: #1c1c1c;
+  --night-text: #f3f3f3;
+  --night-muted: #afafaf;
+  --night-line: rgba(255, 255, 255, .1);
   --acid: #d9ff63;
   --coral: #ff715b;
   --blue: #4b74ff;
@@ -80,10 +80,7 @@ button { font: inherit; }
   align-items: center;
   padding: 150px clamp(24px, 6.5vw, 110px) 90px;
   color: white;
-  background:
-    radial-gradient(circle at 82% 15%, rgba(75, 116, 255, .18), transparent 26%),
-    radial-gradient(circle at 8% 90%, rgba(217, 255, 99, .08), transparent 25%),
-    var(--ink);
+  background: var(--night);
   overflow: hidden;
 }
 .hero-copy { max-width: 780px; }
@@ -161,19 +158,14 @@ h1 em, h2 em, blockquote em { color: var(--acid); font-family: var(--serif); fon
 @keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
 @keyframes pulse { 50% { box-shadow: 0 0 0 8px rgba(255, 113, 91, 0); } }
 
-.question-strip { display: flex; justify-content: center; align-items: center; gap: clamp(20px, 4vw, 70px); min-height: 110px; padding: 25px; background: var(--acid); }
-.question-strip { color: var(--ink); }
+.question-strip { display: flex; justify-content: center; align-items: center; gap: clamp(20px, 4vw, 70px); min-height: 110px; padding: 25px; color: var(--night-text); border-top: 1px solid var(--night-line); border-bottom: 1px solid var(--night-line); background: var(--night); }
 .question-strip p { margin: 0; font-size: 14px; font-weight: 600; }
 .question-strip .question-main { font-size: clamp(20px, 2.3vw, 32px); font-weight: 500; }
 .question-main em { font-family: var(--serif); font-weight: 400; }
 
 .section { padding: 130px clamp(24px, 7vw, 120px); }
 .benchmark {
-  background:
-    radial-gradient(circle at 82% 9%, rgba(75, 116, 255, .1), transparent 24%),
-    linear-gradient(rgba(255, 255, 255, .025) 1px, transparent 1px),
-    var(--night);
-  background-size: auto, 100% 82px, auto;
+  background: var(--night);
 }
 .section-heading { display: grid; grid-template-columns: minmax(190px, .45fr) 1.2fr .65fr; gap: 30px; align-items: end; max-width: 1440px; margin: 0 auto 78px; }
 .section-kicker { margin: 0; color: #8e99a8; }
@@ -210,7 +202,7 @@ h1 em, h2 em, blockquote em { color: var(--acid); font-family: var(--serif); fon
 .complexity i { background: var(--coral); }
 .complexity b { border: 1px solid rgba(237, 242, 236, .3); }
 
-.pipeline-section { display: grid; grid-template-columns: .75fr 1.25fr; gap: clamp(50px, 7vw, 110px); padding: 130px clamp(24px, 7vw, 120px); color: white; background: var(--blue); }
+.pipeline-section { display: grid; grid-template-columns: .75fr 1.25fr; gap: clamp(50px, 7vw, 110px); padding: 130px clamp(24px, 7vw, 120px); color: white; border-top: 1px solid var(--night-line); border-bottom: 1px solid var(--night-line); background: var(--night); }
 .pipeline-copy h2 { max-width: 600px; }
 .pipeline-copy h2 em { color: var(--acid); }
 .pipeline-copy > p:not(.section-kicker) { max-width: 570px; color: rgba(255, 255, 255, .72); }
@@ -227,9 +219,7 @@ h1 em, h2 em, blockquote em { color: var(--acid); font-family: var(--serif); fon
 .pipeline-figure figcaption { margin-top: 12px; color: rgba(255, 255, 255, .55); font-family: var(--mono); font-size: 9px; text-align: right; text-transform: uppercase; }
 
 .findings {
-  background:
-    radial-gradient(circle at 16% 85%, rgba(217, 255, 99, .06), transparent 24%),
-    var(--night-raised);
+  background: var(--night);
 }
 .findings .section-heading { grid-template-columns: .45fr 1.85fr; }
 .finding-grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr; max-width: 1440px; margin: 0 auto; border: 1px solid var(--night-line); background: rgba(255, 255, 255, .012); }
@@ -258,7 +248,7 @@ h1 em, h2 em, blockquote em { color: var(--acid); font-family: var(--serif); fon
 .bias-visual strong { color: var(--coral); }
 .bias-visual b { position: absolute; right: 0; top: 30px; color: rgba(255, 255, 255, .35); font-size: 8px; font-weight: 400; }
 
-.results { padding: 130px clamp(24px, 7vw, 120px); color: white; background: var(--ink); }
+.results { padding: 130px clamp(24px, 7vw, 120px); color: white; border-top: 1px solid var(--night-line); background: var(--night); }
 .results-head { display: flex; justify-content: space-between; align-items: end; max-width: 1440px; margin: 0 auto 70px; }
 .results-head h2 { margin-top: 10px; }
 .results-head > p { max-width: 450px; margin: 0; color: rgba(255, 255, 255, .58); }
@@ -278,9 +268,7 @@ h1 em, h2 em, blockquote em { color: var(--acid); font-family: var(--serif); fon
   text-align: center;
   border-top: 1px solid var(--night-line);
   border-bottom: 1px solid var(--night-line);
-  background:
-    radial-gradient(circle at 50% 0, rgba(75, 116, 255, .16), transparent 38%),
-    var(--night-raised);
+  background: var(--night);
 }
 .takeaway .section-kicker { color: var(--night-muted); }
 .takeaway blockquote { max-width: 1050px; margin: 25px auto; font-size: clamp(50px, 7vw, 100px); font-weight: 600; line-height: .98; letter-spacing: -.065em; }
@@ -288,7 +276,7 @@ h1 em, h2 em, blockquote em { color: var(--acid); font-family: var(--serif); fon
 .takeaway > p:not(.section-kicker) { max-width: 670px; margin: 32px auto; }
 .text-link { display: inline-block; padding-bottom: 3px; border-bottom: 1px solid; font-size: 13px; font-weight: 700; }
 
-.citation { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(50px, 8vw, 140px); padding: 130px clamp(24px, 7vw, 120px); color: white; background: var(--blue); }
+.citation { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(50px, 8vw, 140px); padding: 130px clamp(24px, 7vw, 120px); color: white; background: var(--night); }
 .citation-copy h2 em { color: var(--acid); }
 .citation-copy > p:not(.section-kicker) { max-width: 580px; color: rgba(255, 255, 255, .68); }
 .citation-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
@@ -298,7 +286,7 @@ h1 em, h2 em, blockquote em { color: var(--acid); font-family: var(--serif); fon
 .cite-top button { padding: 0; color: var(--acid); border: 0; background: none; cursor: pointer; font-family: var(--mono); font-size: inherit; text-transform: uppercase; }
 .cite-box pre { overflow: auto; margin: 0; padding: 28px; color: rgba(255, 255, 255, .72); font-family: var(--mono); font-size: 11px; line-height: 1.8; }
 
-footer { display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; padding: 35px clamp(24px, 7vw, 120px); color: white; background: #0a121d; font-size: 11px; }
+footer { display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; padding: 35px clamp(24px, 7vw, 120px); color: white; border-top: 1px solid var(--night-line); background: var(--night); font-size: 11px; }
 footer p { justify-self: center; color: rgba(255, 255, 255, .45); }
 .footer-links { display: flex; justify-self: end; gap: 23px; color: rgba(255, 255, 255, .65); }
 .footer-links a:hover { color: var(--acid); }
