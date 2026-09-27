@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#111d2c">
-    <meta name="description" content="BayesBench evaluates how closely language models track rational Bayesian belief updates as evidence arrives over a conversation.">
+    <meta name="theme-color" content="#0d0d0d">
+    <meta name="description" content="BayesBench evaluates how closely LLM belief updates match those of a rational Bayesian reasoner in multi-turn settings.">
     <meta property="og:title" content="BayesBench — Evaluating LLM Belief Trajectories">
     <meta property="og:description" content="A benchmark for multi-turn evidence accumulation across estimation, recommendation, social judgment, and medical triage.">
     <meta property="og:type" content="website">
@@ -44,9 +44,9 @@
     <main id="main">
       <section class="hero" id="top">
         <div class="hero-copy">
-          <p class="eyebrow"><span>New benchmark</span> · Multi-turn evaluation</p>
+          <p class="eyebrow"><span>BayesBench</span> · Multi-turn belief updating</p>
           <h1>Do language models <em>update their beliefs</em> rationally?</h1>
-          <p class="hero-intro">BayesBench tracks an LLM’s beliefs turn by turn, then measures them against a Bayesian reasoner as evidence accumulates.</p>
+          <p class="hero-intro">Each turn provides new evidence that should reduce epistemic uncertainty about the environment. BayesBench asks how closely LLM belief updates match those of a rational Bayesian reasoner as evidence accumulates.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="https://arxiv.org/abs/2606.30850" target="_blank" rel="noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
             <a class="button button-secondary" href="https://github.com/Ankur-Samanta/BayesBench" target="_blank" rel="noreferrer">
@@ -61,7 +61,7 @@
           <div class="chart-head">
             <div>
               <p>Belief trajectory</p>
-              <strong>P(hypothesis)</strong>
+              <strong>p(H | x₁:ₜ)</strong>
             </div>
             <span class="live-dot">Evidence arriving</span>
           </div>
@@ -97,15 +97,15 @@
       </section>
 
       <section class="question-strip" aria-label="Research question">
-        <p>Most benchmarks ask for one final answer.</p>
-        <p class="question-main">BayesBench asks: <em>how did the model get there?</em></p>
+        <p>Most evaluations score only the final answer.</p>
+        <p class="question-main">BayesBench measures <em>how beliefs and predictions evolve.</em></p>
       </section>
 
       <section class="section benchmark" id="benchmark">
         <div class="section-heading reveal">
           <p class="section-kicker">01 / The benchmark</p>
-          <h2>Increasingly complex<br><em>latent structure.</em></h2>
-          <p>Four environments test whether models can absorb evidence, infer what is hidden, and convert that belief into a calibrated prediction.</p>
+          <h2>Increasingly structured<br><em>Bayesian tasks.</em></h2>
+          <p>Four environments test whether models can infer hidden quantities from accumulating evidence and incorporate the resulting beliefs into an estimate or prediction.</p>
         </div>
 
         <div class="task-list">
@@ -115,7 +115,7 @@
             <div class="task-body">
               <p class="task-type">Bayesian estimation</p>
               <h3>Coin flip</h3>
-              <p>Infer an unknown coin bias directly from a sequential stream of flips. A clean synthetic control with an exact Beta posterior.</p>
+              <p>Infer an unknown coin bias from sequential evidence. Under a uniform Beta prior, the posterior is available in closed form, giving a tractable per-turn reference.</p>
               <div class="task-tags"><span>Closed form</span><span>1 latent</span></div>
             </div>
             <div class="complexity" aria-label="Latent complexity: one of three"><i></i><b></b><b></b></div>
@@ -127,7 +127,7 @@
             <div class="task-body">
               <p class="task-type">Bayesian prediction</p>
               <h3>Recommender system</h3>
-              <p>Infer a user’s latent genre-preference type from movie ratings, then predict their rating for a held-out film.</p>
+              <p>Infer one of four latent user types from sequential movie ratings, then predict how the user would rate a held-out movie.</p>
               <div class="task-tags"><span>MovieLens</span><span>4 user types</span></div>
             </div>
             <div class="complexity" aria-label="Latent complexity: two of three"><i></i><i></i><b></b></div>
@@ -139,7 +139,7 @@
             <div class="task-body">
               <p class="task-type">Latent-framed prediction</p>
               <h3>Social judgment <span>&amp;</span> Medical triage</h3>
-              <p>Infer both the underlying state and the communication style framing the evidence. The same case should lead to the same answer, regardless of style.</p>
+              <p>Jointly infer the latent state and the user-persona framing through which evidence is filtered. The target depends on the state alone and should remain invariant to framing.</p>
               <div class="task-tags"><span>AITA</span><span>Medical triage</span><span>Hidden persona</span></div>
             </div>
             <div class="complexity" aria-label="Latent complexity: three of three"><i></i><i></i><i></i></div>
@@ -149,14 +149,14 @@
 
       <section class="pipeline-section">
         <div class="pipeline-copy reveal">
-          <p class="section-kicker light">Evidence, one turn at a time</p>
-          <h2>A conversation is a <em>trajectory,</em> not a snapshot.</h2>
-          <p>A user simulator reveals source evidence in ordered segments. After every turn, BayesBench probes the model’s running belief—without exposing private steering—and compares the full sequence to a reference.</p>
+          <p class="section-kicker light">Multi-turn delivery</p>
+          <h2>A controlled sequence of <em>evidence and belief probes.</em></h2>
+          <p>Observations arrive through a running conversation, so prior evidence and the model’s intervening responses remain in context. BayesBench elicits the relevant posterior after each turn.</p>
           <ul>
-            <li><span>01</span> Segment source evidence</li>
-            <li><span>02</span> Deliver it through dialogue</li>
-            <li><span>03</span> Probe beliefs at every turn</li>
-            <li><span>04</span> Score the entire trajectory</li>
+            <li><span>01</span> Decompose source cases into ordered storyboard segments</li>
+            <li><span>02</span> Reveal evidence incrementally</li>
+            <li><span>03</span> Elicit per-turn belief distributions</li>
+            <li><span>04</span> Evaluate trajectories and downstream predictions</li>
           </ul>
         </div>
         <figure class="pipeline-figure reveal">
@@ -171,7 +171,7 @@
       <section class="section findings" id="findings">
         <div class="section-heading reveal">
           <p class="section-kicker">02 / What we found</p>
-          <h2>Better inference does not always mean <em>better decisions.</em></h2>
+          <h2>Better latent inference does not yet translate into <em>calibrated downstream prediction.</em></h2>
         </div>
         <div class="finding-grid">
           <article class="finding finding-feature reveal">
@@ -179,7 +179,7 @@
             <div class="finding-stat">↑ latent<br>inference</div>
             <div class="finding-divider"><span>does not guarantee</span></div>
             <div class="finding-stat finding-stat-warm">↑ downstream<br>accuracy</div>
-            <p>Larger models recover hidden user types and communication profiles more accurately, yet often fail to turn that information into better predictions.</p>
+            <p>Models infer latent structure from accumulating evidence, and scaling strengthens this inference. The gains do not reliably carry over to downstream prediction.</p>
           </article>
           <article class="finding reveal">
             <p class="finding-no">Finding 02</p>
@@ -188,14 +188,14 @@
               <span class="update update-1"></span><span class="update update-2"></span><span class="update update-3"></span>
               <b>Bayesian target</b>
             </div>
-            <h3>Right direction.<br>Wrong magnitude.</h3>
-            <p>Models often update toward the evidence but over- or undershoot the Bayesian reference. Scale can sharpen beliefs while making them too extreme.</p>
+            <h3>Evidence accumulates.<br>Calibration lags.</h3>
+            <p>Models are capable of Bayesian-aligned evidence accumulation, but do not reliably track the Bayesian reference. Smaller models adapt too weakly; larger models can over-update toward the extremes.</p>
           </article>
           <article class="finding finding-dark reveal">
             <p class="finding-no">Finding 03</p>
             <div class="bias-visual" aria-hidden="true"><span>Passive</span><i></i><strong>Active</strong><b>← pro-user shift</b></div>
-            <h3>Conversation changes judgment.</h3>
-            <p>Actively engaging with a user creates a persistent pro-user bias in social judgment—an effect passive observation does not produce.</p>
+            <h3>Active engagement can bias evidence accumulation.</h3>
+            <p>In social judgment, active engagement reveals a persistent pro-user bias relative to passive observation of the same evidence.</p>
           </article>
         </div>
       </section>
@@ -206,7 +206,7 @@
             <p class="section-kicker light">03 / Selected results</p>
             <h2>Beliefs in motion.</h2>
           </div>
-          <p>Across seven open-weight models, BayesBench reveals errors that final-answer accuracy alone cannot see.</p>
+          <p>Intermediate belief trajectories expose departures from rational belief updating that final-turn accuracy alone can miss.</p>
         </div>
 
         <div class="result-grid">
@@ -215,7 +215,7 @@
             <a href="assets/coin_flip_trajectory.png" target="_blank" aria-label="Open full-size coin flip result">
               <img src="assets/coin_flip_trajectory.png" alt="Coin-flip belief trajectories for models of different sizes and three true biases" loading="lazy">
             </a>
-            <p>Trajectories separate with scale, but larger models can overshoot toward extremes.</p>
+            <p>Trajectories overshoot or undershoot the Bayesian posterior across scales; larger models can over-update toward the extremes.</p>
           </article>
 
           <article class="result-card reveal">
@@ -223,7 +223,7 @@
             <a href="assets/recommender_convergence.png" target="_blank" aria-label="Open full-size recommender result">
               <img src="assets/recommender_convergence.png" alt="Recommender system convergence and conditioning plots" loading="lazy">
             </a>
-            <p>Recovering a user’s type more accurately does not automatically improve rating predictions.</p>
+            <p>Larger models recover the latent user type more accurately, but still struggle to turn that inference into reliably accurate rating predictions.</p>
           </article>
 
           <article class="result-card reveal">
@@ -231,7 +231,7 @@
             <a href="assets/social_trajectories.png" target="_blank" aria-label="Open full-size social judgment result">
               <img src="assets/social_trajectories.png" alt="Social judgment belief trajectories under passive and active engagement" loading="lazy">
             </a>
-            <p>Active dialogue shifts judgments toward the user, helping NTA cases and hurting YTA cases.</p>
+            <p>Active engagement shifts beliefs toward NTA relative to passive observation, lowering error on NTA cases and raising it on YTA cases.</p>
           </article>
 
           <article class="result-card reveal">
@@ -239,23 +239,23 @@
             <a href="assets/triage_convergence.png" target="_blank" aria-label="Open full-size medical triage result">
               <img src="assets/triage_convergence.png" alt="Medical triage communication-profile recovery and urgency prediction plots" loading="lazy">
             </a>
-            <p>Models infer communication style, but struggle to use it for reliable urgency assessment.</p>
+            <p>Models infer the patient’s communication style, but fall short of reliably using it to calibrate urgency decisions.</p>
           </article>
         </div>
       </section>
 
       <section class="takeaway">
         <p class="section-kicker">The takeaway</p>
-        <blockquote>Scaling can make beliefs <em>sharper</em> without making belief updates more <em>rational.</em></blockquote>
-        <p>Evaluating only a model’s final answer misses the dynamics that produced it. BayesBench makes those dynamics measurable.</p>
+        <blockquote>Models can identify relevant hidden structure, but cannot yet reliably translate that inference into <em>calibrated predictions.</em></blockquote>
+        <p>BayesBench makes belief updating observable by turning each task into a controlled sequence of evidence and belief probes.</p>
         <a class="text-link" href="https://arxiv.org/pdf/2606.30850" target="_blank" rel="noreferrer">Explore the full analysis <span aria-hidden="true">→</span></a>
       </section>
 
       <section class="citation" id="citation">
         <div class="citation-copy">
           <p class="section-kicker light">04 / Use BayesBench</p>
-          <h2>Inspect the whole<br><em>belief trajectory.</em></h2>
-          <p>The code, benchmark environments, pre-generated storyboards, model configurations, and analysis pipeline are open source.</p>
+          <h2>Make belief updating<br><em>observable.</em></h2>
+          <p>The benchmark environments, controlled user-simulator pipeline, belief probes, model configurations, and analysis code are open source.</p>
           <div class="citation-actions">
             <a class="button button-accent" href="https://github.com/Ankur-Samanta/BayesBench" target="_blank" rel="noreferrer">Get the code <span aria-hidden="true">↗</span></a>
             <a class="button button-outline" href="https://arxiv.org/abs/2606.30850" target="_blank" rel="noreferrer">Read on arXiv</a>
@@ -287,7 +287,7 @@
         <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
         <strong>BayesBench</strong>
       </div>
-      <p>An open benchmark for belief updating in language models.</p>
+      <p>A benchmark suite for evaluating multi-turn belief updating.</p>
       <div class="footer-links">
         <a href="https://arxiv.org/abs/2606.30850">Paper</a>
         <a href="https://github.com/Ankur-Samanta/BayesBench">Code</a>
