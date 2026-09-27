@@ -272,8 +272,17 @@ h1 em, h2 em, blockquote em { color: var(--acid); font-family: var(--serif); fon
 .result-card a:hover img { transform: scale(1.018); }
 .result-card > p { margin: 18px 0 0; color: rgba(255, 255, 255, .58); font-size: 13px; }
 
-.takeaway { padding: 150px clamp(24px, 10vw, 170px); color: var(--ink); text-align: center; background: var(--acid); }
-.takeaway .section-kicker { color: rgba(17, 29, 44, .65); }
+.takeaway {
+  padding: 150px clamp(24px, 10vw, 170px);
+  color: var(--night-text);
+  text-align: center;
+  border-top: 1px solid var(--night-line);
+  border-bottom: 1px solid var(--night-line);
+  background:
+    radial-gradient(circle at 50% 0, rgba(75, 116, 255, .16), transparent 38%),
+    var(--night-raised);
+}
+.takeaway .section-kicker { color: var(--night-muted); }
 .takeaway blockquote { max-width: 1050px; margin: 25px auto; font-size: clamp(50px, 7vw, 100px); font-weight: 600; line-height: .98; letter-spacing: -.065em; }
 .takeaway blockquote em { color: var(--blue); }
 .takeaway > p:not(.section-kicker) { max-width: 670px; margin: 32px auto; }
